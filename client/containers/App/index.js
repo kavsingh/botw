@@ -8,7 +8,7 @@ export default class App extends PureComponent {
     super(...args)
     this.state = {
       shrineQuests: [],
-      group: false,
+      group: true,
     }
     this.handleShrineQuestClick = this.handleShrineQuestClick.bind(this)
   }

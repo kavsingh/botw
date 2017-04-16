@@ -96,7 +96,7 @@ module.exports = {
       ? '[name].[contenthash:20].css'
       : '[name].css'),
     new HtmlPlugin({
-      title: 'Basics React',
+      title: 'Shrine Quests',
       template: fromRoot('client/index.html'),
       inject: 'body',
       alwaysWriteToDisk: true,
