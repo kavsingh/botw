@@ -53,6 +53,8 @@ export default class App extends PureComponent {
             flex-direction: column;
             font-family: 'Calamity', sans-serif;
             line-height: 1.3;
+            color: rgb(209, 212, 192);
+            background-color: black;
           }
         `}</style>
       </div>

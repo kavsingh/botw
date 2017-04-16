@@ -17,6 +17,31 @@ const renderQuest = (onClick, props) => (
   />
 )
 
+const gradientMaskBottom =
+  `linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  )`
+
+const gradientMaskTop =
+  `linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1)
+  )`
+
+const gradientMaskBoth =
+  `linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  )`
+
 export default function ShrineQuestList({
   shrineQuests,
   onItemClick,
@@ -43,7 +68,7 @@ export default function ShrineQuestList({
             }</span> complete
           </div>
         </div>
-        <div className="listContainer">
+        <div className="listContainer scrollTop">
           {list.map(renderer)}
         </div>
       </div>
@@ -74,7 +99,6 @@ export default function ShrineQuestList({
           align-items: center;
           flex: 0 0 auto;
           padding: 1em 1.6em;
-          color: rgb(209, 212, 192)
         }
         .remaining {
           color: white;
@@ -90,6 +114,18 @@ export default function ShrineQuestList({
           padding: 1em;
           overflow-x: visible;
           overflow-y: scroll;
+        }
+        .listContainer.scrollTop {
+          mask-image: ${gradientMaskBottom};
+          -webkit-mask-image: ${gradientMaskBottom};
+        }
+        .listContainer.scrollMiddle {
+          mask-image: ${gradientMaskBoth};
+          -webkit-mask-image: ${gradientMaskBoth};
+        }
+        .listContainer.scrollBottom {
+          mask-image: ${gradientMaskTop};
+          -webkit-mask-image: ${gradientMaskTop};
         }
         .background {
           background: url('${background}') no-repeat 60% center;
