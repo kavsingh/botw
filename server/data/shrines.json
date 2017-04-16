@@ -1,0 +1,345 @@
+{
+  "dan-hesho": {
+    "id": "dan-hesho",
+    "name": "Dan Hesho",
+    "region": "Akkala",
+    "location": "In the fields northeast of Zora’s Domain."
+  },
+  "katosa-aug": {
+    "id": "katosa-aug",
+    "name": "Katosa Aug",
+    "region": "Akkala",
+    "location": "East Akkala Stable"
+  },
+  "zuna-kai": {
+    "id": "zuna-kai",
+    "name": "Zuna Kai",
+    "region": "Akkala",
+    "location": "Northern Akkala, northwest portion of Deep Akkala at Skull Lake."
+  },
+  "bosh-kala": {
+    "id": "bosh-kala",
+    "name": "Bosh Kala",
+    "region": "Central Hyrule",
+    "location": "South side of the Hylia River, due east of the Great Plateau Tower."
+  },
+  "dah-kaso": {
+    "id": "dah-kaso",
+    "name": "Dah Kaso",
+    "region": "Central Hyrule",
+    "location": "Below the Digdogg Suspension Bridge, northwest of Keh Namut shrine and Great Plateau."
+  },
+  "hila-rao": {
+    "id": "hila-rao",
+    "name": "Hila Rao",
+    "region": "Central Hyrule",
+    "location": "West of Kakariko Village where the river forks."
+  },
+  "ja-baij": {
+    "id": "ja-baij",
+    "name": "Ja Baij",
+    "region": "Central Hyrule",
+    "location": "Great Plateau in the Eastern Abbey."
+  },
+  "kaam-ya-tak": {
+    "id": "kaam-ya-tak",
+    "name": "Kaam Ya'tak",
+    "region": "Central Hyrule",
+    "location": "Southwest side of Central Hyrule in the hills southwest of Central Tower."
+  },
+  "kaya-wan": {
+    "id": "kaya-wan",
+    "name": "Kaya Wan",
+    "region": "Central Hyrule",
+    "location": "West of the Lanayru Wetlands"
+  },
+  "keh-namut": {
+    "id": "keh-namut",
+    "name": "Keh Namut",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, northwest of Mount Hylia."
+  },
+  "oman-au": {
+    "id": "oman-au",
+    "name": "Oman Au",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, west of the Forest of Time."
+  },
+  "owa-daim": {
+    "id": "owa-daim",
+    "name": "Owa Daim",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, east of Mount Hylia."
+  },
+  "wahgo-katta": {
+    "id": "wahgo-katta",
+    "name": "Wahgo Katta",
+    "region": "Central Hyrule",
+    "location": "Riverside Stable, northeast from the Forest of Time."
+  },
+  "daqa-koh": {
+    "id": "daqa-koh",
+    "name": "Daqa Koh",
+    "region": "Eldin",
+    "location": "East of the Goron Hot Springs, southeast of Goron City."
+  },
+  "gorae-torr": {
+    "id": "gorae-torr",
+    "name": "Gorae Torr",
+    "region": "Eldin",
+    "location": "Just north of Death Mountain and due west of Zuna Kai shrine."
+  },
+  "moa-keet": {
+    "id": "moa-keet",
+    "name": "Mo'a Keet",
+    "region": "Eldin",
+    "location": "Southwest of Akkala Tower."
+  },
+  "qua-raym": {
+    "id": "qua-raym",
+    "name": "Qua Raym",
+    "region": "Eldin",
+    "location": "Eldin Canyon, west of Eldin Tower in the middle of a lava pool."
+  },
+  "sah-dahaj": {
+    "id": "sah-dahaj",
+    "name": "Sah Dahaj",
+    "region": "Eldin",
+    "location": "West of Akkala Tower, due north of Foothill Stable and Mo'a Keet shrine."
+  },
+  "shae-mosah": {
+    "id": "shae-mosah",
+    "name": "Shae Mo'sah",
+    "region": "Eldin",
+    "location": "Northwest of Goron City, just follow the northern path out of the city."
+  },
+  "shora-hah": {
+    "id": "shora-hah",
+    "name": "Shora Hah",
+    "region": "Eldin",
+    "location": "Isle of Rabac, north of the Abandoned North Mine near Goron City."
+  },
+  "tah-muhl": {
+    "id": "tah-muhl",
+    "name": "Tah Muhl",
+    "region": "Eldin",
+    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo'a Keet shrine."
+  },
+  "ze-kasho": {
+    "id": "ze-kasho",
+    "name": "Ze Kasho",
+    "region": "Eldin",
+    "location": "Just west of the South Akkala Stable, northwest of the Akkala Tower."
+  },
+  "ya-naga": {
+    "id": "ya-naga",
+    "name": "Ya Naga",
+    "region": "Lake Tower",
+    "location": "Center of Lake Hylia to the far south  of Central Hyrule on the map."
+  },
+  "dagah-keek": {
+    "id": "dagah-keek",
+    "name": "Dagah Keek",
+    "region": "Lanayru",
+    "location": "Veiled Falls, southwest of Zora's Domain."
+  },
+  "daka-tuss": {
+    "id": "daka-tuss",
+    "name": "Daka Tuss",
+    "region": "Lanayru",
+    "location": "South side of the Lanayru Wetlands."
+  },
+  "neez-yohma": {
+    "id": "neez-yohma",
+    "name": "Ne'ez Yohma",
+    "region": "Lanayru",
+    "location": "Zora’s Domain (right inside the city)"
+  },
+  "rucco-maag-shrine": {
+    "id": "rucco-maag-shrine",
+    "name": "Rucco Maag Shrine",
+    "region": "Lanayru",
+    "location": "Due south of Zora’s Domain and west of the Lanayru Great Spring."
+  },
+  "sheh-rata": {
+    "id": "sheh-rata",
+    "name": "Sheh Rata",
+    "region": "Lanayru",
+    "location": "Northwest of the Lanayru Wetlands in the middle of the water."
+  },
+  "soh-kofi": {
+    "id": "soh-kofi",
+    "name": "Soh Kofi",
+    "region": "Lanayru",
+    "location": "Northeast of the Lanayru Wetlands and due north of the Lanayru Tower."
+  },
+  "taloh-naeg": {
+    "id": "taloh-naeg",
+    "name": "Ta'loh Naeg",
+    "region": "Lanayru",
+    "location": "In the cliffs just north of Kakariko Village."
+  },
+  "tahno-oah": {
+    "id": "tahno-oah",
+    "name": "Tahno O'ah",
+    "region": "Lanayru",
+    "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab."
+  },
+  "chaas-qeta": {
+    "id": "chaas-qeta",
+    "name": "Chaas Qeta",
+    "region": "Necluda",
+    "location": "Due south of Hateno Village and northeast of Muwo Jeem shrine on a small island."
+  },
+  "ha-dahamar": {
+    "id": "ha-dahamar",
+    "name": "Ha Dahamar",
+    "region": "Necluda",
+    "location": "West of Dueling Peaks Stable and east of the Dueling Peaks."
+  },
+  "korgu-chideh": {
+    "id": "korgu-chideh",
+    "name": "Korgu Chideh",
+    "region": "Necluda",
+    "location": "Island far southeast of Hateno Village. Use the raft from the Chaas Qeta shrine to get there."
+  },
+  "muwo-jeem": {
+    "id": "muwo-jeem",
+    "name": "Muwo Jeem",
+    "region": "Necluda",
+    "location": "Due south of Hateno Village on the edge of a cliff."
+  },
+  "myahm-agana": {
+    "id": "myahm-agana",
+    "name": "Myahm Agana",
+    "region": "Necluda",
+    "location": "Southwest side of Hateno Village."
+  },
+  "ree-dahee": {
+    "id": "ree-dahee",
+    "name": "Ree Dahee",
+    "region": "Necluda",
+    "location": "North Dueling Peaks, on the high path near the west side of the Dueling Peaks passage."
+  },
+  "toto-sah": {
+    "id": "toto-sah",
+    "name": "Toto Sah",
+    "region": "Necluda",
+    "location": "Southeast of Dueling Peaks Stable, across the river west of Hickaly Woods, hidden in the cliff."
+  },
+  "noya-neha": {
+    "id": "noya-neha",
+    "name": "Noya Neha",
+    "region": "Ridgeland",
+    "location": "West of Hyrule Castle in the cliffside east of the Regencia River."
+  },
+  "maag-norah": {
+    "id": "maag-norah",
+    "name": "Maag No'rah",
+    "region": "Ridgeland",
+    "location": "Hidden in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine."
+  },
+  "mogg-latan": {
+    "id": "mogg-latan",
+    "name": "Mogg Latan",
+    "region": "Ridgeland",
+    "location": "In the Satori Mountains, south of Hyrule Ridge and the Ridgeland Tower."
+  },
+  "sha-warvo": {
+    "id": "sha-warvo",
+    "name": "Sha Warvo",
+    "region": "Ridgeland",
+    "location": "Northwest of Rito Village."
+  },
+  "shae-loya": {
+    "id": "shae-loya",
+    "name": "Shae Loya",
+    "region": "Ridgeland",
+    "location": "Southwest of Ridgeland Tower, due south from Tabantha Bridge Stable."
+  },
+  "toh-yahsa": {
+    "id": "toh-yahsa",
+    "name": "Toh Yahsa",
+    "region": "Ridgeland",
+    "location": "Hidden in the Thundra Plateau just west of Ridgeland Tower and Hyrule Castle."
+  },
+  "zalta-wa": {
+    "id": "zalta-wa",
+    "name": "Zalta Wa",
+    "region": "Ridgeland",
+    "location": "Southeast of Ridgeland Tower and west of Hyrule Castle."
+  },
+  "akh-vaquot": {
+    "id": "akh-vaquot",
+    "name": "Akh Va'quot",
+    "region": "Tabantha",
+    "location": "Rito Village, north of Tabantha Tower."
+  },
+  "tena-kosah": {
+    "id": "tena-kosah",
+    "name": "Tena Ko'sah",
+    "region": "Tabantha",
+    "location": "Head west across the Tabantha Great Bridge, then look in the mountains to the south."
+  },
+  "dako-tah": {
+    "id": "dako-tah",
+    "name": "Dako Tah",
+    "region": "Wasteland (Gerudo)",
+    "location": "In the mountains just north of Kara Kara Bazaar."
+  },
+  "joloo-nah": {
+    "id": "joloo-nah",
+    "name": "Joloo Nah",
+    "region": "Wasteland (Gerudo)",
+    "location": "Near Mount Nabooru",
+    "shrineQuests": ["a-test-of-will"]
+  },
+  "daqo-chisay": {
+    "id": "daqo-chisay",
+    "name": "Daqo Chisay",
+    "region": "Wasteland (Gerudo)",
+    "location": "Right outside of Gerudo Town."
+  },
+  "jee-noh": {
+    "id": "jee-noh",
+    "name": "Jee Noh",
+    "region": "Wasteland (Gerudo)",
+    "location": "Southwest of Mount Hylia."
+  },
+  "kay-noh": {
+    "id": "kay-noh",
+    "name": "Kay Noh",
+    "region": "Wasteland (Gerudo)",
+    "location": "East of Wasteland Tower and just south of Gerudo Canyon Stable."
+  },
+  "daag-chokah": {
+    "id": "daag-chokah",
+    "name": "Daag Chokah",
+    "region": "Woodland",
+    "location": "Northwest corner of the Great Hyrule Forest."
+  },
+  "keo-ruug": {
+    "id": "keo-ruug",
+    "name": "Keo Ruug",
+    "region": "Woodland",
+    "location": "Korok Forest in the Lost Woods, to the right of the Master Sword."
+  },
+  "kuhn-sidajj": {
+    "id": "kuhn-sidajj",
+    "name": "Kuhn Sidajj",
+    "region": "Woodland",
+    "location": "Southwest corner of the Great Hyrule Forest, northwest side of Lake Saria."
+  },
+  "maag-halan": {
+    "id": "maag-halan",
+    "name": "Maag Halan",
+    "region": "Woodland",
+    "location": "Northeast corner of the Great Hyrule Forest, north side of the Mido Swamp."
+  },
+  "monya-toma": {
+    "id": "monya-toma",
+    "name": "Monya Toma",
+    "region": "Woodland",
+    "location": "Southwest corner of the Woodland region, just south of the Serenne Stable."
+  }
+}

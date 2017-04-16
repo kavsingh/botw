@@ -1,0 +1,23 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "useBuiltIns": true,
+      "targets": {
+        "browsers": "> 1%, Last 2 versions",
+        "uglify": true
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "styled-jsx/babel",
+    "transform-object-rest-spread",
+    "lodash"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}

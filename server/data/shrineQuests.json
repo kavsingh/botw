@@ -1,0 +1,255 @@
+{
+  "the-skulls-eye": {
+    "id": "the-skulls-eye",
+    "name": "The Skull's Eye",
+    "location": "Akkala Ancient Tech Lab",
+    "order": 0
+  },
+  "into-the-vortex": {
+    "id": "into-the-vortex",
+    "name": "Into The Vortex",
+    "location": "Rist Pininsula",
+    "order": 1
+  },
+  "trial-of-the-labyrinth": {
+    "id": "trial-of-the-labyrinth",
+    "name": "Trial Of The Labyrinth",
+    "location": "Lomei Labyrinth Island",
+    "order": 2
+  },
+  "the-spring-of-power": {
+    "id": "the-spring-of-power",
+    "name": "The Spring Of Power",
+    "location": "East Akkala Stable",
+    "order": 3
+  },
+  "the-gut-check-challenge": {
+    "id": "the-gut-check-challenge",
+    "name": "The Gut Check Challenge",
+    "location": "Gut Check Rock",
+    "order": 4
+  },
+  "a-brothers-roast": {
+    "id": "a-brothers-roast",
+    "name": "A Brothers Roast",
+    "location": "Goron City",
+    "order": 5
+  },
+  "a-landscape-of-a-stable": {
+    "id": "a-landscape-of-a-stable",
+    "name": "A Landscape Of A Stable",
+    "location": "Foothill Stable",
+    "order": 6
+  },
+  "the-perfect-drink": {
+    "id": "the-perfect-drink",
+    "name": "The Perfect Drink",
+    "location": "East Barrens",
+    "order": 7
+  },
+  "a-test-of-will": {
+    "id": "a-test-of-will",
+    "name": "A Test Of Will",
+    "location": "Mount Nabooru",
+    "shrines": ["joloo-nah"],
+    "order": 8
+  },
+  "sign-of-the-shadow": {
+    "id": "sign-of-the-shadow",
+    "name": "Sign Of The Shadow",
+    "location": "Gerudo Tower",
+    "order": 9
+  },
+  "the-silent-swordswomen": {
+    "id": "the-silent-swordswomen",
+    "name": "The Silent Swordswomen",
+    "location": "Gerudo Town",
+    "order": 10
+  },
+  "the-desert-labyrinth": {
+    "id": "the-desert-labyrinth",
+    "name": "The Desert Labyrinth",
+    "location": "South Lomei Labyrinth",
+    "order": 11
+  },
+  "the-seven-heroines": {
+    "id": "the-seven-heroines",
+    "name": "The Seven Heroines",
+    "location": "Gerudo Town",
+    "order": 12
+  },
+  "the-eye-of-the-sandstorm": {
+    "id": "the-eye-of-the-sandstorm",
+    "name": "The Eye Of The Sandstorm",
+    "location": "Kara Kara Bazaar",
+    "order": 13
+  },
+  "secret-of-the-snowy-peaks": {
+    "id": "secret-of-the-snowy-peaks",
+    "name": "Secret Of The Snowy Peaks",
+    "location": "Mount Granajh",
+    "order": 14
+  },
+  "the-undefeated-champ": {
+    "id": "the-undefeated-champ",
+    "name": "The Undefeated Champ",
+    "location": "Sand Seal Rally",
+    "order": 15
+  },
+  "watch-out-for-the-flowers": {
+    "id": "watch-out-for-the-flowers",
+    "name": "Watch Out For The Flowers",
+    "location": "Hylia River",
+    "order": 16
+  },
+  "the-three-giant-brothers": {
+    "id": "the-three-giant-brothers",
+    "name": "The Three Giant Brothers",
+    "location": "Mount Taran",
+    "order": 17
+  },
+  "secret-of-the-cedars": {
+    "id": "secret-of-the-cedars",
+    "name": "Secret Of The Cedars",
+    "location": "Hateno Village",
+    "order": 18
+  },
+  "the-cursed-statue": {
+    "id": "the-cursed-statue",
+    "name": "The Cursed Statue",
+    "location": "Fort Hateno",
+    "order": 19
+  },
+  "a-fragmented-monument": {
+    "id": "a-fragmented-monument",
+    "name": "A Fragmented Monument",
+    "location": "Palmorae Ruins",
+    "order": 20
+  },
+  "the-stolen-heirloom": {
+    "id": "the-stolen-heirloom",
+    "name": "The Stolen Heirloom",
+    "location": "Kakariko Village",
+    "order": 21
+  },
+  "guardian-slideshow": {
+    "id": "guardian-slideshow",
+    "name": "Guardian Slideshow",
+    "location": "Puffer Beach",
+    "order": 22
+  },
+  "a-song-of-storms": {
+    "id": "a-song-of-storms",
+    "name": "A Song Of Storms",
+    "location": "Calora Lake",
+    "order": 23
+  },
+  "the-serpents-jaws": {
+    "id": "the-serpents-jaws",
+    "name": "The Serpent's Jaws",
+    "location": "Pagos Woods",
+    "order": 24
+  },
+  "stranded-on-eventide": {
+    "id": "stranded-on-eventide",
+    "name": "Stranded On Eventide",
+    "location": "Eventide Island",
+    "order": 25
+  },
+  "the-bird-in-the-mountains": {
+    "id": "the-bird-in-the-mountains",
+    "name": "The Bird In The Mountains",
+    "location": "Rito Village",
+    "order": 26
+  },
+  "recital-at-warblers-nest": {
+    "id": "recital-at-warblers-nest",
+    "name": "Recital At Warbler's Nest",
+    "location": "Rito Village",
+    "order": 27
+  },
+  "the-ancient-rito-song": {
+    "id": "the-ancient-rito-song",
+    "name": "The Ancient Rito Song",
+    "location": "Rito Village",
+    "order": 28
+  },
+  "trial-on-the-cliff": {
+    "id": "trial-on-the-cliff",
+    "name": "Trial On The Cliff",
+    "location": "North Lomei Labyrinth",
+    "order": 29
+  },
+  "the-spring-of-wisdom": {
+    "id": "the-spring-of-wisdom",
+    "name": "The Spring Of Wisdom",
+    "location": "Hateno Village",
+    "order": 30
+  },
+  "the-ceremonial-song": {
+    "id": "the-ceremonial-song",
+    "name": "The Ceremonial Song",
+    "location": "Zora's Domain",
+    "order": 31
+  },
+  "the-crowned-beast": {
+    "id": "the-crowned-beast",
+    "name": "The Crowned Beast",
+    "location": "Rabia Plain",
+    "order": 32
+  },
+  "master-of-the-wind": {
+    "id": "master-of-the-wind",
+    "name": "Master Of The Wind",
+    "location": "Horon Lagoon",
+    "order": 33
+  },
+  "the-lost-pilgrimage": {
+    "id": "the-lost-pilgrimage",
+    "name": "The Lost Pilgrimage",
+    "location": "Korok Forest",
+    "order": 34
+  },
+  "the-two-rings": {
+    "id": "the-two-rings",
+    "name": "The Two Rings",
+    "location": "West Hyrule Plains",
+    "order": 35
+  },
+  "shrouded-shrine": {
+    "id": "shrouded-shrine",
+    "name": "Shrouded Shrine",
+    "location": "Thyphlo Ruins",
+    "order": 36
+  },
+  "under-a-red-moon": {
+    "id": "under-a-red-moon",
+    "name": "Under A Red Moon",
+    "location": "Hyrule Ridge",
+    "order": 37
+  },
+  "cliffside-etchings": {
+    "id": "cliffside-etchings",
+    "name": "Cliffside Etchings",
+    "location": "Tabantha Bridge Stable",
+    "order": 38
+  },
+  "trial-of-second-sight": {
+    "id": "trial-of-second-sight",
+    "name": "Trial Of Second Sight",
+    "location": "Korok Forest",
+    "order": 39
+  },
+  "the-test-of-wood": {
+    "id": "the-test-of-wood",
+    "name": "The Test Of Wood",
+    "location": "Korok Forest",
+    "order": 40
+  },
+  "trial-of-thunder": {
+    "id": "trial-of-thunder",
+    "name": "Trial Of Thunder",
+    "location": "Thundra Plateau",
+    "order": 41
+  }
+}
