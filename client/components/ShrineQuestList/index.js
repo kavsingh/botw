@@ -8,35 +8,30 @@ const isComplete = quest => !!quest.complete
 const getComplete = filter(isComplete)
 const getIncomplete = filter(negate(isComplete))
 
-const gradientMaskBottom =
-  `linear-gradient(
+const generateGradientMask = (container, list) => {
+  const { scrollTop, offsetHeight: containerHeight } = container
+  const { offsetHeight: listHeight } = list
+  const scrollMultTop = scrollTop / (containerHeight * 0.01)
+  const scrollMultBottom = scrollTop / ((listHeight - containerHeight) * 0.01)
+
+  const gradient = `linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) ${Math.min(scrollMultTop, 14)}%,
+    rgba(0, 0, 0, 1) ${Math.max(scrollMultBottom, 86)}%,
     rgba(0, 0, 0, 0)
   )`
 
-const gradientMaskTop =
-  `linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1)
-  )`
-
-const gradientMaskBoth =
-  `linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 20%,
-    rgba(0, 0, 0, 1) 80%,
-    rgba(0, 0, 0, 0)
-  )`
+  return {
+    maskImage: gradient,
+    WebkitMaskImage: gradient,
+  }
+}
 
 export default class ShrineQuestList extends PureComponent {
   constructor(...args) {
     super(...args)
-    this.state = { scrollClass: 'scrollTop' }
+    this.state = { scrollCSS: {} }
     this.renderItem = this.renderItem.bind(this)
     this.handleScroll = this.handleScroll.bind(this)
   }
@@ -44,6 +39,11 @@ export default class ShrineQuestList extends PureComponent {
   componentDidMount() {
     if (!this.listContainer) return
     this.listContainer.addEventListener('scroll', this.handleScroll, false)
+    setTimeout(this.handleScroll, 0)
+  }
+
+  componentWillReceiveProps({ shrineQuests }) {
+    if (shrineQuests !== this.props.shrineQuests) this.handleScroll()
   }
 
   componentWillUnmount() {
@@ -51,18 +51,12 @@ export default class ShrineQuestList extends PureComponent {
     this.listContainer.removeEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll({ currentTarget } = {}) {
-    if (!currentTarget) return
+  handleScroll() {
+    if (!(this.listContainer && this.list)) return
 
-    const { scrollTop, offsetHeight } = currentTarget
-    const { offsetHeight: itemsHeight } = this.itemsContainer
-    const maxScrollHeight = itemsHeight - offsetHeight
-    let scrollClass = 'scrollMiddle'
-
-    if (scrollTop <= 0) scrollClass = 'scrollTop'
-    else if (scrollTop >= maxScrollHeight) scrollClass = 'scrollBottom'
-
-    this.setState(() => ({ scrollClass }))
+    this.setState(() => ({
+      scrollCSS: generateGradientMask(this.listContainer, this.list),
+    }))
   }
 
   renderItem(props) {
@@ -78,7 +72,7 @@ export default class ShrineQuestList extends PureComponent {
 
   render() {
     const { shrineQuests, group } = this.props
-    const { scrollClass } = this.state
+    const { scrollCSS } = this.state
     const completeQuests = getComplete(shrineQuests)
     const list = group
       ? getIncomplete(shrineQuests).concat(completeQuests)
@@ -100,10 +94,11 @@ export default class ShrineQuestList extends PureComponent {
             </div>
           </div>
           <div
-            className={`listContainer ${scrollClass}`}
+            className="listContainer"
+            style={scrollCSS}
             ref={c => { this.listContainer = c }}
           >
-            <div ref={c => { this.itemsContainer = c }}>
+            <div className="list" ref={c => { this.list = c }}>
               {list.map(this.renderItem)}
             </div>
           </div>
@@ -147,21 +142,11 @@ export default class ShrineQuestList extends PureComponent {
           }
           .listContainer {
             flex: 1 0;
-            padding: 1em;
             overflow-x: visible;
             overflow-y: scroll;
           }
-          .listContainer.scrollTop {
-            mask-image: ${gradientMaskBottom};
-            -webkit-mask-image: ${gradientMaskBottom};
-          }
-          .listContainer.scrollMiddle {
-            mask-image: ${gradientMaskBoth};
-            -webkit-mask-image: ${gradientMaskBoth};
-          }
-          .listContainer.scrollBottom {
-            mask-image: ${gradientMaskTop};
-            -webkit-mask-image: ${gradientMaskTop};
+          .list {
+            padding: 1em;
           }
           .background {
             background: url('${background}') no-repeat 60% center;

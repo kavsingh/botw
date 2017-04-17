@@ -37,7 +37,7 @@ export default function ShrineQuest({
           font: inherit;
           highlight: none !important;
           outline: 1px solid rgba(0, 0, 0, 0.8);
-          border: 3px solid rgba(24, 36, 34, 0.8);
+          border: 2px solid rgba(24, 36, 34, 0.8);
           background: transparent;
           width: 100%;
           box-sizing: inherit;
