@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { negate, filter } from 'lodash/fp'
 import ScrollFadeList from '../ScrollFadeList'
+import CompletionStats from '../CompletionStats'
 import ShrineQuest from '../ShrineQuest'
 import background from './oman-au.jpg'
 
@@ -28,17 +29,11 @@ export default function ShrineQuestList({ shrineQuests, group, onItemClick }) {
   return (
     <div className="root">
       <div className="content">
-        <div className="stats">
-          <div className="remaining">
-            {`${shrineQuests.length - completeQuests.length} remaining`}
-          </div>
-          <div className="counts">
-            <span className="completed">{
-              completeQuests.length
-            }</span> / <span className="total">{
-              shrineQuests.length
-            }</span> complete
-          </div>
+        <div className="statsContainer">
+          <CompletionStats
+            totalCount={shrineQuests.length}
+            completedCount={completeQuests.length}
+          />
         </div>
         <div className="listContainer">
           <ScrollFadeList
@@ -70,20 +65,8 @@ export default function ShrineQuestList({ shrineQuests, group, onItemClick }) {
           background-color: rgba(255, 255, 255, 0.1);
           border: 2px solid rgba(255, 255, 255, 0.16);
         }
-        .stats {
-          display: flex;
-          align-items: center;
+        .statsContainer {
           flex: 0 0 auto;
-          padding: 1em 1.6em;
-        }
-        .remaining {
-          color: white;
-          font-weight: 600;
-          font-size: 1.2em;
-          margin-right: 0.8em;
-        }
-        .counts .completed {
-          color: white;
         }
         .listContainer {
           flex: 1 0;
