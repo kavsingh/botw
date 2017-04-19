@@ -1,12 +1,13 @@
 import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
-import { fetchData, saveShrineQuestComplete } from './util/shrineQuests'
-import App from './containers/App'
+import { fetchData, saveShrineQuestComplete } from './util/shrineQuest'
+import App from './layouts/App'
+import ShrineQuests from './containers/ShrineQuests'
 
 render(
-  <div style={{ width: '100%', height: '100%' }}>
-    <App
+  <App>
+    <ShrineQuests
       fetchData={fetchData}
       saveShrineQuestComplete={saveShrineQuestComplete}
     />
@@ -16,6 +17,6 @@ render(
       html, body { margin: 0; padding: 0; }
       #app-mount { width: 100vw; height: 100vh; }
     `}</style>
-  </div>,
+  </App>,
   document.querySelector('#app-mount'),
 )

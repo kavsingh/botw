@@ -35,11 +35,13 @@ export default class ScrollFadeList extends PureComponent {
   componentDidMount() {
     if (!this.listContainerNode) return
     this.listContainerNode.addEventListener('scroll', this.handleScroll, false)
-    setTimeout(this.handleScroll, 0)
+    requestAnimationFrame(this.handleScroll)
   }
 
   componentWillReceiveProps({ listItems }) {
-    if (listItems !== this.props.listItems) this.handleScroll()
+    if (listItems !== this.props.listItems) {
+      requestAnimationFrame(this.handleScroll)
+    }
   }
 
   componentWillUnmount() {
@@ -96,6 +98,6 @@ ScrollFadeList.propTypes = {
 
 ScrollFadeList.defaultProps = {
   calcFadePoints,
-  listStyle: {},
+  listStyle: { padding: '1em' },
   listClassName: '',
 }

@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 export default function CompletionStats({ totalCount, completedCount }) {
   return (
     <div className="root">
-      <div className="remaining">{totalCount - completedCount}</div>
+      <div className="remaining">{
+        totalCount - completedCount
+      } remaining</div>
       <div className="counts">
         <span className="completed">{
           completedCount
