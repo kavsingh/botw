@@ -18,7 +18,8 @@ module.exports = {
     path: fromRoot('dist'),
     publicPath,
   },
-  devtool: isProduction ? 'sourcemap' : 'cheap-eval-sourcemap',
+  // devtool: isProduction ? 'sourcemap' : 'cheap-module-eval-sourcemap',
+  devtool: 'source-map',
   devServer: {
     host: '0.0.0.0',
     port: 3000,
