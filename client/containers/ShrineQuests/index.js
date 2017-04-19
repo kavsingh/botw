@@ -1,33 +1,33 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 import { getComplete, getIncomplete } from '../../util/quest'
+import { selectors } from '../../state/shrineQuest'
+import { actions as statsActions } from '../../state/stats'
+import { initFetch } from '../../state/actions'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineQuestList from '../../components/ShrineQuestList'
 import ContentPage from '../../layouts/ContentPage'
 import background from './oman-au.jpg'
 
-export default class ShrineQuests extends PureComponent {
+export class ShrineQuests extends PureComponent {
   constructor(...args) {
     super(...args)
-    this.state = {
-      shrineQuests: [],
-      group: true,
-    }
+    this.state = { group: false }
     this.handleShrineQuestClick = this.handleShrineQuestClick.bind(this)
   }
 
   componentDidMount() {
     this.props.fetchData()
-      .then(({ shrineQuests }) => this.setState(() => ({ shrineQuests })))
   }
 
   handleShrineQuestClick({ id, complete }) {
-    this.props.saveShrineQuestComplete({ id, complete: !complete })
-      .then(({ shrineQuests }) => this.setState(() => ({ shrineQuests })))
+    this.props.saveShrineQuestCompletion(id, !complete)
   }
 
   render() {
-    const { shrineQuests, group } = this.state
+    const { shrineQuests } = this.props
+    const { group } = this.state
     const completeQuests = getComplete(shrineQuests)
     const quests = group
       ? getIncomplete(shrineQuests).concat(completeQuests)
@@ -77,5 +77,21 @@ export default class ShrineQuests extends PureComponent {
 
 ShrineQuests.propTypes = {
   fetchData: PropTypes.func.isRequired,
-  saveShrineQuestComplete: PropTypes.func.isRequired,
+  saveShrineQuestCompletion: PropTypes.func.isRequired,
+  shrineQuests: PropTypes.arrayOf(PropTypes.shape({})),
 }
+
+ShrineQuests.defaultProps = {
+  shrineQuests: [],
+}
+
+const mapStateToProps = state => ({
+  shrineQuests: selectors.getShrineQuestsWithCompletions(state),
+})
+
+const mapActionsToProps = {
+  fetchData: initFetch,
+  saveShrineQuestCompletion: statsActions.saveShrineQuestCompletion,
+}
+
+export default connect(mapStateToProps, mapActionsToProps)(ShrineQuests)
