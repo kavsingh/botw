@@ -1,24 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function ShrineQuest({
-  name,
-  location,
-  complete,
+export default function ListItem({
+  title,
+  description,
+  icon,
+  active,
   onClick,
   style,
+  activeHoverMessage,
+  inactiveHoverMessage,
 }) {
   return (
     <button
-      className={`root ${complete ? 'complete' : 'incomplete'}`}
+      className={`root ${active ? 'active' : 'inactive'}`}
       style={style}
       onClick={onClick}
     >
       <div className="content">
-        <div className="name">{name}</div>
-        <div className="location">{location}</div>
+        {icon
+          ? (
+            <div className="iconContainer">
+              {icon({ height: '100%', fill: 'rgba(209, 212, 192, 1)' })}
+            </div>
+          )
+          : ''
+        }
+        <div className="mainContent">
+          <div className="title">{title}</div>
+          <div className="description">{description}</div>
+        </div>
         <div className="hoverMessage">
-          {complete ? 'Click to uncomplete' : 'Click to complete'}
+          {active ? activeHoverMessage : inactiveHoverMessage}
         </div>
       </div>
       <style jsx>{`
@@ -53,17 +66,23 @@ export default function ShrineQuest({
           z-index: 2;
         }
         .content {
-          padding: 0.4em;
+          padding: 0.4em 0.6em;
           background-color: rgba(0, 0, 0, 0.8);
           position: relative;
           overflow: hidden;
+          display: flex;
+          align-items: center;
         }
-        .name {
-          color: white;
+        .iconContainer {
+          height: 2em;
+          margin-right: 0.6em;
+        }
+        .title {
+          color: rgba(209, 212, 192, 1);
           font-size: 1.2em;
           font-weight: 600;
         }
-        .location {
+        .description {
           font-size: 0.8em;
           color: #E1C823;
         }
@@ -83,7 +102,7 @@ export default function ShrineQuest({
           opacity: 0;
           transition: transform 0.2s ease-out;
         }
-        .incomplete .hoverMessage {
+        .active .hoverMessage {
           text-shadow: 0 0 2px rgba(209, 226, 192, 1);
           color: rgba(209, 226, 192, 1);
         }
@@ -91,8 +110,8 @@ export default function ShrineQuest({
           transform: translateX(0);
           opacity: 1;
         }
-        .complete .name,
-        .complete .location {
+        .inactive .iconContainer,
+        .inactive .mainContent {
           opacity: 0.4;
         }
       `}</style>
@@ -100,18 +119,24 @@ export default function ShrineQuest({
   )
 }
 
-ShrineQuest.propTypes = {
-  name: PropTypes.string,
-  location: PropTypes.string,
-  complete: PropTypes.bool,
+ListItem.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  active: PropTypes.bool,
+  activeHoverMessage: PropTypes.string,
+  inactiveHoverMessage: PropTypes.string,
+  icon: PropTypes.func,
   onClick: PropTypes.func,
   style: PropTypes.shape({ margin: PropTypes.string }),
 }
 
-ShrineQuest.defaultProps = {
-  name: '',
-  location: '',
-  complete: false,
+ListItem.defaultProps = {
+  title: '',
+  description: '',
+  active: true,
+  activeHoverMessage: '',
+  inactiveHoverMessage: '',
+  icon: null,
   onClick: () => {},
   style: {},
 }

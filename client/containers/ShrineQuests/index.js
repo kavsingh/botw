@@ -8,6 +8,8 @@ import { initFetch } from '../../state/actions'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineQuestList from '../../components/ShrineQuestList'
 import ContentPage from '../../layouts/ContentPage'
+import Panels from '../../layouts/Panels'
+import Panel from '../../layouts/Panel'
 import background from './oman-au.jpg'
 
 export class ShrineQuests extends PureComponent {
@@ -40,36 +42,21 @@ export class ShrineQuests extends PureComponent {
           backgroundPosition: '60% center',
         }}
       >
-        <div className="content">
-          <div className="statsContainer">
+        <Panels orientation="portrait">
+          <Panel type="fit">
             <CompletionStats
               totalCount={shrineQuests.length}
               completedCount={completeQuests.length}
             />
-          </div>
-          <div className="listContainer">
+          </Panel>
+          <Panel type="stretch">
             <ShrineQuestList
               shrineQuests={quests}
               group={group}
               onItemClick={this.handleShrineQuestClick}
             />
-          </div>
-        </div>
-        <style jsx>{`
-          .content {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-          }
-          .statsContainer {
-            flex: 0 0 auto;
-          }
-          .listContainer {
-            flex: 1 0;
-            overflow: hidden;
-          }
-        `}</style>
+          </Panel>
+        </Panels>
       </ContentPage>
     )
   }

@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ScrollFadeList from '../ScrollFadeList'
-import ShrineQuest from '../ShrineQuest'
+import ShrineQuestListItem from '../ShrineQuestListItem'
 
 const renderItem = (onClick, item) => (
-  <ShrineQuest
+  <ShrineQuestListItem
     {...item}
     onClick={() => onClick(item)}
     key={item.id}
