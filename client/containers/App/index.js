@@ -4,8 +4,13 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { initFetch } from '../../state/actions'
 import { calamity, calamityBold } from '../../fonts'
+import ContentPage from '../../layouts/ContentPage'
+import Nav from '../../components/Nav'
+import Panels from '../../layouts/Panels'
+import Panel from '../../layouts/Panel'
 import ConnectedShrines from '../Shrines'
 import ConnectedShrineQuests from '../ShrineQuests'
+import background from './oman-au.jpg'
 
 export class App extends PureComponent {
   componentDidMount() {
@@ -16,13 +21,29 @@ export class App extends PureComponent {
   render() {
     return (
       <div className="root">
-        <div className="nav">
-          <Link to="/shrines">Shrines</Link>
-          <Link to="/shrinequests">Shrine Quests</Link>
-        </div>
-        <Route exact path="/" component={ConnectedShrineQuests} />
-        <Route path="/shrines" component={ConnectedShrines} />
-        <Route path="/shrinequests" component={ConnectedShrineQuests} />
+        <ContentPage
+          backgroundStyle={{
+            backgroundImage: `url('${background}')`,
+            backgroundPosition: '60% center',
+          }}
+        >
+          <Panels>
+            <Panel type="fit">
+              <Nav
+                location={this.props.location}
+                links={[
+                  { href: '/shrines', label: 'Shrines' },
+                  { href: '/shrinequests', label: 'Shrine Quests' },
+                ]}
+              />
+            </Panel>
+            <Panel type="stretch">
+              <Route exact path="/" component={ConnectedShrineQuests} />
+              <Route path="/shrines" component={ConnectedShrines} />
+              <Route path="/shrinequests" component={ConnectedShrineQuests} />
+            </Panel>
+          </Panels>
+        </ContentPage>
         <style jsx>{`
           @font-face {
             font-family: 'Calamity';
@@ -63,6 +84,7 @@ export class App extends PureComponent {
             width: 100%;
             height: 100%;
             font-family: 'Calamity', sans-serif;
+            font-size: 14px;
             line-height: 1.3;
             color: rgb(209, 212, 192);
             background-color: black;
@@ -86,10 +108,12 @@ export class App extends PureComponent {
 
 App.propTypes = {
   fetchData: PropTypes.func,
+  location: PropTypes.shape({}),
 }
 
 App.defaultProps = {
   fetchData: () => {},
+  location: {},
 }
 
 export default connect(

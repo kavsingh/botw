@@ -24,10 +24,10 @@ export default function ContentPage({
         .content {
           padding: 1em;
           z-index: 2;
-          top: 6vmin;
-          right: 6vmin;
-          bottom: 6vmin;
-          left: 6vmin;
+          top: 3vmin;
+          right: 3vmin;
+          bottom: 3vmin;
+          left: 3vmin;
           background-color: rgba(255, 255, 255, 0.1);
           border: 2px solid rgba(255, 255, 255, 0.16);
         }

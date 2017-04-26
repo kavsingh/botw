@@ -6,10 +6,8 @@ import { selectors } from '../../state/shrineQuest'
 import { actions as statsActions } from '../../state/stats'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineQuestList from '../../components/ShrineQuestList'
-import ContentPage from '../../layouts/ContentPage'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
-import background from './oman-au.jpg'
 
 export class ShrineQuests extends PureComponent {
   constructor(...args) {
@@ -31,27 +29,20 @@ export class ShrineQuests extends PureComponent {
       : shrineQuests
 
     return (
-      <ContentPage
-        backgroundStyle={{
-          backgroundImage: `url('${background}')`,
-          backgroundPosition: '60% center',
-        }}
-      >
-        <Panels orientation="portrait">
-          <Panel type="fit">
-            <CompletionStats
-              totalCount={shrineQuests.length}
-              completedCount={completeQuests.length}
-            />
-          </Panel>
-          <Panel type="stretch">
-            <ShrineQuestList
-              shrineQuests={quests}
-              onItemClick={this.handleShrineQuestClick}
-            />
-          </Panel>
-        </Panels>
-      </ContentPage>
+      <Panels orientation="portrait">
+        <Panel type="fit">
+          <CompletionStats
+            totalCount={shrineQuests.length}
+            completedCount={completeQuests.length}
+          />
+        </Panel>
+        <Panel type="stretch">
+          <ShrineQuestList
+            shrineQuests={quests}
+            onItemClick={this.handleShrineQuestClick}
+          />
+        </Panel>
+      </Panels>
     )
   }
 }

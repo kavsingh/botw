@@ -18,14 +18,17 @@ export default function CompletionStats({ totalCount, completedCount }) {
         .root {
           display: flex;
           align-items: center;
-          padding: 1em 1.6em;
+          height: 3em;
+          padding: 0 1.6em;
         }
+
         .remaining {
           color: white;
           font-weight: 600;
           font-size: 1.2em;
           margin-right: 0.8em;
         }
+
         .counts .completed {
           color: white;
         }
