@@ -44,15 +44,6 @@
     "items": [],
     "shrineQuests": []
   },
-  "ja-baij": {
-    "id": "ja-baij",
-    "name": "Ja Baij",
-    "region": "Central Hyrule",
-    "type": "",
-    "location": "Great Plateau in the Eastern Abbey.",
-    "items": [],
-    "shrineQuests": []
-  },
   "kaam-yatak": {
     "id": "kaam-yatak",
     "name": "Kaam Ya’tak",
@@ -265,6 +256,15 @@
       "the-ceremonial-song"
     ]
   },
+  "daka-tuss": {
+    "id": "daka-tuss",
+    "name": "Daka Tuss",
+    "region": "Lanayru",
+    "type": "",
+    "location": "South side of the Lanayru Wetlands.",
+    "items": [],
+    "shrineQuests": []
+  },
   "neez-yohma": {
     "id": "neez-yohma",
     "name": "Ne’ez Yohma",
@@ -337,21 +337,21 @@
     "items": [],
     "shrineQuests": []
   },
+  "ja-baij": {
+    "id": "ja-baij",
+    "name": "Ja Baij",
+    "region": "Great Plateau",
+    "type": "",
+    "location": "Eastern area of the Great Plateau, just to the South of the Resurrection Tower in the Eastern Abbey ruins.",
+    "items": [],
+    "shrineQuests": []
+  },
   "owa-daim": {
     "id": "owa-daim",
     "name": "Owa Daim",
     "region": "Great Plateau",
     "type": "",
     "location": "Southern area of the Great Plateau, up at the top of a steep cliff at the southeastern side of Mount Hylia.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "je-baij": {
-    "id": "je-baij",
-    "name": "Je Baij",
-    "region": "Great Plateau",
-    "type": "",
-    "location": "Eastern area of the Great Plateau, just to the South of the Resurrection Tower in the Eastern Abbey ruins.",
     "items": [],
     "shrineQuests": []
   },
@@ -515,15 +515,6 @@
     "shrineQuests": [
       "guardian-slideshow"
     ]
-  },
-  "daka-tuss": {
-    "id": "daka-tuss",
-    "name": "Daka Tuss",
-    "region": "Faron",
-    "type": "",
-    "location": "South side of the Lanayru Wetlands.",
-    "items": [],
-    "shrineQuests": []
   },
   "korgu-chideh": {
     "id": "korgu-chideh",
