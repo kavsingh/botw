@@ -31,6 +31,7 @@ export class App extends PureComponent {
             <Panel type="fit">
               <Nav
                 location={this.props.location}
+                defaultPath='/shrinequests'
                 links={[
                   { href: '/shrines', label: 'Shrines' },
                   { href: '/shrinequests', label: 'Shrine Quests' },

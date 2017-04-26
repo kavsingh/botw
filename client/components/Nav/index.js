@@ -2,16 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-export default function Nav({ location, links }) {
+export default function Nav({ location, links, defaultPath }) {
+  const { pathname } = location
+
   return (
     <div className="root">
-      {links.map(({ href, label }) => (
-        <div
-          className={`link ${location.pathname === href ? 'current' : ''}`}
-        >
-          <Link to={href} key={href}>{label}</Link>
-        </div>
-      ))}
+      {links.map(({ href, label }) => {
+        const isCurrent = href === pathname
+          || (pathname.length <= 1 && href === defaultPath)
+
+        return (
+          <div className={`link ${isCurrent ? 'current' : ''}`} key={href}>
+            <Link to={href}>{label}</Link>
+          </div>
+        )
+      })}
       <style jsx>{`
         .root {
           display: flex;
@@ -41,6 +46,7 @@ export default function Nav({ location, links }) {
 
 Nav.propTypes = {
   location: PropTypes.shape(),
+  defaultPath: PropTypes.string,
   links: PropTypes.arrayOf(PropTypes.shape({
     href: PropTypes.string,
     label: PropTypes.string,
@@ -49,5 +55,6 @@ Nav.propTypes = {
 
 Nav.defaultProps = {
   location: {},
+  defaultPath: '',
   links: [],
 }
