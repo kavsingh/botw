@@ -540,6 +540,15 @@
     "items": [],
     "shrineQuests": []
   },
+  "kuh-takkar": {
+    "id": "kuh-takkar",
+    "name": "Kuh Takkar",
+    "region": "Gerudo Desert",
+    "type": "",
+    "location": "Eastern Part of Gerudo Highlands, hidden behind a thick layer of ice.",
+    "items": [],
+    "shrineQuests": []
+  },
   "daag-chokah": {
     "id": "daag-chokah",
     "name": "Daag Chokah",
@@ -668,6 +677,15 @@
       "sign-of-the-shadow"
     ]
   },
+  "kema-kosassa": {
+    "id": "kema-kosassa",
+    "name": "Kema Kosassa",
+    "region": "Gerudo Desert",
+    "type": "",
+    "location": "Just below the foot of Mount Agaat, near the Western Edge of the Gerudo Highlands.",
+    "items": [],
+    "shrineQuests": []
+  },
   "kema-zoos": {
     "id": "kema-zoos",
     "name": "Kema Zoos",
@@ -722,6 +740,15 @@
     "shrineQuests": [
       "the-undefeated-champ"
     ]
+  },
+  "sho-dantu": {
+    "id": "sho-dantu",
+    "name": "Sho Dantu",
+    "region": "Gerudo Desert",
+    "type": "",
+    "location": "Northwest of Gerudo Tower, on a plateau above the Yiga Clan.",
+    "items": [],
+    "shrineQuests": []
   },
   "tawa-jinn": {
     "id": "tawa-jinn",
