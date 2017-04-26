@@ -132,7 +132,7 @@
   "kaya-wan": {
     "id": "kaya-wan",
     "name": "Kaya Wan",
-    "region": "Central Hyrule",
+    "region": "Lanayru",
     "type": "",
     "location": "West of the Lanayru Wetlands",
     "items": [],
@@ -292,18 +292,18 @@
     "id": "neez-yohma",
     "name": "Ne’ez Yohma",
     "region": "Lanayru",
-    "type": "",
+    "type": "puzzle",
     "location": "Zora’s Domain (right inside the city)",
-    "items": [],
+    "items": ["Zora Spear"],
     "shrineQuests": []
   },
-  "rucco-maag-shrine": {
-    "id": "rucco-maag-shrine",
-    "name": "Rucco Maag Shrine",
+  "rucco-maag": {
+    "id": "rucco-maag",
+    "name": "Rucco Maag",
     "region": "Lanayru",
-    "type": "",
-    "location": "Due south of Zora’s Domain and west of the Lanayru Great Spring.",
-    "items": [],
+    "type": "puzzle",
+    "location": "Due south of Zora’s Domain, across the Rutala River and west of the Lanayru Great Spring.",
+    "items": ["Opal", "Silver Bow"],
     "shrineQuests": []
   },
   "sheh-rata": {
@@ -414,7 +414,7 @@
     "name": "Noya Neha",
     "region": "Central Hyrule",
     "type": "",
-    "location": "Hidden inside a small cave on the island to the West of Hyrule Castle. You will need to remove the Bramble Surrounding it, then blow up the rock’s blocking the entrance.",
+    "location": "Hidden inside a small cave on the island to the West of Hyrule Castle. You will need to remove the Bramble Surrounding it, then blow up the rocks blocking the entrance.",
     "items": [],
     "shrineQuests": []
   },
@@ -1131,6 +1131,15 @@
       "Zora Sword",
       "Amber"
     ],
+    "shrineQuests": []
+  },
+  "kah-mael": {
+    "id": "kah-mael",
+    "name": "Kah Mael",
+    "region": "Lanayru",
+    "type": "",
+    "location": "",
+    "items": [],
     "shrineQuests": []
   }
 }
