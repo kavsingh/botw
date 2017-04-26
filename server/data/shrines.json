@@ -1,4 +1,40 @@
 {
+  "rota-ooh": {
+    "id": "rota-ooh",
+    "name": "Rota Ooh",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "West side of Central Hyrule, nestled in the hills above Outskirt Stable North of the Great Plateau.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "katah-chuki": {
+    "id": "katah-chuki",
+    "name": "Katah Chuki",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "West of the Hyrule Castle Town Ruins, near the fortification.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "namika-ozz": {
+    "id": "namika-ozz",
+    "name": "Namika Ozz",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "East of Hyrule Castle, in Crenel Hills, concealed inside one of the Rock Formations.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "saas-kosah": {
+    "id": "saas-kosah",
+    "name": "Saas Ko'sah",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Hidden inside Hyrule Castle’s Docks at the NorthWest entrance of Hyrule Castle. Set brazier at top of stairs ablaze to unlock the entrance to the shrine.",
+    "items": [],
+    "shrineQuests": []
+  },
   "dan-hesho": {
     "id": "dan-hesho",
     "name": "Dan Hesho",
@@ -31,9 +67,27 @@
   "bosh-kala": {
     "id": "bosh-kala",
     "name": "Bosh Kala",
-    "region": "Central Hyrule",
+    "region": "Dueling Peaks",
     "type": "",
     "location": "South side of the Hylia River, due east of the Great Plateau Tower.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shee-venath": {
+    "id": "shee-venath",
+    "name": "Shee Venath",
+    "region": "Dueling Peaks",
+    "type": "",
+    "location": "Right below the Summit of the Northern Dueling Peaks.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shee-vaneer": {
+    "id": "shee-vaneer",
+    "name": "Shee Vaneer",
+    "region": "Dueling Peaks",
+    "type": "",
+    "location": "On top of the Southern Dueling Peaks Summit.",
     "items": [],
     "shrineQuests": []
   },
@@ -49,9 +103,9 @@
   "hila-rao": {
     "id": "hila-rao",
     "name": "Hila Rao",
-    "region": "Central Hyrule",
+    "region": "Dueling Peaks",
     "type": "",
-    "location": "West of Kakariko Village where the river forks.",
+    "location": "North of the Dueling Peaks Tower, west of Kakariko Village where the river forks, on a small island.",
     "items": [],
     "shrineQuests": [
       "watch-out-for-the-flowers"
@@ -66,8 +120,8 @@
     "items": [],
     "shrineQuests": []
   },
-  "kaam-ya-tak": {
-    "id": "kaam-ya-tak",
+  "kaam-yatak": {
+    "id": "kaam-yatak",
     "name": "Kaam Ya'tak",
     "region": "Central Hyrule",
     "type": "",
@@ -116,7 +170,7 @@
     "name": "Wahgo Katta",
     "region": "Central Hyrule",
     "type": "",
-    "location": "Riverside Stable, northeast from the Forest of Time.",
+    "location": "Southeast side of Central Hyrule near Riverside Stable, northeast from the Forest of Time.",
     "items": [],
     "shrineQuests": []
   },
@@ -272,9 +326,9 @@
   "taloh-naeg": {
     "id": "taloh-naeg",
     "name": "Ta'loh Naeg",
-    "region": "Lanayru",
+    "region": "Dueling Peaks",
     "type": "",
-    "location": "In the cliffs just north of Kakariko Village.",
+    "location": "On top of a hill in the cliffs just north of Kakariko Village.",
     "items": [],
     "shrineQuests": []
   },
@@ -301,7 +355,7 @@
   "ha-dahamar": {
     "id": "ha-dahamar",
     "name": "Ha Dahamar",
-    "region": "Necluda",
+    "region": "Dueling Peaks",
     "type": "",
     "location": "West of Dueling Peaks Stable and east of the Dueling Peaks.",
     "items": [],
@@ -339,7 +393,7 @@
   "ree-dahee": {
     "id": "ree-dahee",
     "name": "Ree Dahee",
-    "region": "Necluda",
+    "region": "Dueling Peaks",
     "type": "",
     "location": "North Dueling Peaks, on the high path near the west side of the Dueling Peaks passage.",
     "items": [],
@@ -348,7 +402,7 @@
   "toto-sah": {
     "id": "toto-sah",
     "name": "Toto Sah",
-    "region": "Necluda",
+    "region": "Dueling Peaks",
     "type": "",
     "location": "Southeast of Dueling Peaks Stable, across the river west of Hickaly Woods, hidden in the cliff.",
     "items": [],
@@ -357,9 +411,9 @@
   "noya-neha": {
     "id": "noya-neha",
     "name": "Noya Neha",
-    "region": "Ridgeland",
+    "region": "Central Hyrule",
     "type": "",
-    "location": "West of Hyrule Castle in the cliffside east of the Regencia River.",
+    "location": "Hidden inside a small cave on the island to the West of Hyrule Castle. You will need to remove the Bramble Surrounding it, then blow up the rock’s blocking the entrance.",
     "items": [],
     "shrineQuests": []
   },
