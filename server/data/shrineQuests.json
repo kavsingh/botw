@@ -3,48 +3,56 @@
     "id": "the-skulls-eye",
     "name": "The Skull's Eye",
     "location": "Akkala Ancient Tech Lab",
+    "shrines": ["zuna-kai"],
     "order": 0
   },
   "into-the-vortex": {
     "id": "into-the-vortex",
     "name": "Into The Vortex",
     "location": "Rist Pininsula",
+    "shrines": ["ritaag-zumo"],
     "order": 1
   },
   "trial-of-the-labyrinth": {
     "id": "trial-of-the-labyrinth",
     "name": "Trial Of The Labyrinth",
     "location": "Lomei Labyrinth Island",
+    "shrines": ["tu-kaloh"],
     "order": 2
   },
   "the-spring-of-power": {
     "id": "the-spring-of-power",
     "name": "The Spring Of Power",
     "location": "East Akkala Stable",
+    "shrines": ["tutsuwa-nima"],
     "order": 3
   },
   "the-gut-check-challenge": {
     "id": "the-gut-check-challenge",
     "name": "The Gut Check Challenge",
     "location": "Gut Check Rock",
+    "shrines": ["gorae-torr"],
     "order": 4
   },
   "a-brothers-roast": {
     "id": "a-brothers-roast",
     "name": "A Brothers Roast",
     "location": "Goron City",
+    "shrines": ["kayra-mah"],
     "order": 5
   },
   "a-landscape-of-a-stable": {
     "id": "a-landscape-of-a-stable",
     "name": "A Landscape Of A Stable",
     "location": "Foothill Stable",
+    "shrines": ["shae-katha"],
     "order": 6
   },
   "the-perfect-drink": {
     "id": "the-perfect-drink",
     "name": "The Perfect Drink",
     "location": "East Barrens",
+    "shrines": ["misae-suma"],
     "order": 7
   },
   "a-test-of-will": {
@@ -58,198 +66,231 @@
     "id": "sign-of-the-shadow",
     "name": "Sign Of The Shadow",
     "location": "Gerudo Tower",
+    "shrines": ["sasa-kai"],
     "order": 9
   },
   "the-silent-swordswomen": {
     "id": "the-silent-swordswomen",
     "name": "The Silent Swordswomen",
     "location": "Gerudo Town",
+    "shrines": ["kema-zoos"],
     "order": 10
   },
   "the-desert-labyrinth": {
     "id": "the-desert-labyrinth",
     "name": "The Desert Labyrinth",
     "location": "South Lomei Labyrinth",
+    "shrines": ["dila-maag"],
     "order": 11
   },
   "the-seven-heroines": {
     "id": "the-seven-heroines",
     "name": "The Seven Heroines",
     "location": "Gerudo Town",
+    "shrines": ["korsh-ohu"],
     "order": 12
   },
   "the-eye-of-the-sandstorm": {
     "id": "the-eye-of-the-sandstorm",
     "name": "The Eye Of The Sandstorm",
     "location": "Kara Kara Bazaar",
+    "shrines": ["dako-tah"],
     "order": 13
   },
   "secret-of-the-snowy-peaks": {
     "id": "secret-of-the-snowy-peaks",
     "name": "Secret Of The Snowy Peaks",
     "location": "Mount Granajh",
+    "shrines": ["suma-sahma"],
     "order": 14
   },
   "the-undefeated-champ": {
     "id": "the-undefeated-champ",
     "name": "The Undefeated Champ",
     "location": "Sand Seal Rally",
+    "shrines": ["raqa-zunzo"],
     "order": 15
   },
   "watch-out-for-the-flowers": {
     "id": "watch-out-for-the-flowers",
     "name": "Watch Out For The Flowers",
     "location": "Hylia River",
+    "shrines": ["hila-rao"],
     "order": 16
   },
   "the-three-giant-brothers": {
     "id": "the-three-giant-brothers",
     "name": "The Three Giant Brothers",
     "location": "Mount Taran",
+    "shrines": ["tawa-jinn"],
     "order": 17
   },
   "secret-of-the-cedars": {
     "id": "secret-of-the-cedars",
     "name": "Secret Of The Cedars",
     "location": "Hateno Village",
+    "shrines": ["tahna-oah"],
     "order": 18
   },
   "the-cursed-statue": {
     "id": "the-cursed-statue",
     "name": "The Cursed Statue",
     "location": "Fort Hateno",
+    "shrines": ["kam-urog"],
     "order": 19
   },
   "a-fragmented-monument": {
     "id": "a-fragmented-monument",
     "name": "A Fragmented Monument",
     "location": "Palmorae Ruins",
+    "shrines": ["kah-yah"],
     "order": 20
   },
   "the-stolen-heirloom": {
     "id": "the-stolen-heirloom",
     "name": "The Stolen Heirloom",
     "location": "Kakariko Village",
+    "shrines": ["lakna-rokee"],
     "order": 21
   },
   "guardian-slideshow": {
     "id": "guardian-slideshow",
     "name": "Guardian Slideshow",
     "location": "Puffer Beach",
+    "shrines": ["shoqa-tatone"],
     "order": 22
   },
   "a-song-of-storms": {
     "id": "a-song-of-storms",
     "name": "A Song Of Storms",
     "location": "Calora Lake",
+    "shrines": ["qukah-nata"],
     "order": 23
   },
   "the-serpents-jaws": {
     "id": "the-serpents-jaws",
     "name": "The Serpent's Jaws",
     "location": "Pagos Woods",
+    "shrines": ["shae-katha"],
     "order": 24
   },
   "stranded-on-eventide": {
     "id": "stranded-on-eventide",
     "name": "Stranded On Eventide",
     "location": "Eventide Island",
+    "shrines": ["korgu-chideh"],
     "order": 25
   },
   "the-bird-in-the-mountains": {
     "id": "the-bird-in-the-mountains",
     "name": "The Bird In The Mountains",
     "location": "Rito Village",
+    "shrines": ["mozo-shenno"],
     "order": 26
   },
   "recital-at-warblers-nest": {
     "id": "recital-at-warblers-nest",
     "name": "Recital At Warbler's Nest",
     "location": "Rito Village",
+    "shrines": ["voo-lota"],
     "order": 27
   },
   "the-ancient-rito-song": {
     "id": "the-ancient-rito-song",
     "name": "The Ancient Rito Song",
     "location": "Rito Village",
+    "shrines": ["bareeda-naag"],
     "order": 28
   },
   "trial-on-the-cliff": {
     "id": "trial-on-the-cliff",
     "name": "Trial On The Cliff",
     "location": "North Lomei Labyrinth",
+    "shrines": ["qaza-tokki"],
     "order": 29
   },
   "the-spring-of-wisdom": {
     "id": "the-spring-of-wisdom",
     "name": "The Spring Of Wisdom",
     "location": "Hateno Village",
+    "shrines": ["jitan-sami"],
     "order": 30
   },
   "the-ceremonial-song": {
     "id": "the-ceremonial-song",
     "name": "The Ceremonial Song",
     "location": "Zora's Domain",
+    "shrines": ["dagah-keek"],
     "order": 31
   },
   "the-crowned-beast": {
     "id": "the-crowned-beast",
     "name": "The Crowned Beast",
     "location": "Rabia Plain",
+    "shrines": ["mezza-lo"],
     "order": 32
   },
   "master-of-the-wind": {
     "id": "master-of-the-wind",
     "name": "Master Of The Wind",
     "location": "Horon Lagoon",
+    "shrines": ["shai-yota"],
     "order": 33
   },
   "the-lost-pilgrimage": {
     "id": "the-lost-pilgrimage",
     "name": "The Lost Pilgrimage",
     "location": "Korok Forest",
+    "shrines": ["daag-chokah"],
     "order": 34
   },
   "the-two-rings": {
     "id": "the-two-rings",
     "name": "The Two Rings",
     "location": "West Hyrule Plains",
+    "shrines": ["sheem-dagoze"],
     "order": 35
   },
   "shrouded-shrine": {
     "id": "shrouded-shrine",
     "name": "Shrouded Shrine",
     "location": "Thyphlo Ruins",
+    "shrines": ["ketoh-wawai"],
     "order": 36
   },
   "under-a-red-moon": {
     "id": "under-a-red-moon",
     "name": "Under A Red Moon",
     "location": "Hyrule Ridge",
+    "shrines": ["mijah-rokee"],
     "order": 37
   },
   "cliffside-etchings": {
     "id": "cliffside-etchings",
     "name": "Cliffside Etchings",
     "location": "Tabantha Bridge Stable",
+    "shrines": ["keeha-yoog"],
     "order": 38
   },
   "trial-of-second-sight": {
     "id": "trial-of-second-sight",
     "name": "Trial Of Second Sight",
     "location": "Korok Forest",
+    "shrines": ["kuhn-sidajj"],
     "order": 39
   },
   "the-test-of-wood": {
     "id": "the-test-of-wood",
     "name": "The Test Of Wood",
     "location": "Korok Forest",
+    "shrines": ["maag-halan"],
     "order": 40
   },
   "trial-of-thunder": {
     "id": "trial-of-thunder",
     "name": "Trial Of Thunder",
     "location": "Thundra Plateau",
+    "shrines": ["toh-yahsa"],
     "order": 41
   }
 }
