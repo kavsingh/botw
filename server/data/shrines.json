@@ -336,10 +336,10 @@
   "tahno-oah": {
     "id": "tahno-oah",
     "name": "Tahno O’ah",
-    "region": "Lanayru",
-    "type": "",
+    "region": "Hateno",
+    "type": "blessing",
     "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
-    "items": [],
+    "items": ["Climbing Boots"],
     "shrineQuests": [
       "secret-of-the-cedars"
     ]
@@ -347,10 +347,10 @@
   "chaas-qeta": {
     "id": "chaas-qeta",
     "name": "Chaas Qeta",
-    "region": "Necluda",
-    "type": "",
+    "region": "Hateno",
+    "type": "major-test-of-strength",
     "location": "Due south of Hateno Village and northeast of Muwo Jeem shrine on a small island.",
-    "items": [],
+    "items": ["Climbing Gear"],
     "shrineQuests": []
   },
   "ha-dahamar": {
@@ -385,10 +385,10 @@
   "myahm-agana": {
     "id": "myahm-agana",
     "name": "Myahm Agana",
-    "region": "Necluda",
-    "type": "",
+    "region": "Hateno",
+    "type": "puzzle",
     "location": "Southwest side of Hateno Village.",
-    "items": [],
+    "items": ["Phrenic Bow"],
     "shrineQuests": []
   },
   "ree-dahee": {
@@ -829,7 +829,10 @@
     "region": "Hateno",
     "type": "puzzle",
     "location": "Just past Fort Hateno.",
-    "items": [],
+    "items": [
+      "Opal",
+      "Soldier’s Spear"
+    ],
     "shrineQuests": [
       "the-cursed-statue"
     ]
@@ -1115,6 +1118,19 @@
     "type": "puzzle",
     "location": "North West of Hebra Tower in the Tabantha Tundra area, behind a locked door",
     "items": ["Diamond"],
+    "shrineQuests": []
+  },
+  "dow-naeh": {
+    "id": "dow-naeh",
+    "name": "Dow Na’eh",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Behind the waterfall in the Lanayru Promenade, north of Hateno Tower.",
+    "items": [
+      "Opal",
+      "Zora Sword",
+      "Amber"
+    ],
     "shrineQuests": []
   }
 }
