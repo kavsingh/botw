@@ -7,8 +7,13 @@ const webpack = require('webpack')
 const devMiddleware = require('webpack-dev-middleware')
 const hotMiddleware = require('webpack-hot-middleware')
 const config = require('../webpack.config')
+const shrines = require('./data/shrines.json')
 const shrineQuests = require('./data/shrineQuests.json')
-const { setShrineQuestCompletion, readStats } = require('./stats')
+const {
+  setShrineCompletion,
+  setShrineQuestCompletion,
+  readStats,
+} = require('./stats')
 
 const app = express()
 const { output } = config
@@ -31,6 +36,12 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use(bodyParser.json())
 
+app.get('/api/shrines', (req, res) => {
+  res.json({
+    items: Object.values(shrines).sort(({ id }) => id),
+  })
+})
+
 app.get('/api/shrine-quests', (req, res) => {
   res.json({
     items: Object.values(shrineQuests).sort((a, b) => a.order - b.order),
@@ -44,6 +55,18 @@ app.get('/api/stats', async (req, res) => {
 
 app.get('/api/*', (req, res) => {
   res.status(404).json({})
+})
+
+app.post('/api/stats/shrines/complete', async (req, res) => {
+  const { id, complete } = req.body
+
+  try {
+    const stats = await setShrineCompletion(id, complete)
+    res.json(stats)
+  } catch (error) {
+    console.warn(error)
+    res.status(500).json({ message: error.toString() })
+  }
 })
 
 app.post('/api/stats/shrine-quests/complete', async (req, res) => {

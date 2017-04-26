@@ -3,6 +3,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { configureStore } from './state'
+import { initFetch } from './state/actions'
 import App from './layouts/App'
 import ConnectedShrineQuests from './containers/ShrineQuests'
 
@@ -22,3 +23,5 @@ render(
   </Provider>,
   document.querySelector('#app-mount'),
 )
+
+initFetch()

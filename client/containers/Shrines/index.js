@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { getComplete, getIncomplete } from '../../util/stats'
-import { selectors } from '../../state/shrineQuest'
+import { selectors } from '../../state/shrine'
 import { actions as statsActions } from '../../state/stats'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineQuestList from '../../components/ShrineQuestList'
@@ -11,24 +11,24 @@ import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
 import background from './oman-au.jpg'
 
-export class ShrineQuests extends PureComponent {
+export class Shrines extends PureComponent {
   constructor(...args) {
     super(...args)
     this.state = { groupBy: null }
-    this.handleShrineQuestClick = this.handleShrineQuestClick.bind(this)
+    this.handleShrineClick = this.handleShrineClick.bind(this)
   }
 
-  handleShrineQuestClick({ id, complete }) {
-    this.props.saveShrineQuestCompletion(id, !complete)
+  handleShrineClick({ id, complete }) {
+    this.props.saveShrineCompletion(id, !complete)
   }
 
   render() {
-    const { shrineQuests } = this.props
+    const { shrines } = this.props
     const { groupBy } = this.state
-    const completeQuests = getComplete(shrineQuests)
-    const quests = groupBy === 'completed'
-      ? getIncomplete(shrineQuests).concat(completeQuests)
-      : shrineQuests
+    const completeShrines = getComplete(shrines)
+    const listShrines = groupBy === 'complete'
+      ? getIncomplete(shrines).concat(completeShrines)
+      : shrines
 
     return (
       <ContentPage
@@ -40,14 +40,14 @@ export class ShrineQuests extends PureComponent {
         <Panels orientation="portrait">
           <Panel type="fit">
             <CompletionStats
-              totalCount={shrineQuests.length}
-              completedCount={completeQuests.length}
+              totalCount={shrines.length}
+              completedCount={completeShrines.length}
             />
           </Panel>
           <Panel type="stretch">
             <ShrineQuestList
-              shrineQuests={quests}
-              onItemClick={this.handleShrineQuestClick}
+              shrines={listShrines}
+              onItemClick={this.handleShrineClick}
             />
           </Panel>
         </Panels>
@@ -56,21 +56,21 @@ export class ShrineQuests extends PureComponent {
   }
 }
 
-ShrineQuests.propTypes = {
-  saveShrineQuestCompletion: PropTypes.func.isRequired,
-  shrineQuests: PropTypes.arrayOf(PropTypes.shape({})),
+Shrines.propTypes = {
+  saveShrineCompletion: PropTypes.func.isRequired,
+  shrines: PropTypes.arrayOf(PropTypes.shape({})),
 }
 
-ShrineQuests.defaultProps = {
-  shrineQuests: [],
+Shrines.defaultProps = {
+  shrines: [],
 }
 
 const mapStateToProps = state => ({
-  shrineQuests: selectors.getShrineQuestsWithCompletions(state),
+  shrines: selectors.getShrinesWithCompletions(state),
 })
 
 const mapActionsToProps = {
-  saveShrineQuestCompletion: statsActions.saveShrineQuestCompletion,
+  saveShrineCompletion: statsActions.saveShrineCompletion,
 }
 
-export default connect(mapStateToProps, mapActionsToProps)(ShrineQuests)
+export default connect(mapStateToProps, mapActionsToProps)(Shrines)

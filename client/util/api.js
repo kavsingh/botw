@@ -34,5 +34,13 @@ export const fetchShrineQuests = async () => {
   return items
 }
 
+export const fetchShrines = async () => {
+  const { items } = await apiFetch('shrines')
+  return items
+}
+
+export const saveShrineCompletion = (id, complete) =>
+  apiPost('stats/shrines/complete', { id, complete })
+
 export const saveShrineQuestCompletion = (id, complete) =>
   apiPost('stats/shrine-quests/complete', { id, complete })
