@@ -84,6 +84,7 @@
     "webpack-hot-middleware": "^2.18.0"
   },
   "dependencies": {
+    "express-ipfilter": "^0.2.4",
     "nodemon": "^1.11.0"
   }
 }
