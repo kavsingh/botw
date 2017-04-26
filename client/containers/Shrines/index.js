@@ -5,7 +5,7 @@ import { getComplete, getIncomplete } from '../../util/stats'
 import { selectors } from '../../state/shrine'
 import { actions as statsActions } from '../../state/stats'
 import CompletionStats from '../../components/CompletionStats'
-import ShrineQuestList from '../../components/ShrineQuestList'
+import ShrineList from '../../components/ShrineList'
 import ContentPage from '../../layouts/ContentPage'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
@@ -45,7 +45,7 @@ export class Shrines extends PureComponent {
             />
           </Panel>
           <Panel type="stretch">
-            <ShrineQuestList
+            <ShrineList
               shrines={listShrines}
               onItemClick={this.handleShrineClick}
             />

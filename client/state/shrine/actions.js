@@ -5,9 +5,9 @@ import {
   RECEIVE_SHRINES,
 } from './actionTypes'
 
-const receiveShrines = shrineQuests => ({
+const receiveShrines = shrines => ({
   type: RECEIVE_SHRINES,
-  payload: { shrineQuests },
+  payload: { shrines },
 })
 
 const requestShrinesError = error => ({

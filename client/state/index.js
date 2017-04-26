@@ -8,6 +8,7 @@ import {
 import { createLogger } from 'redux-logger'
 // import createHistory from 'history/createHashHistory'
 import thunkMiddleware from 'redux-thunk'
+import { reducers as shrineReducers } from './shrine'
 import { reducers as shrineQuestReducers } from './shrineQuest'
 import { reducers as statsReducers } from './stats'
 
@@ -26,6 +27,7 @@ const createStoreWithMiddleware =
 const rootReducer = {
   // router: routerReducer,
   ...statsReducers,
+  ...shrineReducers,
   ...shrineQuestReducers,
 }
 

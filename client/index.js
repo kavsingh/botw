@@ -5,14 +5,14 @@ import { Provider } from 'react-redux'
 import { configureStore } from './state'
 import { initFetch } from './state/actions'
 import App from './layouts/App'
-import ConnectedShrineQuests from './containers/ShrineQuests'
+import ConnectedShrines from './containers/Shrines'
 
 const { store } = configureStore()
 
 render(
   <Provider store={store}>
     <App>
-      <ConnectedShrineQuests />
+      <ConnectedShrines />
       <style jsx global>{`
         html { box-sizing: border-box; }
         html *, html *::before, html *::after { box-sizing: inherit; }
@@ -24,4 +24,4 @@ render(
   document.querySelector('#app-mount'),
 )
 
-initFetch()
+initFetch()(store.dispatch)
