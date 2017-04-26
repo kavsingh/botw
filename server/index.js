@@ -37,7 +37,10 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.use(bodyParser.json())
-app.use(ipFilter(whitelist, { mode: 'allow' }))
+app.use(ipFilter(whitelist, {
+  mode: 'allow',
+  logLevel: process.env.NODE_ENV === 'production' ? 'deny' : 'all',
+}))
 
 const errorResponse = (error, res) => {
   if (error instanceof IpDeniedError) {
