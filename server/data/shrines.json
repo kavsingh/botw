@@ -985,7 +985,7 @@
   "ketoh-wawai": {
     "id": "ketoh-wawai",
     "name": "Ketoh Wawai",
-    "region": "Great Hyrule Forest",
+    "region": "Woodland",
     "type": "blessing",
     "location": "Typhlo ruins",
     "items": ["Ancient Core"],
@@ -1148,6 +1148,24 @@
     "region": "Akkala",
     "type": "",
     "location": "Below a Cliff NorthEast of Zora’s Domain, hidden behind some rocks.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "mirro-shaz": {
+    "id": "mirro-shaz",
+    "name": "Mirro Shaz",
+    "region": "Woodland",
+    "type": "",
+    "location": "Northeast of Woodland Stable.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "rona-kachta": {
+    "id": "rona-kachta",
+    "name": "Rona Kachta",
+    "region": "Woodland",
+    "type": "",
+    "location": "Northeast end of the Tanagar Caynon, inside the Forgotten Temple.",
     "items": [],
     "shrineQuests": []
   }
