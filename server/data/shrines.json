@@ -255,7 +255,9 @@
     "region": "Lanayru",
     "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
     "type": "",
-    "shrineQuests": []
+    "shrineQuests": [
+      "secret-of-the-cedars"
+    ]
   },
   "chaas-qeta": {
     "id": "chaas-qeta",
@@ -581,200 +583,199 @@
   },
   "suma-sahma": {
     "id": "suma-sahma",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Suma Sahma",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Between Mount Granajh and Daval Peak.",
     "shrineQuests": [
       "secret-of-the-snowy-peaks"
     ]
   },
   "raqa-zunzo": {
     "id": "raqa-zunzo",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Raqa Zunzo",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "Immediately south of Gerudo Town.",
     "shrineQuests": [
       "the-undefeated-champ"
     ]
   },
   "tawa-jinn": {
     "id": "tawa-jinn",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Tawa Jinn",
+    "region": "Faron",
+    "type": "blessing",
+    "location": "Just above the Taran Pass to the West.",
     "shrineQuests": [
       "the-three-giant-brothers"
     ]
   },
-  "tahna-oah": {
-    "id": "tahna-oah",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
-    "shrineQuests": [
-      "secret-of-the-cedars"
-    ]
-  },
   "kam-urog": {
     "id": "kam-urog",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Kam Urog",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Just past Fort Hateno.",
     "shrineQuests": [
       "the-cursed-statue"
     ]
   },
   "kah-yah": {
     "id": "kah-yah",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Kah Yah",
+    "region": "Faron",
+    "type": "puzzle",
+    "location": "Near the Palmorae Ruins.",
     "shrineQuests": [
       "a-fragmented-monument"
     ]
   },
   "lakna-rokee": {
     "id": "lakna-rokee",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Lakna Rokee",
+    "region": "Dueling Peaks",
+    "type": "blessing",
+    "location": "Hidden in the forest with the fairy fountain directly east of Kakariko Village.",
     "shrineQuests": [
       "the-stolen-heirloom"
     ]
   },
   "shoqa-tatone": {
     "id": "shoqa-tatone",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Shoqa Tatone",
+    "region": "Lakes",
+    "type": "modest-test-of-strength",
+    "location": "On the western end of Puffer Beach in the Lake Tower region.",
     "shrineQuests": [
       "guardian-slideshow"
     ]
   },
   "qukah-nata": {
     "id": "qukah-nata",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Qukah Nata",
+    "region": "Faron",
+    "type": "blessing",
+    "location": "On a hill just south of Calora Lake.",
     "shrineQuests": [
       "a-song-of-storms"
     ]
   },
   "mozo-shenno": {
     "id": "mozo-shenno",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Mozo Shenno",
+    "region": "Hebra",
+    "type": "major-test-of-strength",
+    "location": "Northwestern area of the Hebra Region, in a small cave on the eastern cliffside of Biron Snowshelf.",
     "shrineQuests": [
       "the-bird-in-the-mountains"
     ]
   },
   "voo-lota": {
     "id": "voo-lota",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Voo Lota",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "West of Rito Village, across the gorge near Passer Hill.",
     "shrineQuests": [
       "recital-at-warblers-nest"
     ]
   },
   "bareeda-naag": {
     "id": "bareeda-naag",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Bareeda Naag",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Directly south of Rito Village.",
+    "items": ["Diamond"],
     "shrineQuests": [
       "the-ancient-rito-song"
     ]
   },
   "qaza-tokki": {
     "id": "qaza-tokki",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Qaza Tokki",
+    "region": "Hebra",
+    "type": "blessing",
+    "location": "Northeast of the North Tabantha Snowfield.",
+    "items": ["Barbarian armor piece"],
     "shrineQuests": [
       "trial-on-the-cliff"
     ]
   },
   "jitan-sami": {
     "id": "jitan-sami",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Jitan Sa'mi",
+    "region": "Hateno",
+    "type": "blessing",
+    "location": "On the summit of Mount Lanayru",
+    "items": ["Frostspear"],
     "shrineQuests": [
       "the-spring-of-wisdom"
     ]
   },
   "mezza-lo": {
     "id": "mezza-lo",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Mezza Lo",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Rabia Plain, which is Northeast of Kakariko Village in the Hateno Region.",
+    "items": ["Thunderblade"],
     "shrineQuests": [
       "the-crowned-beast"
     ]
   },
   "shai-yota": {
     "id": "shai-yota",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Shai Yota",
+    "region": "Lanayru",
+    "type": "blessing",
+    "location": "Horon Lagoon, north of Lanayru Bay, nestled between Brynna Plain and Talus Plateau.",
+    "items": ["Great Flameblade"],
     "shrineQuests": [
       "master-of-the-wind"
     ]
   },
   "sheem-dagoze": {
     "id": "sheem-dagoze",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Sheem Dagoze",
+    "region": "Ridgeland",
+    "type": "puzzle",
+    "location": "South of Ridgeland Tower, just north of the bridge connecting West Hyrule Plains to Nima Plain.",
+    "items": ["Great Thunderblade"],
     "shrineQuests": [
       "the-two-rings"
     ]
   },
   "ketoh-wawai": {
     "id": "ketoh-wawai",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Ketoh Wawai",
+    "region": "Great Hyrule Forest",
+    "type": "blessing",
+    "location": "Typhlo ruins",
+    "items": ["Ancient Core"],
     "shrineQuests": [
       "shrouded-shrine"
     ]
   },
   "mijah-rokee": {
     "id": "mijah-rokee",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Mijah Rokee",
+    "region": "Ridgeland",
+    "type": "a-modest-test-of-strength",
+    "location": "Washa's Bluff.",
+    "items": ["Frostblade"],
     "shrineQuests": [
       "under-a-red-moon"
     ]
   },
   "keeha-yoog": {
     "id": "keeha-yoog",
-    "name": "",
-    "region": "",
-    "type": "",
-    "location": "",
+    "name": "Keeha Yoog",
+    "region": "Gerudo",
+    "type": "blessing",
+    "location": "Gerudo Highlands to the East of Gerudo Summit.",
+    "items": ["Diamond"],
     "shrineQuests": [
       "cliffside-etchings"
     ]

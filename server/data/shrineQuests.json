@@ -129,7 +129,7 @@
     "id": "secret-of-the-cedars",
     "name": "Secret Of The Cedars",
     "location": "Hateno Village",
-    "shrines": ["tahna-oah"],
+    "shrines": ["tahno-oah"],
     "order": 18
   },
   "the-cursed-statue": {
