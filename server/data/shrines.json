@@ -35,6 +35,51 @@
     "items": [],
     "shrineQuests": []
   },
+  "dah-kaso": {
+    "id": "dah-kaso",
+    "name": "Dah Kaso",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Below the Digdogg Suspension Bridge, northwest of Keh Namut shrine and Great Plateau.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "ja-baij": {
+    "id": "ja-baij",
+    "name": "Ja Baij",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Great Plateau in the Eastern Abbey.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "kaam-yatak": {
+    "id": "kaam-yatak",
+    "name": "Kaam Ya’tak",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Southwest side of Central Hyrule in the hills southwest of Central Tower.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "wahgo-katta": {
+    "id": "wahgo-katta",
+    "name": "Wahgo Katta",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Southeast side of Central Hyrule near Riverside Stable, northeast from the Forest of Time.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "noya-neha": {
+    "id": "noya-neha",
+    "name": "Noya Neha",
+    "region": "Central Hyrule",
+    "type": "",
+    "location": "Hidden inside a small cave on the island to the West of Hyrule Castle. You will need to remove the Bramble Surrounding it, then blow up the rocks blocking the entrance.",
+    "items": [],
+    "shrineQuests": []
+  },
   "dah-hesho": {
     "id": "dah-hesho",
     "name": "Dah Hesho",
@@ -64,6 +109,57 @@
       "the-skulls-eye"
     ]
   },
+  "ze-kasho": {
+    "id": "ze-kasho",
+    "name": "Ze Kasho",
+    "region": "Akkala",
+    "type": "",
+    "location": "Just west of the South Akkala Stable, northwest of the Akkala Tower.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "ritaag-zumo": {
+    "id": "ritaag-zumo",
+    "name": "Ritaag Zumo",
+    "region": "Akkala",
+    "type": "",
+    "location": "Center of the Rist Peninsula which is located east of the Akkala Highlands.",
+    "items": [],
+    "shrineQuests": [
+      "into-the-vortex"
+    ]
+  },
+  "tu-kaloh": {
+    "id": "tu-kaloh",
+    "name": "Tu Ka’loh",
+    "region": "Akkala",
+    "type": "blessing",
+    "location": "Far northeast corner of the Akkala Tower Region on an isolated island.",
+    "items": [],
+    "shrineQuests": [
+      "trial-of-the-labyrinth"
+    ]
+  },
+  "tutsuwa-nima": {
+    "id": "tutsuwa-nima",
+    "name": "Tutsuwa Nima",
+    "region": "Akkala",
+    "type": "major-test-of-strength",
+    "location": "Behind the Spring of Power, east of East Akkala Stable.",
+    "items": [],
+    "shrineQuests": [
+      "the-spring-of-power"
+    ]
+  },
+  "kenai-shakah": {
+    "id": "kenai-shakah",
+    "name": "Ke’nai Shakah",
+    "region": "Akkala",
+    "type": "",
+    "location": "Below a Cliff NorthEast of Zora’s Domain, hidden behind some rocks.",
+    "items": [],
+    "shrineQuests": []
+  },
   "bosh-kala": {
     "id": "bosh-kala",
     "name": "Bosh Kala",
@@ -91,15 +187,6 @@
     "items": [],
     "shrineQuests": []
   },
-  "dah-kaso": {
-    "id": "dah-kaso",
-    "name": "Dah Kaso",
-    "region": "Central Hyrule",
-    "type": "",
-    "location": "Below the Digdogg Suspension Bridge, northwest of Keh Namut shrine and Great Plateau.",
-    "items": [],
-    "shrineQuests": []
-  },
   "hila-rao": {
     "id": "hila-rao",
     "name": "Hila Rao",
@@ -111,23 +198,52 @@
       "watch-out-for-the-flowers"
     ]
   },
-  "ja-baij": {
-    "id": "ja-baij",
-    "name": "Ja Baij",
-    "region": "Central Hyrule",
+  "taloh-naeg": {
+    "id": "taloh-naeg",
+    "name": "Ta’loh Naeg",
+    "region": "Dueling Peaks",
     "type": "",
-    "location": "Great Plateau in the Eastern Abbey.",
+    "location": "On top of a hill in the cliffs just north of Kakariko Village.",
     "items": [],
     "shrineQuests": []
   },
-  "kaam-yatak": {
-    "id": "kaam-yatak",
-    "name": "Kaam Ya’tak",
-    "region": "Central Hyrule",
+  "ha-dahamar": {
+    "id": "ha-dahamar",
+    "name": "Ha Dahamar",
+    "region": "Dueling Peaks",
     "type": "",
-    "location": "Southwest side of Central Hyrule in the hills southwest of Central Tower.",
+    "location": "West of Dueling Peaks Stable and east of the Dueling Peaks.",
     "items": [],
     "shrineQuests": []
+  },
+  "ree-dahee": {
+    "id": "ree-dahee",
+    "name": "Ree Dahee",
+    "region": "Dueling Peaks",
+    "type": "",
+    "location": "North Dueling Peaks, on the high path near the west side of the Dueling Peaks passage.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "toto-sah": {
+    "id": "toto-sah",
+    "name": "Toto Sah",
+    "region": "Dueling Peaks",
+    "type": "",
+    "location": "Southeast of Dueling Peaks Stable, across the river west of Hickaly Woods, hidden in the cliff.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "lakna-rokee": {
+    "id": "lakna-rokee",
+    "name": "Lakna Rokee",
+    "region": "Dueling Peaks",
+    "type": "blessing",
+    "location": "Hidden in the forest with the fairy fountain directly east of Kakariko Village.",
+    "items": [],
+    "shrineQuests": [
+      "the-stolen-heirloom"
+    ]
   },
   "kaya-wan": {
     "id": "kaya-wan",
@@ -135,6 +251,80 @@
     "region": "Lanayru",
     "type": "",
     "location": "West of the Lanayru Wetlands",
+    "items": [],
+    "shrineQuests": []
+  },
+  "dagah-keek": {
+    "id": "dagah-keek",
+    "name": "Dagah Keek",
+    "region": "Lanayru",
+    "type": "",
+    "location": "Veiled Falls, southwest of Zora’s Domain.",
+    "items": [],
+    "shrineQuests": [
+      "the-ceremonial-song"
+    ]
+  },
+  "neez-yohma": {
+    "id": "neez-yohma",
+    "name": "Ne’ez Yohma",
+    "region": "Lanayru",
+    "type": "puzzle",
+    "location": "Zora’s Domain (right inside the city)",
+    "items": [
+      "Zora Spear"
+    ],
+    "shrineQuests": []
+  },
+  "rucco-maag": {
+    "id": "rucco-maag",
+    "name": "Rucco Maag",
+    "region": "Lanayru",
+    "type": "puzzle",
+    "location": "Due south of Zora’s Domain, across the Rutala River and west of the Lanayru Great Spring.",
+    "items": [
+      "Opal",
+      "Silver Bow"
+    ],
+    "shrineQuests": []
+  },
+  "sheh-rata": {
+    "id": "sheh-rata",
+    "name": "Sheh Rata",
+    "region": "Lanayru",
+    "type": "",
+    "location": "Northwest of the Lanayru Wetlands in the middle of the water.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "soh-kofi": {
+    "id": "soh-kofi",
+    "name": "Soh Kofi",
+    "region": "Lanayru",
+    "type": "",
+    "location": "Northeast of the Lanayru Wetlands and due north of the Lanayru Tower.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shai-yota": {
+    "id": "shai-yota",
+    "name": "Shai Yota",
+    "region": "Lanayru",
+    "type": "blessing",
+    "location": "Horon Lagoon, north of Lanayru Bay, nestled between Brynna Plain and Talus Plateau.",
+    "items": [
+      "Great Flameblade"
+    ],
+    "shrineQuests": [
+      "master-of-the-wind"
+    ]
+  },
+  "kah-mael": {
+    "id": "kah-mael",
+    "name": "Kah Mael",
+    "region": "Lanayru",
+    "type": "",
+    "location": "Tingel Island, hidden by large slab",
     "items": [],
     "shrineQuests": []
   },
@@ -156,12 +346,21 @@
     "items": [],
     "shrineQuests": []
   },
-  "wahgo-katta": {
-    "id": "wahgo-katta",
-    "name": "Wahgo Katta",
-    "region": "Central Hyrule",
+  "je-baij": {
+    "id": "je-baij",
+    "name": "Je Baij",
+    "region": "Great Plateau",
     "type": "",
-    "location": "Southeast side of Central Hyrule near Riverside Stable, northeast from the Forest of Time.",
+    "location": "Eastern area of the Great Plateau, just to the South of the Resurrection Tower in the Eastern Abbey ruins.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "keh-namut": {
+    "id": "keh-namut",
+    "name": "Keh Namut",
+    "region": "Great Plateau",
+    "type": "",
+    "location": "Western area of the Great Plateau, at the top of Mount Hylia.",
     "items": [],
     "shrineQuests": []
   },
@@ -241,14 +440,16 @@
       "a-landscape-of-a-stable"
     ]
   },
-  "ze-kasho": {
-    "id": "ze-kasho",
-    "name": "Ze Kasho",
-    "region": "Akkala",
-    "type": "",
-    "location": "Just west of the South Akkala Stable, northwest of the Akkala Tower.",
+  "kayra-mah": {
+    "id": "kayra-mah",
+    "name": "Kayra Mah",
+    "region": "Eldin",
+    "type": "puzzle",
+    "location": "Just southwest of the Gorko Lake within the Gorko Tunnel.",
     "items": [],
-    "shrineQuests": []
+    "shrineQuests": [
+      "a-brothers-roast"
+    ]
   },
   "ya-naga": {
     "id": "ya-naga",
@@ -256,18 +457,63 @@
     "region": "Lake Hylia",
     "location": "Hylia Island, center of Lake Hylia to the far south of Central Hyrule.",
     "type": "puzzle",
-    "items": ["Eightfold Blade"],
+    "items": [
+      "Eightfold Blade"
+    ],
     "shrineQuests": []
   },
-  "dagah-keek": {
-    "id": "dagah-keek",
-    "name": "Dagah Keek",
-    "region": "Lanayru",
-    "type": "",
-    "location": "Veiled Falls, southwest of Zora’s Domain.",
+  "pumaag-nitae": {
+    "id": "pumaag-nitae",
+    "name": "Pumaag Nitae",
+    "region": "Lake Hylia",
+    "type": "minor-test-of-strength",
+    "location": "Between Pagos Woods and Finra Woods.",
+    "items": [
+      "Boomerang"
+    ],
+    "shrineQuests": []
+  },
+  "ishto-soh": {
+    "id": "ishto-soh",
+    "name": "Ishto Soh",
+    "region": "Lake Hylia",
+    "type": "puzzle",
+    "location": "East of Daval Peak and atop a small plateau, near a plume of smoke from a campfire neaby.",
+    "items": [
+      "Topaz",
+      "Ancient Core"
+    ],
+    "shrineQuests": []
+  },
+  "shae-katha": {
+    "id": "shae-katha",
+    "name": "Shae Katha",
+    "region": "Lake Hylia",
+    "type": "blessing",
+    "location": "East from Lake Tower along the road through Faron Forest.",
     "items": [],
     "shrineQuests": [
-      "the-ceremonial-song"
+      "the-serpents-jaws"
+    ]
+  },
+  "kao-magakh": {
+    "id": "kao-magakh",
+    "name": "Ka’o Magakh",
+    "region": "Lake Hylia",
+    "type": "",
+    "location": "South of the Highland stable after a short climb.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shoqa-tatone": {
+    "id": "shoqa-tatone",
+    "name": "Shoqa Tatone",
+    "region": "Lake Hylia",
+    "type": "modest-test-of-strength",
+    "location": "On the western end of Puffer Beach, to the south of Lake Tower.",
+    "items": [],
+    "shrineQuests": [
+      "guardian-slideshow"
     ]
   },
   "daka-tuss": {
@@ -276,80 +522,6 @@
     "region": "Faron",
     "type": "",
     "location": "South side of the Lanayru Wetlands.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "neez-yohma": {
-    "id": "neez-yohma",
-    "name": "Ne’ez Yohma",
-    "region": "Lanayru",
-    "type": "puzzle",
-    "location": "Zora’s Domain (right inside the city)",
-    "items": ["Zora Spear"],
-    "shrineQuests": []
-  },
-  "rucco-maag": {
-    "id": "rucco-maag",
-    "name": "Rucco Maag",
-    "region": "Lanayru",
-    "type": "puzzle",
-    "location": "Due south of Zora’s Domain, across the Rutala River and west of the Lanayru Great Spring.",
-    "items": ["Opal", "Silver Bow"],
-    "shrineQuests": []
-  },
-  "sheh-rata": {
-    "id": "sheh-rata",
-    "name": "Sheh Rata",
-    "region": "Lanayru",
-    "type": "",
-    "location": "Northwest of the Lanayru Wetlands in the middle of the water.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "soh-kofi": {
-    "id": "soh-kofi",
-    "name": "Soh Kofi",
-    "region": "Lanayru",
-    "type": "",
-    "location": "Northeast of the Lanayru Wetlands and due north of the Lanayru Tower.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "taloh-naeg": {
-    "id": "taloh-naeg",
-    "name": "Ta’loh Naeg",
-    "region": "Dueling Peaks",
-    "type": "",
-    "location": "On top of a hill in the cliffs just north of Kakariko Village.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "tahno-oah": {
-    "id": "tahno-oah",
-    "name": "Tahno O’ah",
-    "region": "Hateno",
-    "type": "blessing",
-    "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
-    "items": ["Climbing Boots"],
-    "shrineQuests": [
-      "secret-of-the-cedars"
-    ]
-  },
-  "chaas-qeta": {
-    "id": "chaas-qeta",
-    "name": "Chaas Qeta",
-    "region": "Hateno",
-    "type": "major-test-of-strength",
-    "location": "Due south of Hateno Village and northeast of Muwo Jeem shrine on a small island.",
-    "items": ["Climbing Gear"],
-    "shrineQuests": []
-  },
-  "ha-dahamar": {
-    "id": "ha-dahamar",
-    "name": "Ha Dahamar",
-    "region": "Dueling Peaks",
-    "type": "",
-    "location": "West of Dueling Peaks Stable and east of the Dueling Peaks.",
     "items": [],
     "shrineQuests": []
   },
@@ -373,40 +545,152 @@
     "items": [],
     "shrineQuests": []
   },
+  "tawa-jinn": {
+    "id": "tawa-jinn",
+    "name": "Tawa Jinn",
+    "region": "Faron",
+    "type": "blessing",
+    "location": "Just above the Taran Pass to the West.",
+    "items": [],
+    "shrineQuests": [
+      "the-three-giant-brothers"
+    ]
+  },
+  "kah-yah": {
+    "id": "kah-yah",
+    "name": "Kah Yah",
+    "region": "Faron",
+    "type": "puzzle",
+    "location": "Near the Palmorae Ruins.",
+    "items": [],
+    "shrineQuests": [
+      "a-fragmented-monument"
+    ]
+  },
+  "qukah-nata": {
+    "id": "qukah-nata",
+    "name": "Qukah Nata",
+    "region": "Faron",
+    "type": "blessing",
+    "location": "On a hill just south of Calora Lake.",
+    "items": [],
+    "shrineQuests": [
+      "a-song-of-storms"
+    ]
+  },
+  "yah-rin": {
+    "id": "yah-rin",
+    "name": "Yah Rin",
+    "region": "Faron",
+    "type": "puzzle",
+    "location": "SouthEast of the Faron Region, overlooking the Lurelin Village.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shoda-sah": {
+    "id": "shoda-sah",
+    "name": "Shoda Sah",
+    "region": "Faron",
+    "type": "",
+    "location": "Hidden behind some waterfalls just south of Riola Spring.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shai-utoh": {
+    "id": "shai-utoh",
+    "name": "Shai Utoh",
+    "region": "Faron",
+    "type": "",
+    "location": "South of the Lakeside Stable, hidden behind rocks in a natural rock cave.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "tahno-oah": {
+    "id": "tahno-oah",
+    "name": "Tahno O’ah",
+    "region": "Hateno",
+    "type": "blessing",
+    "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
+    "items": [
+      "Climbing Boots"
+    ],
+    "shrineQuests": [
+      "secret-of-the-cedars"
+    ]
+  },
+  "chaas-qeta": {
+    "id": "chaas-qeta",
+    "name": "Chaas Qeta",
+    "region": "Hateno",
+    "type": "major-test-of-strength",
+    "location": "Due south of Hateno Village and northeast of Muwo Jeem shrine on a small island.",
+    "items": [
+      "Climbing Gear"
+    ],
+    "shrineQuests": []
+  },
   "myahm-agana": {
     "id": "myahm-agana",
     "name": "Myahm Agana",
     "region": "Hateno",
     "type": "puzzle",
     "location": "Southwest side of Hateno Village.",
-    "items": ["Phrenic Bow"],
+    "items": [
+      "Phrenic Bow"
+    ],
     "shrineQuests": []
   },
-  "ree-dahee": {
-    "id": "ree-dahee",
-    "name": "Ree Dahee",
-    "region": "Dueling Peaks",
-    "type": "",
-    "location": "North Dueling Peaks, on the high path near the west side of the Dueling Peaks passage.",
-    "items": [],
-    "shrineQuests": []
+  "kam-urog": {
+    "id": "kam-urog",
+    "name": "Kam Urog",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Just past Fort Hateno.",
+    "items": [
+      "Opal",
+      "Soldier’s Spear"
+    ],
+    "shrineQuests": [
+      "the-cursed-statue"
+    ]
   },
-  "toto-sah": {
-    "id": "toto-sah",
-    "name": "Toto Sah",
-    "region": "Dueling Peaks",
-    "type": "",
-    "location": "Southeast of Dueling Peaks Stable, across the river west of Hickaly Woods, hidden in the cliff.",
-    "items": [],
-    "shrineQuests": []
+  "jitan-sami": {
+    "id": "jitan-sami",
+    "name": "Jitan Sa’mi",
+    "region": "Hateno",
+    "type": "blessing",
+    "location": "On the summit of Mount Lanayru",
+    "items": [
+      "Frostspear"
+    ],
+    "shrineQuests": [
+      "the-spring-of-wisdom"
+    ]
   },
-  "noya-neha": {
-    "id": "noya-neha",
-    "name": "Noya Neha",
-    "region": "Central Hyrule",
-    "type": "",
-    "location": "Hidden inside a small cave on the island to the West of Hyrule Castle. You will need to remove the Bramble Surrounding it, then blow up the rocks blocking the entrance.",
-    "items": [],
+  "mezza-lo": {
+    "id": "mezza-lo",
+    "name": "Mezza Lo",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Rabia Plain, which is Northeast of Kakariko Village in the Hateno Region.",
+    "items": [
+      "Thunderblade"
+    ],
+    "shrineQuests": [
+      "the-crowned-beast"
+    ]
+  },
+  "dow-naeh": {
+    "id": "dow-naeh",
+    "name": "Dow Na’eh",
+    "region": "Hateno",
+    "type": "puzzle",
+    "location": "Behind the waterfall in the Lanayru Promenade, north of Hateno Tower.",
+    "items": [
+      "Opal",
+      "Zora Sword",
+      "Amber"
+    ],
     "shrineQuests": []
   },
   "maag-norah": {
@@ -415,7 +699,9 @@
     "region": "Ridgeland",
     "type": "blessing",
     "location": "Hidden behind rocks in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine.",
-    "items": ["Silver Rupee"],
+    "items": [
+      "Silver Rupee"
+    ],
     "shrineQuests": []
   },
   "mogg-latan": {
@@ -424,18 +710,11 @@
     "region": "Ridgeland",
     "type": "puzzle",
     "location": "In the Satori Mountains, south of Hyrule Ridge and the Ridgeland Tower.",
-    "items": ["Korok weapon"],
+    "items": [
+      "Korok weapon"
+    ],
     "shrineQuests": [],
     "__flag": "items"
-  },
-  "sha-warvo": {
-    "id": "sha-warvo",
-    "name": "Sha Warvo",
-    "region": "Tabantha",
-    "type": "puzzle",
-    "location": "Northwest of Rito Village, on a small plateau above the road leading to the Flight Range.",
-    "items": ["Purple Rupee", "Knight’s Bow"],
-    "shrineQuests": []
   },
   "shae-loya": {
     "id": "shae-loya",
@@ -447,24 +726,6 @@
       "Topaz",
       "Falcon Bow"
     ],
-    "shrineQuests": []
-  },
-  "pumaag-nitae": {
-    "id": "pumaag-nitae",
-    "name": "Pumaag Nitae",
-    "region": "Lake Hylia",
-    "type": "minor-test-of-strength",
-    "location": "Between Pagos Woods and Finra Woods.",
-    "items": ["Boomerang"],
-    "shrineQuests": []
-  },
-  "ishto-soh": {
-    "id": "ishto-soh",
-    "name": "Ishto Soh",
-    "region": "Lake Hylia",
-    "type": "puzzle",
-    "location": "East of Daval Peak and atop a small plateau, near a plume of smoke from a campfire neaby.",
-    "items": ["Topaz", "Ancient Core"],
     "shrineQuests": []
   },
   "toh-yahsa": {
@@ -487,7 +748,47 @@
     "region": "Ridgeland",
     "type": "puzzle",
     "location": "Southeast of Ridgeland Tower and west of Hyrule Castle.",
-    "items": ["Knight’s Bow"],
+    "items": [
+      "Knight’s Bow"
+    ],
+    "shrineQuests": []
+  },
+  "sheem-dagoze": {
+    "id": "sheem-dagoze",
+    "name": "Sheem Dagoze",
+    "region": "Ridgeland",
+    "type": "puzzle",
+    "location": "South of Ridgeland Tower, just north of the bridge connecting West Hyrule Plains to Nima Plain.",
+    "items": [
+      "Great Thunderblade"
+    ],
+    "shrineQuests": [
+      "the-two-rings"
+    ]
+  },
+  "mijah-rokee": {
+    "id": "mijah-rokee",
+    "name": "Mijah Rokee",
+    "region": "Ridgeland",
+    "type": "modest-test-of-strength",
+    "location": "Washa’s Bluff.",
+    "items": [
+      "Frostblade"
+    ],
+    "shrineQuests": [
+      "under-a-red-moon"
+    ]
+  },
+  "sha-warvo": {
+    "id": "sha-warvo",
+    "name": "Sha Warvo",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Northwest of Rito Village, on a small plateau above the road leading to the Flight Range.",
+    "items": [
+      "Purple Rupee",
+      "Knight’s Bow"
+    ],
     "shrineQuests": []
   },
   "akh-vaquot": {
@@ -496,7 +797,9 @@
     "region": "Tabantha",
     "type": "puzzle",
     "location": "Rito Village, north of Tabantha Tower.",
-    "items": ["Ancient Core"],
+    "items": [
+      "Ancient Core"
+    ],
     "shrineQuests": []
   },
   "tena-kosah": {
@@ -508,6 +811,45 @@
     "items": [],
     "shrineQuests": [],
     "__flag": "items"
+  },
+  "kah-okeo": {
+    "id": "kah-okeo",
+    "name": "Kah Okeo",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Southwest corner of the Tabantha Region.",
+    "items": [
+      "Korok Leaf",
+      "Gold Rupee",
+      "Forest Dweller’s Sword"
+    ],
+    "shrineQuests": []
+  },
+  "voo-lota": {
+    "id": "voo-lota",
+    "name": "Voo Lota",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "West of Rito Village, across the gorge near Passer Hill.",
+    "items": [
+      "Flameblade"
+    ],
+    "shrineQuests": [
+      "recital-at-warblers-nest"
+    ]
+  },
+  "bareeda-naag": {
+    "id": "bareeda-naag",
+    "name": "Bareeda Naag",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Directly south of Rito Village.",
+    "items": [
+      "Diamond"
+    ],
+    "shrineQuests": [
+      "the-ancient-rito-song"
+    ]
   },
   "dako-tah": {
     "id": "dako-tah",
@@ -525,6 +867,140 @@
       "the-eye-of-the-sandstorm"
     ]
   },
+  "daqo-chisay": {
+    "id": "daqo-chisay",
+    "name": "Daqo Chisay",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Right outside of Gerudo Town.",
+    "items": [
+      "Thunderblade"
+    ],
+    "shrineQuests": []
+  },
+  "jee-noh": {
+    "id": "jee-noh",
+    "name": "Jee Noh",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Directly East of the Wasteland Tower, southwest of Mount Hylia.",
+    "items": [
+      "Opal"
+    ],
+    "shrineQuests": []
+  },
+  "kay-noh": {
+    "id": "kay-noh",
+    "name": "Kay Noh",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "East of Wasteland Tower and just south of Gerudo Canyon Stable.",
+    "items": [
+      "Gerudo Scimitar"
+    ],
+    "shrineQuests": []
+  },
+  "misae-suma": {
+    "id": "misae-suma",
+    "name": "Misae Suma",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Far southeast corner of the Gerudo Desert.",
+    "items": [
+      "Diamond"
+    ],
+    "shrineQuests": [
+      "the-perfect-drink"
+    ]
+  },
+  "kema-zoos": {
+    "id": "kema-zoos",
+    "name": "Kema Zoos",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Northwest of Gerudo Town in a sandstorm.",
+    "items": [
+      "Moonlight Scimitar"
+    ],
+    "shrineQuests": [
+      "the-silent-swordswomen"
+    ]
+  },
+  "dila-maag": {
+    "id": "dila-maag",
+    "name": "Dila Maag",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Center of South Lomei Labyrinth, east of Gerudo, west of Mount Granajh.",
+    "items": [
+      "Barbarian armor piece"
+    ],
+    "shrineQuests": [
+      "the-desert-labyrinth"
+    ]
+  },
+  "tho-kayu": {
+    "id": "tho-kayu",
+    "name": "Tho Kayu",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Buried in the Toruma Dunes, to the West of Gerudo Town. Defeat the Molduga and light the four torches in the area.",
+    "items": [
+      "Golden Bow"
+    ],
+    "shrineQuests": []
+  },
+  "korsh-ohu": {
+    "id": "korsh-ohu",
+    "name": "Korsh O’hu",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
+    "items": [
+      "Flamespear"
+    ],
+    "shrineQuests": [
+      "the-seven-heroines"
+    ]
+  },
+  "suma-sahma": {
+    "id": "suma-sahma",
+    "name": "Suma Sahma",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Between Mount Granajh and Daval Peak, southeast of the Wasteland Tower.",
+    "items": [
+      "Moonlight Scimitar"
+    ],
+    "shrineQuests": [
+      "secret-of-the-snowy-peaks"
+    ]
+  },
+  "raqa-zunzo": {
+    "id": "raqa-zunzo",
+    "name": "Raqa Zunzo",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Immediately south of Gerudo Town.",
+    "items": [
+      "Radiant Shield"
+    ],
+    "shrineQuests": [
+      "the-undefeated-champ"
+    ]
+  },
+  "hawa-koth": {
+    "id": "hawa-koth",
+    "name": "Hawa Koth",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Very far southwest corner of the map, under the Leviathan skeleton with a Great Fairy fountain.",
+    "items": [
+      "Ancient Core",
+      "Gold Rupee"
+    ],
+    "shrineQuests": []
+  },
   "joloo-nah": {
     "id": "joloo-nah",
     "name": "Joloo Nah",
@@ -536,33 +1012,6 @@
       "a-test-of-will"
     ]
   },
-  "daqo-chisay": {
-    "id": "daqo-chisay",
-    "name": "Daqo Chisay",
-    "region": "Wasteland",
-    "type": "puzzle",
-    "location": "Right outside of Gerudo Town.",
-    "items": ["Thunderblade"],
-    "shrineQuests": []
-  },
-  "jee-noh": {
-    "id": "jee-noh",
-    "name": "Jee Noh",
-    "region": "Wasteland",
-    "type": "puzzle",
-    "location": "Directly East of the Wasteland Tower, southwest of Mount Hylia.",
-    "items": ["Opal"],
-    "shrineQuests": []
-  },
-  "kay-noh": {
-    "id": "kay-noh",
-    "name": "Kay Noh",
-    "region": "Wasteland",
-    "type": "puzzle",
-    "location": "East of Wasteland Tower and just south of Gerudo Canyon Stable.",
-    "items": ["Gerudo Scimitar"],
-    "shrineQuests": []
-  },
   "kuh-takkar": {
     "id": "kuh-takkar",
     "name": "Kuh Takkar",
@@ -571,6 +1020,48 @@
     "location": "Eastern Part of Gerudo Highlands, hidden behind a thick layer of ice.",
     "items": [],
     "shrineQuests": []
+  },
+  "sasa-kai": {
+    "id": "sasa-kai",
+    "name": "Sasa Kai",
+    "region": "Gerudo Desert",
+    "type": "modest-test-of-strength",
+    "location": "Southeast of the Gerudo Tower.",
+    "items": [],
+    "shrineQuests": [
+      "sign-of-the-shadow"
+    ]
+  },
+  "kema-kosassa": {
+    "id": "kema-kosassa",
+    "name": "Kema Kosassa",
+    "region": "Gerudo Desert",
+    "type": "",
+    "location": "Just below the foot of Mount Agaat, near the Western Edge of the Gerudo Highlands.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "sho-dantu": {
+    "id": "sho-dantu",
+    "name": "Sho Dantu",
+    "region": "Gerudo Desert",
+    "type": "",
+    "location": "Northwest of Gerudo Tower, on a plateau above the Yiga Clan.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "keeha-yoog": {
+    "id": "keeha-yoog",
+    "name": "Keeha Yoog",
+    "region": "Gerudo Desert",
+    "type": "blessing",
+    "location": "Gerudo Highlands to the East of Gerudo Summit.",
+    "items": [
+      "Diamond"
+    ],
+    "shrineQuests": [
+      "cliffside-etchings"
+    ]
   },
   "daag-chokah": {
     "id": "daag-chokah",
@@ -623,267 +1114,36 @@
     "items": [],
     "shrineQuests": []
   },
-  "ritaag-zumo": {
-    "id": "ritaag-zumo",
-    "name": "Ritaag Zumo",
-    "region": "Akkala",
-    "type": "",
-    "location": "Center of the Rist Peninsula which is located east of the Akkala Highlands.",
-    "items": [],
-    "shrineQuests": [
-      "into-the-vortex"
-    ]
-  },
-  "tu-kaloh": {
-    "id": "tu-kaloh",
-    "name": "Tu Ka’loh",
-    "region": "Akkala",
+  "ketoh-wawai": {
+    "id": "ketoh-wawai",
+    "name": "Ketoh Wawai",
+    "region": "Woodland",
     "type": "blessing",
-    "location": "Far northeast corner of the Akkala Tower Region on an isolated island.",
-    "items": [],
-    "shrineQuests": [
-      "trial-of-the-labyrinth"
-    ]
-  },
-  "tutsuwa-nima": {
-    "id": "tutsuwa-nima",
-    "name": "Tutsuwa Nima",
-    "region": "Akkala",
-    "type": "major-test-of-strength",
-    "location": "Behind the Spring of Power, east of East Akkala Stable.",
-    "items": [],
-    "shrineQuests": [
-      "the-spring-of-power"
-    ]
-  },
-  "kayra-mah": {
-    "id": "kayra-mah",
-    "name": "Kayra Mah",
-    "region": "Eldin",
-    "type": "puzzle",
-    "location": "Just southwest of the Gorko Lake within the Gorko Tunnel.",
-    "items": [],
-    "shrineQuests": [
-      "a-brothers-roast"
-    ]
-  },
-  "shae-katha": {
-    "id": "shae-katha",
-    "name": "Shae Katha",
-    "region": "Lake Hylia",
-    "type": "blessing",
-    "location": "East from Lake Tower along the road through Faron Forest.",
-    "items": [],
-    "shrineQuests": [
-      "the-serpents-jaws"
-    ]
-  },
-  "kao-magakh": {
-    "id": "kao-magakh",
-    "name": "Ka’o Magakh",
-    "region": "Lake Hylia",
-    "type": "",
-    "location": "South of the Highland stable after a short climb.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "misae-suma": {
-    "id": "misae-suma",
-    "name": "Misae Suma",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "Far southeast corner of the Gerudo Desert.",
-    "items": ["Diamond"],
-    "shrineQuests": [
-      "the-perfect-drink"
-    ]
-  },
-  "sasa-kai": {
-    "id": "sasa-kai",
-    "name": "Sasa Kai",
-    "region": "Gerudo Desert",
-    "type": "modest-test-of-strength",
-    "location": "Southeast of the Gerudo Tower.",
-    "items": [],
-    "shrineQuests": [
-      "sign-of-the-shadow"
-    ]
-  },
-  "kema-kosassa": {
-    "id": "kema-kosassa",
-    "name": "Kema Kosassa",
-    "region": "Gerudo Desert",
-    "type": "",
-    "location": "Just below the foot of Mount Agaat, near the Western Edge of the Gerudo Highlands.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "kema-zoos": {
-    "id": "kema-zoos",
-    "name": "Kema Zoos",
-    "region": "Wasteland",
-    "type": "puzzle",
-    "location": "Northwest of Gerudo Town in a sandstorm.",
-    "items": ["Moonlight Scimitar"],
-    "shrineQuests": [
-      "the-silent-swordswomen"
-    ]
-  },
-  "dila-maag": {
-    "id": "dila-maag",
-    "name": "Dila Maag",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "Center of South Lomei Labyrinth, east of Gerudo, west of Mount Granajh.",
-    "items": ["Barbarian armor piece"],
-    "shrineQuests": [
-      "the-desert-labyrinth"
-    ]
-  },
-  "tho-kayu": {
-    "id": "tho-kayu",
-    "name": "Tho Kayu",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "Buried in the Toruma Dunes, to the West of Gerudo Town. Defeat the Molduga and light the four torches in the area.",
-    "items": ["Golden Bow"],
-    "shrineQuests": []
-  },
-  "korsh-ohu": {
-    "id": "korsh-ohu",
-    "name": "Korsh O’hu",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
-    "items": ["Flamespear"],
-    "shrineQuests": [
-      "the-seven-heroines"
-    ]
-  },
-  "suma-sahma": {
-    "id": "suma-sahma",
-    "name": "Suma Sahma",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "Between Mount Granajh and Daval Peak, southeast of the Wasteland Tower.",
-    "items": ["Moonlight Scimitar"],
-    "shrineQuests": [
-      "secret-of-the-snowy-peaks"
-    ]
-  },
-  "raqa-zunzo": {
-    "id": "raqa-zunzo",
-    "name": "Raqa Zunzo",
-    "region": "Wasteland",
-    "type": "blessing",
-    "location": "Immediately south of Gerudo Town.",
-    "items": ["Radiant Shield"],
-    "shrineQuests": [
-      "the-undefeated-champ"
-    ]
-  },
-  "hawa-koth": {
-    "id": "hawa-koth",
-    "name": "Hawa Koth",
-    "region": "Wasteland",
-    "type": "puzzle",
-    "location": "Very far southwest corner of the map, under the Leviathan skeleton with a Great Fairy fountain.",
+    "location": "Typhlo ruins",
     "items": [
-      "Ancient Core",
-      "Gold Rupee"
-    ],
-    "shrineQuests": []
-  },
-  "sho-dantu": {
-    "id": "sho-dantu",
-    "name": "Sho Dantu",
-    "region": "Gerudo Desert",
-    "type": "",
-    "location": "Northwest of Gerudo Tower, on a plateau above the Yiga Clan.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "tawa-jinn": {
-    "id": "tawa-jinn",
-    "name": "Tawa Jinn",
-    "region": "Faron",
-    "type": "blessing",
-    "location": "Just above the Taran Pass to the West.",
-    "items": [],
-    "shrineQuests": [
-      "the-three-giant-brothers"
-    ]
-  },
-  "kam-urog": {
-    "id": "kam-urog",
-    "name": "Kam Urog",
-    "region": "Hateno",
-    "type": "puzzle",
-    "location": "Just past Fort Hateno.",
-    "items": [
-      "Opal",
-      "Soldier’s Spear"
+      "Ancient Core"
     ],
     "shrineQuests": [
-      "the-cursed-statue"
+      "shrouded-shrine"
     ]
   },
-  "kah-yah": {
-    "id": "kah-yah",
-    "name": "Kah Yah",
-    "region": "Faron",
-    "type": "puzzle",
-    "location": "Near the Palmorae Ruins.",
+  "mirro-shaz": {
+    "id": "mirro-shaz",
+    "name": "Mirro Shaz",
+    "region": "Woodland",
+    "type": "",
+    "location": "Northeast of Woodland Stable.",
     "items": [],
-    "shrineQuests": [
-      "a-fragmented-monument"
-    ]
-  },
-  "kah-okeo": {
-    "id": "kah-okeo",
-    "name": "Kah Okeo",
-    "region": "Tabantha",
-    "type": "puzzle",
-    "location": "Southwest corner of the Tabantha Region.",
-    "items": [
-      "Korok Leaf",
-      "Gold Rupee",
-      "Forest Dweller’s Sword"
-    ],
     "shrineQuests": []
   },
-  "lakna-rokee": {
-    "id": "lakna-rokee",
-    "name": "Lakna Rokee",
-    "region": "Dueling Peaks",
-    "type": "blessing",
-    "location": "Hidden in the forest with the fairy fountain directly east of Kakariko Village.",
+  "rona-kachta": {
+    "id": "rona-kachta",
+    "name": "Rona Kachta",
+    "region": "Woodland",
+    "type": "",
+    "location": "Northeast end of the Tanagar Caynon, inside the Forgotten Temple.",
     "items": [],
-    "shrineQuests": [
-      "the-stolen-heirloom"
-    ]
-  },
-  "shoqa-tatone": {
-    "id": "shoqa-tatone",
-    "name": "Shoqa Tatone",
-    "region": "Lake Hylia",
-    "type": "modest-test-of-strength",
-    "location": "On the western end of Puffer Beach, to the south of Lake Tower.",
-    "items": [],
-    "shrineQuests": [
-      "guardian-slideshow"
-    ]
-  },
-  "qukah-nata": {
-    "id": "qukah-nata",
-    "name": "Qukah Nata",
-    "region": "Faron",
-    "type": "blessing",
-    "location": "On a hill just south of Calora Lake.",
-    "items": [],
-    "shrineQuests": [
-      "a-song-of-storms"
-    ]
+    "shrineQuests": []
   },
   "mozo-shenno": {
     "id": "mozo-shenno",
@@ -891,31 +1151,11 @@
     "region": "Hebra",
     "type": "major-test-of-strength",
     "location": "Northwestern area of the Hebra Region, in a small cave on the eastern cliffside of Biron Snowshelf.",
-    "items": ["Diamond"],
+    "items": [
+      "Diamond"
+    ],
     "shrineQuests": [
       "the-bird-in-the-mountains"
-    ]
-  },
-  "voo-lota": {
-    "id": "voo-lota",
-    "name": "Voo Lota",
-    "region": "Tabantha",
-    "type": "puzzle",
-    "location": "West of Rito Village, across the gorge near Passer Hill.",
-    "items": ["Flameblade"],
-    "shrineQuests": [
-      "recital-at-warblers-nest"
-    ]
-  },
-  "bareeda-naag": {
-    "id": "bareeda-naag",
-    "name": "Bareeda Naag",
-    "region": "Tabantha",
-    "type": "puzzle",
-    "location": "Directly south of Rito Village.",
-    "items": ["Diamond"],
-    "shrineQuests": [
-      "the-ancient-rito-song"
     ]
   },
   "qaza-tokki": {
@@ -924,86 +1164,11 @@
     "region": "Hebra",
     "type": "blessing",
     "location": "Northeast of the North Tabantha Snowfield.",
-    "items": ["Barbarian armor piece"],
+    "items": [
+      "Barbarian armor piece"
+    ],
     "shrineQuests": [
       "trial-on-the-cliff"
-    ]
-  },
-  "jitan-sami": {
-    "id": "jitan-sami",
-    "name": "Jitan Sa’mi",
-    "region": "Hateno",
-    "type": "blessing",
-    "location": "On the summit of Mount Lanayru",
-    "items": ["Frostspear"],
-    "shrineQuests": [
-      "the-spring-of-wisdom"
-    ]
-  },
-  "mezza-lo": {
-    "id": "mezza-lo",
-    "name": "Mezza Lo",
-    "region": "Hateno",
-    "type": "puzzle",
-    "location": "Rabia Plain, which is Northeast of Kakariko Village in the Hateno Region.",
-    "items": ["Thunderblade"],
-    "shrineQuests": [
-      "the-crowned-beast"
-    ]
-  },
-  "shai-yota": {
-    "id": "shai-yota",
-    "name": "Shai Yota",
-    "region": "Lanayru",
-    "type": "blessing",
-    "location": "Horon Lagoon, north of Lanayru Bay, nestled between Brynna Plain and Talus Plateau.",
-    "items": ["Great Flameblade"],
-    "shrineQuests": [
-      "master-of-the-wind"
-    ]
-  },
-  "sheem-dagoze": {
-    "id": "sheem-dagoze",
-    "name": "Sheem Dagoze",
-    "region": "Ridgeland",
-    "type": "puzzle",
-    "location": "South of Ridgeland Tower, just north of the bridge connecting West Hyrule Plains to Nima Plain.",
-    "items": ["Great Thunderblade"],
-    "shrineQuests": [
-      "the-two-rings"
-    ]
-  },
-  "ketoh-wawai": {
-    "id": "ketoh-wawai",
-    "name": "Ketoh Wawai",
-    "region": "Woodland",
-    "type": "blessing",
-    "location": "Typhlo ruins",
-    "items": ["Ancient Core"],
-    "shrineQuests": [
-      "shrouded-shrine"
-    ]
-  },
-  "mijah-rokee": {
-    "id": "mijah-rokee",
-    "name": "Mijah Rokee",
-    "region": "Ridgeland",
-    "type": "modest-test-of-strength",
-    "location": "Washa’s Bluff.",
-    "items": ["Frostblade"],
-    "shrineQuests": [
-      "under-a-red-moon"
-    ]
-  },
-  "keeha-yoog": {
-    "id": "keeha-yoog",
-    "name": "Keeha Yoog",
-    "region": "Gerudo Desert",
-    "type": "blessing",
-    "location": "Gerudo Highlands to the East of Gerudo Summit.",
-    "items": ["Diamond"],
-    "shrineQuests": [
-      "cliffside-etchings"
     ]
   },
   "hia-miu": {
@@ -1012,7 +1177,9 @@
     "region": "Hebra",
     "type": "major-test-of-strength",
     "location": "Far northwest corner of the map, at the base of the icefall foothills.",
-    "items": ["Sapphire"],
+    "items": [
+      "Sapphire"
+    ],
     "shrineQuests": []
   },
   "shada-naw": {
@@ -1021,7 +1188,9 @@
     "region": "Hebra",
     "type": "puzzle",
     "location": "Center of the Hebra Region, to the northwest of Hebra Peak, in a small cave just north of Selmie’s Spot.",
-    "items": ["Great Frostblade"],
+    "items": [
+      "Great Frostblade"
+    ],
     "shrineQuests": []
   },
   "sha-gehma": {
@@ -1030,7 +1199,9 @@
     "region": "Hebra",
     "type": "puzzle",
     "location": "Very far North of the Tabantha Snowfields.",
-    "items": ["Royal Broadsword"],
+    "items": [
+      "Royal Broadsword"
+    ],
     "shrineQuests": []
   },
   "goma-asaagh": {
@@ -1039,7 +1210,9 @@
     "region": "Hebra",
     "type": "major-test-of-strength",
     "location": "Hidden in a small cave at the foot of Hebra Peak, behind a large block of ice.",
-    "items": ["Royal Claymore"],
+    "items": [
+      "Royal Claymore"
+    ],
     "shrineQuests": []
   },
   "to-quomo": {
@@ -1048,7 +1221,9 @@
     "region": "Hebra",
     "type": "blessing",
     "location": "Hidden inside a cave, near a pond to the East of the Hebra North Summit.",
-    "items": ["Royal Claymore"],
+    "items": [
+      "Royal Claymore"
+    ],
     "shrineQuests": []
   },
   "rok-uwog": {
@@ -1080,7 +1255,9 @@
     "region": "Hebra",
     "type": "puzzle",
     "location": "South Tabantha Snowfield, just west of Snowfield Stable, northwest of Hebra Tower.",
-    "items": ["Ancient Core"],
+    "items": [
+      "Ancient Core"
+    ],
     "shrineQuests": []
   },
   "lanno-kooh": {
@@ -1089,7 +1266,9 @@
     "region": "Hebra",
     "type": "blessing",
     "location": "Underwater cave south of Hebra Falls, east of Hebra Plunge.",
-    "items": ["Gold Rupee"],
+    "items": [
+      "Gold Rupee"
+    ],
     "shrineQuests": []
   },
   "dunba-taag": {
@@ -1108,101 +1287,9 @@
     "region": "Hebra",
     "type": "puzzle",
     "location": "North West of Hebra Tower in the Tabantha Tundra area, behind a locked door",
-    "items": ["Diamond"],
-    "shrineQuests": []
-  },
-  "dow-naeh": {
-    "id": "dow-naeh",
-    "name": "Dow Na’eh",
-    "region": "Hateno",
-    "type": "puzzle",
-    "location": "Behind the waterfall in the Lanayru Promenade, north of Hateno Tower.",
     "items": [
-      "Opal",
-      "Zora Sword",
-      "Amber"
+      "Diamond"
     ],
-    "shrineQuests": []
-  },
-  "kah-mael": {
-    "id": "kah-mael",
-    "name": "Kah Mael",
-    "region": "Lanayru",
-    "type": "",
-    "location": "Tingel Island, hidden by large slab",
-    "items": [],
-    "shrineQuests": []
-  },
-  "kenai-shakah": {
-    "id": "kenai-shakah",
-    "name": "Ke’nai Shakah",
-    "region": "Akkala",
-    "type": "",
-    "location": "Below a Cliff NorthEast of Zora’s Domain, hidden behind some rocks.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "mirro-shaz": {
-    "id": "mirro-shaz",
-    "name": "Mirro Shaz",
-    "region": "Woodland",
-    "type": "",
-    "location": "Northeast of Woodland Stable.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "rona-kachta": {
-    "id": "rona-kachta",
-    "name": "Rona Kachta",
-    "region": "Woodland",
-    "type": "",
-    "location": "Northeast end of the Tanagar Caynon, inside the Forgotten Temple.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "yah-rin": {
-    "id": "yah-rin",
-    "name": "Yah Rin",
-    "region": "Faron",
-    "type": "puzzle",
-    "location": "SouthEast of the Faron Region, overlooking the Lurelin Village.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "shoda-sah": {
-    "id": "shoda-sah",
-    "name": "Shoda Sah",
-    "region": "Faron",
-    "type": "",
-    "location": "Hidden behind some waterfalls just south of Riola Spring.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "shai-utoh": {
-    "id": "shai-utoh",
-    "name": "Shai Utoh",
-    "region": "Faron",
-    "type": "",
-    "location": "South of the Lakeside Stable, hidden behind rocks in a natural rock cave.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "je-baij": {
-    "id": "je-baij",
-    "name": "Je Baij",
-    "region": "Great Plateau",
-    "type": "",
-    "location": "Eastern area of the Great Plateau, just to the South of the Resurrection Tower in the Eastern Abbey ruins.",
-    "items": [],
-    "shrineQuests": []
-  },
-  "keh-namut": {
-    "id": "keh-namut",
-    "name": "Keh Namut",
-    "region": "Great Plateau",
-    "type": "",
-    "location": "Western area of the Great Plateau, at the top of Mount Hylia.",
-    "items": [],
     "shrineQuests": []
   }
 }
