@@ -8,10 +8,10 @@
     "url": "git@github.com:kavsingh/basics-react-express.git",
     "type": "git"
   },
-  "main": "index.js",
+  "main": "server/index.js",
   "private": true,
   "scripts": {
-    "start": "npm run dev",
+    "start": "NODE_ENV=production node server/index.js",
     "dev": "NODE_ENV=development nodemon server/index.js",
     "build": "rimraf dist && NODE_ENV=production webpack --colors --progress",
     "lint:js": "eslint .",
@@ -21,13 +21,13 @@
     "test:watch": "npm t -- --watch",
     "test:viewreport": "open coverage/lcov-report/index.html",
     "test:full": "npm run test:coverage -- --verbose && npm run test:viewreport",
-    "prod": "npm run build && NODE_ENV=production node server/index.js"
+    "prod": "npm run build && npm run start"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.2",
+    "babel-eslint": "^7.2.3",
     "babel-jest": "^19.0.0",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^7.0.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
@@ -75,7 +75,7 @@
     "stylelint-config-standard": "^16.0.0",
     "svg-inline-loader": "^0.7.1",
     "webpack": "^2.4.1",
-    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-middleware": "^1.10.2",
     "webpack-hot-middleware": "^2.18.0"
   },
   "dependencies": {
