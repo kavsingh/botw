@@ -897,7 +897,7 @@
     "region": "Hebra",
     "type": "major-test-of-strength",
     "location": "Northwestern area of the Hebra Region, in a small cave on the eastern cliffside of Biron Snowshelf.",
-    "items": [],
+    "items": ["Diamond"],
     "shrineQuests": [
       "the-bird-in-the-mountains"
     ]
@@ -1011,5 +1011,110 @@
     "shrineQuests": [
       "cliffside-etchings"
     ]
+  },
+  "hia-miu": {
+    "id": "hia-miu",
+    "name": "Hia Miu",
+    "region": "Hebra",
+    "type": "major-test-of-strength",
+    "location": "Far northwest corner of the map, at the base of the icefall foothills.",
+    "items": ["Sapphire"],
+    "shrineQuests": []
+  },
+  "shada-naw": {
+    "id": "shada-naw",
+    "name": "Shada Naw",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "Center of the Hebra Region, to the northwest of Hebra Peak, in a small cave just north of Selmie’s Spot.",
+    "items": ["Great Frostblade"],
+    "shrineQuests": []
+  },
+  "sha-gehma": {
+    "id": "sha-gehma",
+    "name": "Sha Gehma",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "Very far North of the Tabantha Snowfields.",
+    "items": ["Royal Broadsword"],
+    "shrineQuests": []
+  },
+  "goma-asaagh": {
+    "id": "goma-asaagh",
+    "name": "Goma Asaagh",
+    "region": "Hebra",
+    "type": "major-test-of-strength",
+    "location": "Hidden in a small cave at the foot of Hebra Peak, behind a large block of ice.",
+    "items": ["Royal Claymore"],
+    "shrineQuests": []
+  },
+  "to-quomo": {
+    "id": "to-quomo",
+    "name": "To Quomo",
+    "region": "Hebra",
+    "type": "blessing",
+    "location": "Hidden inside a cave, near a pond to the East of the Hebra North Summit.",
+    "items": ["Royal Claymore"],
+    "shrineQuests": []
+  },
+  "rok-uwog": {
+    "id": "rok-uwog",
+    "name": "Rok Uwog",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "North of the Hebra Tower and at the North End of Pikida Stonegrove.",
+    "items": [],
+    "shrineQuests": [],
+    "__flag": "items"
+  },
+  "maka-rah": {
+    "id": "maka-rah",
+    "name": "Maka Rah",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "Centermost area of Lake Kilsie, hidden in the side of a cliff near a wooden pier about halfway along the Western side of Lake Hylia, to the SouthWest of rito Village.",
+    "items": [
+      "10 Bomb Arrows",
+      "Diamond",
+      "Ancient Core"
+    ],
+    "shrineQuests": []
+  },
+  "rin-oyaa": {
+    "id": "rin-oyaa",
+    "name": "Rin Oyaa",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "South Tabantha Snowfield, just west of Snowfield Stable, northwest of Hebra Tower.",
+    "items": ["Ancient Core"],
+    "shrineQuests": []
+  },
+  "lanno-kooh": {
+    "id": "lanno-kooh",
+    "name": "Lanno Kooh",
+    "region": "Hebra",
+    "type": "blessing",
+    "location": "Underwater cave south of Hebra Falls, east of Hebra Plunge.",
+    "items": ["Gold Rupee"],
+    "shrineQuests": []
+  },
+  "dunba-taag": {
+    "id": "dunba-taag",
+    "name": "Dunba Taag",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "Southwest of Hebra Tower, at the Bottom of Tanagar Caynon, south of Tama Pond.",
+    "items": [],
+    "shrineQuests": [],
+    "__flag": "items"
+  },
+  "gee-harah": {
+    "id": "gee-harah",
+    "name": "Gee Ha’Rah",
+    "region": "Hebra",
+    "type": "puzzle",
+    "location": "North West of Hebra Tower in the Tabantha Tundra area, behind a locked door",
+    "items": ["Diamond"],
+    "shrineQuests": []
   }
 }
