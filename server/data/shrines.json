@@ -282,7 +282,7 @@
   "daka-tuss": {
     "id": "daka-tuss",
     "name": "Daka Tuss",
-    "region": "Lanayru",
+    "region": "Faron",
     "type": "",
     "location": "South side of the Lanayru Wetlands.",
     "items": [],
@@ -365,7 +365,7 @@
   "korgu-chideh": {
     "id": "korgu-chideh",
     "name": "Korgu Chideh",
-    "region": "Necluda",
+    "region": "Faron",
     "type": "",
     "location": "Island far southeast of Hateno Village. Use the raft from the Chaas Qeta shrine to get there.",
     "items": [],
@@ -376,7 +376,7 @@
   "muwo-jeem": {
     "id": "muwo-jeem",
     "name": "Muwo Jeem",
-    "region": "Necluda",
+    "region": "Faron",
     "type": "",
     "location": "Due south of Hateno Village on the edge of a cliff.",
     "items": [],
@@ -1166,6 +1166,33 @@
     "region": "Woodland",
     "type": "",
     "location": "Northeast end of the Tanagar Caynon, inside the Forgotten Temple.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "yah-rin": {
+    "id": "yah-rin",
+    "name": "Yah Rin",
+    "region": "Faron",
+    "type": "puzzle",
+    "location": "SouthEast of the Faron Region, overlooking the Lurelin Village.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shoda-sah": {
+    "id": "shoda-sah",
+    "name": "Shoda Sah",
+    "region": "Faron",
+    "type": "",
+    "location": "Hidden behind some waterfalls just south of Riola Spring.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "shai-utoh": {
+    "id": "shai-utoh",
+    "name": "Shai Utoh",
+    "region": "Faron",
+    "type": "",
+    "location": "South of the Lakeside Stable, hidden behind rocks in a natural rock cave.",
     "items": [],
     "shrineQuests": []
   }
