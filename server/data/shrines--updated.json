@@ -1,0 +1,582 @@
+{
+  "dan-hesho": {
+    "id": "dan-hesho",
+    "name": "Dan Hesho",
+    "region": "Akkala",
+    "location": "In the fields northeast of Zora’s Domain.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "katosa-aug": {
+    "id": "katosa-aug",
+    "name": "Katosa Aug",
+    "region": "Akkala",
+    "location": "East Akkala Stable",
+    "type": "",
+    "shrineQuests": []
+  },
+  "zuna-kai": {
+    "id": "zuna-kai",
+    "name": "Zuna Kai",
+    "region": "Akkala",
+    "location": "Northern Akkala, northwest portion of Deep Akkala at Skull Lake.",
+    "shrineQuests": [
+      "the-skulls-eye"
+    ],
+    "type": ""
+  },
+  "bosh-kala": {
+    "id": "bosh-kala",
+    "name": "Bosh Kala",
+    "region": "Central Hyrule",
+    "location": "South side of the Hylia River, due east of the Great Plateau Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "dah-kaso": {
+    "id": "dah-kaso",
+    "name": "Dah Kaso",
+    "region": "Central Hyrule",
+    "location": "Below the Digdogg Suspension Bridge, northwest of Keh Namut shrine and Great Plateau.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "hila-rao": {
+    "id": "hila-rao",
+    "name": "Hila Rao",
+    "region": "Central Hyrule",
+    "location": "West of Kakariko Village where the river forks.",
+    "type": "",
+    "shrineQuests": [
+      "watch-out-for-the-flowers"
+    ]
+  },
+  "ja-baij": {
+    "id": "ja-baij",
+    "name": "Ja Baij",
+    "region": "Central Hyrule",
+    "location": "Great Plateau in the Eastern Abbey.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "kaam-ya-tak": {
+    "id": "kaam-ya-tak",
+    "name": "Kaam Ya'tak",
+    "region": "Central Hyrule",
+    "location": "Southwest side of Central Hyrule in the hills southwest of Central Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "kaya-wan": {
+    "id": "kaya-wan",
+    "name": "Kaya Wan",
+    "region": "Central Hyrule",
+    "location": "West of the Lanayru Wetlands",
+    "type": "",
+    "shrineQuests": []
+  },
+  "keh-namut": {
+    "id": "keh-namut",
+    "name": "Keh Namut",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, northwest of Mount Hylia.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "oman-au": {
+    "id": "oman-au",
+    "name": "Oman Au",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, west of the Forest of Time.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "owa-daim": {
+    "id": "owa-daim",
+    "name": "Owa Daim",
+    "region": "Central Hyrule",
+    "location": "Great Plateau, east of Mount Hylia.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "wahgo-katta": {
+    "id": "wahgo-katta",
+    "name": "Wahgo Katta",
+    "region": "Central Hyrule",
+    "location": "Riverside Stable, northeast from the Forest of Time.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "daqa-koh": {
+    "id": "daqa-koh",
+    "name": "Daqa Koh",
+    "region": "Eldin",
+    "location": "East of the Goron Hot Springs, southeast of Goron City.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "gorae-torr": {
+    "id": "gorae-torr",
+    "name": "Gorae Torr",
+    "region": "Eldin",
+    "type": "blessing",
+    "location": "Just north of Death Mountain and due west of Zuna Kai shrine.",
+    "shrineQuests": [
+      "the-gut-check-challenge"
+    ]
+  },
+  "moa-keet": {
+    "id": "moa-keet",
+    "name": "Mo'a Keet",
+    "region": "Eldin",
+    "location": "Southwest of Akkala Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "qua-raym": {
+    "id": "qua-raym",
+    "name": "Qua Raym",
+    "region": "Eldin",
+    "location": "Eldin Canyon, west of Eldin Tower in the middle of a lava pool.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "sah-dahaj": {
+    "id": "sah-dahaj",
+    "name": "Sah Dahaj",
+    "region": "Eldin",
+    "location": "West of Akkala Tower, due north of Foothill Stable and Mo'a Keet shrine.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "shae-mosah": {
+    "id": "shae-mosah",
+    "name": "Shae Mo'sah",
+    "region": "Eldin",
+    "location": "Northwest of Goron City, just follow the northern path out of the city.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "shora-hah": {
+    "id": "shora-hah",
+    "name": "Shora Hah",
+    "region": "Eldin",
+    "location": "Isle of Rabac, north of the Abandoned North Mine near Goron City.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "tah-muhl": {
+    "id": "tah-muhl",
+    "name": "Tah Muhl",
+    "region": "Eldin",
+    "type": "puzzle",
+    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo'a Keet shrine.",
+    "shrineQuests": [
+      "a-landscape-of-a-stable"
+    ]
+  },
+  "ze-kasho": {
+    "id": "ze-kasho",
+    "name": "Ze Kasho",
+    "region": "Eldin",
+    "location": "Just west of the South Akkala Stable, northwest of the Akkala Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "ya-naga": {
+    "id": "ya-naga",
+    "name": "Ya Naga",
+    "region": "Lake Tower",
+    "location": "Center of Lake Hylia to the far south  of Central Hyrule on the map.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "dagah-keek": {
+    "id": "dagah-keek",
+    "name": "Dagah Keek",
+    "region": "Lanayru",
+    "location": "Veiled Falls, southwest of Zora's Domain.",
+    "type": "",
+    "shrineQuests": [
+      "the-ceremonial-song"
+    ]
+  },
+  "daka-tuss": {
+    "id": "daka-tuss",
+    "name": "Daka Tuss",
+    "region": "Lanayru",
+    "location": "South side of the Lanayru Wetlands.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "neez-yohma": {
+    "id": "neez-yohma",
+    "name": "Ne'ez Yohma",
+    "region": "Lanayru",
+    "location": "Zora’s Domain (right inside the city)",
+    "type": "",
+    "shrineQuests": []
+  },
+  "rucco-maag-shrine": {
+    "id": "rucco-maag-shrine",
+    "name": "Rucco Maag Shrine",
+    "region": "Lanayru",
+    "location": "Due south of Zora’s Domain and west of the Lanayru Great Spring.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "sheh-rata": {
+    "id": "sheh-rata",
+    "name": "Sheh Rata",
+    "region": "Lanayru",
+    "location": "Northwest of the Lanayru Wetlands in the middle of the water.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "soh-kofi": {
+    "id": "soh-kofi",
+    "name": "Soh Kofi",
+    "region": "Lanayru",
+    "location": "Northeast of the Lanayru Wetlands and due north of the Lanayru Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "taloh-naeg": {
+    "id": "taloh-naeg",
+    "name": "Ta'loh Naeg",
+    "region": "Lanayru",
+    "location": "In the cliffs just north of Kakariko Village.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "tahno-oah": {
+    "id": "tahno-oah",
+    "name": "Tahno O'ah",
+    "region": "Lanayru",
+    "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "chaas-qeta": {
+    "id": "chaas-qeta",
+    "name": "Chaas Qeta",
+    "region": "Necluda",
+    "location": "Due south of Hateno Village and northeast of Muwo Jeem shrine on a small island.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "ha-dahamar": {
+    "id": "ha-dahamar",
+    "name": "Ha Dahamar",
+    "region": "Necluda",
+    "location": "West of Dueling Peaks Stable and east of the Dueling Peaks.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "korgu-chideh": {
+    "id": "korgu-chideh",
+    "name": "Korgu Chideh",
+    "region": "Necluda",
+    "location": "Island far southeast of Hateno Village. Use the raft from the Chaas Qeta shrine to get there.",
+    "type": "",
+    "shrineQuests": [
+      "stranded-on-eventide"
+    ]
+  },
+  "muwo-jeem": {
+    "id": "muwo-jeem",
+    "name": "Muwo Jeem",
+    "region": "Necluda",
+    "location": "Due south of Hateno Village on the edge of a cliff.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "myahm-agana": {
+    "id": "myahm-agana",
+    "name": "Myahm Agana",
+    "region": "Necluda",
+    "location": "Southwest side of Hateno Village.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "ree-dahee": {
+    "id": "ree-dahee",
+    "name": "Ree Dahee",
+    "region": "Necluda",
+    "location": "North Dueling Peaks, on the high path near the west side of the Dueling Peaks passage.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "toto-sah": {
+    "id": "toto-sah",
+    "name": "Toto Sah",
+    "region": "Necluda",
+    "location": "Southeast of Dueling Peaks Stable, across the river west of Hickaly Woods, hidden in the cliff.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "noya-neha": {
+    "id": "noya-neha",
+    "name": "Noya Neha",
+    "region": "Ridgeland",
+    "location": "West of Hyrule Castle in the cliffside east of the Regencia River.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "maag-norah": {
+    "id": "maag-norah",
+    "name": "Maag No'rah",
+    "region": "Ridgeland",
+    "location": "Hidden in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "mogg-latan": {
+    "id": "mogg-latan",
+    "name": "Mogg Latan",
+    "region": "Ridgeland",
+    "location": "In the Satori Mountains, south of Hyrule Ridge and the Ridgeland Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "sha-warvo": {
+    "id": "sha-warvo",
+    "name": "Sha Warvo",
+    "region": "Ridgeland",
+    "location": "Northwest of Rito Village.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "shae-loya": {
+    "id": "shae-loya",
+    "name": "Shae Loya",
+    "region": "Ridgeland",
+    "location": "Southwest of Ridgeland Tower, due south from Tabantha Bridge Stable.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "toh-yahsa": {
+    "id": "toh-yahsa",
+    "name": "Toh Yahsa",
+    "region": "Ridgeland",
+    "location": "Hidden in the Thundra Plateau just west of Ridgeland Tower and Hyrule Castle.",
+    "type": "",
+    "shrineQuests": [
+      "trial-of-thunder"
+    ]
+  },
+  "zalta-wa": {
+    "id": "zalta-wa",
+    "name": "Zalta Wa",
+    "region": "Ridgeland",
+    "location": "Southeast of Ridgeland Tower and west of Hyrule Castle.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "akh-vaquot": {
+    "id": "akh-vaquot",
+    "name": "Akh Va'quot",
+    "region": "Tabantha",
+    "location": "Rito Village, north of Tabantha Tower.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "tena-kosah": {
+    "id": "tena-kosah",
+    "name": "Tena Ko'sah",
+    "region": "Tabantha",
+    "location": "Head west across the Tabantha Great Bridge, then look in the mountains to the south.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "dako-tah": {
+    "id": "dako-tah",
+    "name": "Dako Tah",
+    "region": "Wasteland (Gerudo)",
+    "location": "In the mountains just north of Kara Kara Bazaar.",
+    "type": "",
+    "shrineQuests": [
+      "the-eye-of-the-sandstorm"
+    ]
+  },
+  "joloo-nah": {
+    "id": "joloo-nah",
+    "name": "Joloo Nah",
+    "region": "Wasteland (Gerudo)",
+    "type": "puzzle",
+    "location": "Near Mount Nabooru",
+    "shrineQuests": [
+      "a-test-of-will"
+    ]
+  },
+  "daqo-chisay": {
+    "id": "daqo-chisay",
+    "name": "Daqo Chisay",
+    "region": "Wasteland (Gerudo)",
+    "location": "Right outside of Gerudo Town.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "jee-noh": {
+    "id": "jee-noh",
+    "name": "Jee Noh",
+    "region": "Wasteland (Gerudo)",
+    "location": "Southwest of Mount Hylia.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "kay-noh": {
+    "id": "kay-noh",
+    "name": "Kay Noh",
+    "region": "Wasteland (Gerudo)",
+    "location": "East of Wasteland Tower and just south of Gerudo Canyon Stable.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "daag-chokah": {
+    "id": "daag-chokah",
+    "name": "Daag Chokah",
+    "region": "Woodland",
+    "location": "Northwest corner of the Great Hyrule Forest.",
+    "type": "",
+    "shrineQuests": [
+      "the-lost-pilgrimage"
+    ]
+  },
+  "keo-ruug": {
+    "id": "keo-ruug",
+    "name": "Keo Ruug",
+    "region": "Woodland",
+    "location": "Korok Forest in the Lost Woods, to the right of the Master Sword.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "kuhn-sidajj": {
+    "id": "kuhn-sidajj",
+    "name": "Kuhn Sidajj",
+    "region": "Woodland",
+    "location": "Southwest corner of the Great Hyrule Forest, northwest side of Lake Saria.",
+    "type": "",
+    "shrineQuests": [
+      "trial-of-second-sight"
+    ]
+  },
+  "maag-halan": {
+    "id": "maag-halan",
+    "name": "Maag Halan",
+    "region": "Woodland",
+    "location": "Northeast corner of the Great Hyrule Forest, north side of the Mido Swamp.",
+    "type": "",
+    "shrineQuests": [
+      "the-test-of-wood"
+    ]
+  },
+  "monya-toma": {
+    "id": "monya-toma",
+    "name": "Monya Toma",
+    "region": "Woodland",
+    "location": "Southwest corner of the Woodland region, just south of the Serenne Stable.",
+    "type": "",
+    "shrineQuests": []
+  },
+  "ritaag-zumo": {
+    "id": "ritaag-zumo",
+    "name": "Ritaag Zumo",
+    "region": "Akkala",
+    "location": "Center of the Rist Peninsula which is located east of the Akkala Highlands.",
+    "shrineQuests": [
+      "into-the-vortex"
+    ],
+    "type": ""
+  },
+  "tu-kaloh": {
+    "id": "tu-kaloh",
+    "name": "Tu Ka'loh",
+    "region": "Akkala",
+    "type": "blessing",
+    "location": "Far northeast corner of the Akkala Tower Region on an isolated island.",
+    "shrineQuests": [
+      "trial-of-the-labyrinth"
+    ]
+  },
+  "tutsuwa-nima": {
+    "id": "tutsuwa-nima",
+    "name": "Tutsuwa Nima",
+    "region": "Akkala",
+    "type": "major-test-of-strength",
+    "location": "Behind the Spring of Power, east of East Akkala Stable.",
+    "shrineQuests": [
+      "the-spring-of-power"
+    ]
+  },
+  "kayra-mah": {
+    "id": "kayra-mah",
+    "name": "Kayra Mah",
+    "region": "Eldin",
+    "type": "puzzle",
+    "location": "Just southwest of the Gorko Lake within the Gorko Tunnel.",
+    "shrineQuests": [
+      "a-brothers-roast"
+    ]
+  },
+  "shae-katha": {
+    "id": "shae-katha",
+    "name": "Shae Katha",
+    "region": "Necluda",
+    "type": "blessing",
+    "location": "East from Lake Tower along the road through Faron Forest.",
+    "shrineQuests": [
+      "the-serpents-jaws"
+    ]
+  },
+  "misae-suma": {
+    "id": "misae-suma",
+    "name": "Misae Suma",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "Far southeast corner of the Gerudo Desert.",
+    "shrineQuests": [
+      "the-perfect-drink"
+    ]
+  },
+  "sasa-kai": {
+    "id": "sasa-kai",
+    "name": "Sasa Kai",
+    "region": "Wasteland (Gerudo)",
+    "type": "modest-test-of-strength",
+    "location": "Southeast of the Gerudo Tower.",
+    "shrineQuests": [
+      "sign-of-the-shadow"
+    ]
+  },
+  "kema-zoos": {
+    "id": "kema-zoos",
+    "name": "Kema Zoos",
+    "region": "Wasteland (Gerudo)",
+    "type": "puzzle",
+    "location": "Northwest of Gerudo Town in a sandstorm.",
+    "shrineQuests": [
+      "the-silent-swordswomen"
+    ]
+  },
+  "dila-maag": {
+    "id": "dila-maag",
+    "name": "Dila Maag",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "East of Gerudo, west of Mount Granajh, inside the South Lomei Labyrinth.",
+    "shrineQuests": [
+      "the-desert-labyrinth"
+    ]
+  },
+  "korsh-ohu": {
+    "id": "korsh-ohu",
+    "name": "Korsh O'hu",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
+    "shrineQuests": [
+      "the-seven-heroines"
+    ]
+  }
+}
