@@ -138,19 +138,10 @@
     "items": [],
     "shrineQuests": []
   },
-  "keh-namut": {
-    "id": "keh-namut",
-    "name": "Keh Namut",
-    "region": "Central Hyrule",
-    "type": "",
-    "location": "Great Plateau, northwest of Mount Hylia.",
-    "items": [],
-    "shrineQuests": []
-  },
   "oman-au": {
     "id": "oman-au",
     "name": "Oman Au",
-    "region": "Central Hyrule",
+    "region": "Great Plateau",
     "type": "",
     "location": "Great Plateau, west of the Forest of Time.",
     "items": [],
@@ -159,9 +150,9 @@
   "owa-daim": {
     "id": "owa-daim",
     "name": "Owa Daim",
-    "region": "Central Hyrule",
+    "region": "Great Plateau",
     "type": "",
-    "location": "Great Plateau, east of Mount Hylia.",
+    "location": "Southern area of the Great Plateau, up at the top of a steep cliff at the southeastern side of Mount Hylia.",
     "items": [],
     "shrineQuests": []
   },
@@ -1193,6 +1184,24 @@
     "region": "Faron",
     "type": "",
     "location": "South of the Lakeside Stable, hidden behind rocks in a natural rock cave.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "je-baij": {
+    "id": "je-baij",
+    "name": "Je Baij",
+    "region": "Great Plateau",
+    "type": "",
+    "location": "Eastern area of the Great Plateau, just to the South of the Resurrection Tower in the Eastern Abbey ruins.",
+    "items": [],
+    "shrineQuests": []
+  },
+  "keh-namut": {
+    "id": "keh-namut",
+    "name": "Keh Namut",
+    "region": "Great Plateau",
+    "type": "",
+    "location": "Western area of the Great Plateau, at the top of Mount Hylia.",
     "items": [],
     "shrineQuests": []
   }
