@@ -30,7 +30,7 @@ const innerSort = pipe(sort(sortHasShrineQuest), sort(sortType))
 export class Shrines extends PureComponent {
   constructor(...args) {
     super(...args)
-    this.state = { groupBy: null }
+    this.state = { groupBy: 'complete' }
     this.handleShrineClick = this.handleShrineClick.bind(this)
   }
 
