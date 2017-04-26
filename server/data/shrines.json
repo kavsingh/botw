@@ -35,9 +35,9 @@
     "items": [],
     "shrineQuests": []
   },
-  "dan-hesho": {
-    "id": "dan-hesho",
-    "name": "Dan Hesho",
+  "dah-hesho": {
+    "id": "dah-hesho",
+    "name": "Dah Hesho",
     "region": "Akkala",
     "type": "",
     "location": "In the fields northeast of Zora’s Domain.",
@@ -253,7 +253,7 @@
   "ze-kasho": {
     "id": "ze-kasho",
     "name": "Ze Kasho",
-    "region": "Eldin",
+    "region": "Akkala",
     "type": "",
     "location": "Just west of the South Akkala Stable, northwest of the Akkala Tower.",
     "items": [],
@@ -1138,7 +1138,16 @@
     "name": "Kah Mael",
     "region": "Lanayru",
     "type": "",
-    "location": "",
+    "location": "Tingel Island, hidden by large slab",
+    "items": [],
+    "shrineQuests": []
+  },
+  "kenai-shakah": {
+    "id": "kenai-shakah",
+    "name": "Ke’nai Shakah",
+    "region": "Akkala",
+    "type": "",
+    "location": "Below a Cliff NorthEast of Zora’s Domain, hidden behind some rocks.",
     "items": [],
     "shrineQuests": []
   }
