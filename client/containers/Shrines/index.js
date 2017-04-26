@@ -10,6 +10,18 @@ import Anim from '../../layouts/Anim'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
 
+const sortHasShrineQuest = ({ shrineQuests: a }, { shrineQuests: b }) => {
+  if (a.length < b.length) return 1
+  if (a.length > b.length) return -1
+  return 0
+}
+
+const sortType = ({ type: a }, { type: b }) => {
+  if (a.length < b.length) return 1
+  if (a.length > b.length) return -1
+  return 0
+}
+
 export class Shrines extends PureComponent {
   constructor(...args) {
     super(...args)
@@ -26,7 +38,9 @@ export class Shrines extends PureComponent {
     const { groupBy } = this.state
     const completeShrines = getComplete(shrines)
     const listShrines = groupBy === 'complete'
-      ? getIncomplete(shrines).concat(completeShrines)
+      ? getIncomplete(shrines)
+          .sort(sortHasShrineQuest).sort(sortType)
+          .concat(completeShrines.sort(sortHasShrineQuest).sort(sortType))
       : shrines
 
     return (
