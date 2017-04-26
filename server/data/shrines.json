@@ -28,7 +28,7 @@
   },
   "saas-kosah": {
     "id": "saas-kosah",
-    "name": "Saas Ko'sah",
+    "name": "Saas Ko’sah",
     "region": "Central Hyrule",
     "type": "",
     "location": "Hidden inside Hyrule Castle’s Docks at the NorthWest entrance of Hyrule Castle. Set brazier at top of stairs ablaze to unlock the entrance to the shrine.",
@@ -122,7 +122,7 @@
   },
   "kaam-yatak": {
     "id": "kaam-yatak",
-    "name": "Kaam Ya'tak",
+    "name": "Kaam Ya’tak",
     "region": "Central Hyrule",
     "type": "",
     "location": "Southwest side of Central Hyrule in the hills southwest of Central Tower.",
@@ -196,7 +196,7 @@
   },
   "moa-keet": {
     "id": "moa-keet",
-    "name": "Mo'a Keet",
+    "name": "Mo’a Keet",
     "region": "Eldin",
     "type": "",
     "location": "Southwest of Akkala Tower.",
@@ -217,13 +217,13 @@
     "name": "Sah Dahaj",
     "region": "Eldin",
     "type": "",
-    "location": "West of Akkala Tower, due north of Foothill Stable and Mo'a Keet shrine.",
+    "location": "West of Akkala Tower, due north of Foothill Stable and Mo’a Keet shrine.",
     "items": [],
     "shrineQuests": []
   },
   "shae-mosah": {
     "id": "shae-mosah",
-    "name": "Shae Mo'sah",
+    "name": "Shae Mo’sah",
     "region": "Eldin",
     "type": "",
     "location": "Northwest of Goron City, just follow the northern path out of the city.",
@@ -244,7 +244,7 @@
     "name": "Tah Muhl",
     "region": "Eldin",
     "type": "puzzle",
-    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo'a Keet shrine.",
+    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo’a Keet shrine.",
     "items": [],
     "shrineQuests": [
       "a-landscape-of-a-stable"
@@ -273,7 +273,7 @@
     "name": "Dagah Keek",
     "region": "Lanayru",
     "type": "",
-    "location": "Veiled Falls, southwest of Zora's Domain.",
+    "location": "Veiled Falls, southwest of Zora’s Domain.",
     "items": [],
     "shrineQuests": [
       "the-ceremonial-song"
@@ -290,7 +290,7 @@
   },
   "neez-yohma": {
     "id": "neez-yohma",
-    "name": "Ne'ez Yohma",
+    "name": "Ne’ez Yohma",
     "region": "Lanayru",
     "type": "",
     "location": "Zora’s Domain (right inside the city)",
@@ -326,7 +326,7 @@
   },
   "taloh-naeg": {
     "id": "taloh-naeg",
-    "name": "Ta'loh Naeg",
+    "name": "Ta’loh Naeg",
     "region": "Dueling Peaks",
     "type": "",
     "location": "On top of a hill in the cliffs just north of Kakariko Village.",
@@ -335,7 +335,7 @@
   },
   "tahno-oah": {
     "id": "tahno-oah",
-    "name": "Tahno O'ah",
+    "name": "Tahno O’ah",
     "region": "Lanayru",
     "type": "",
     "location": "Hidden in the snowy cliffs on the far east side of Madorna Mountain, northeast of Hateno Ancient Tech Lab.",
@@ -420,7 +420,7 @@
   },
   "maag-norah": {
     "id": "maag-norah",
-    "name": "Maag No'rah",
+    "name": "Maag No’rah",
     "region": "Ridgeland",
     "type": "blessing",
     "location": "Hidden behind rocks in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine.",
@@ -440,10 +440,10 @@
   "sha-warvo": {
     "id": "sha-warvo",
     "name": "Sha Warvo",
-    "region": "Ridgeland",
-    "type": "",
-    "location": "Northwest of Rito Village.",
-    "items": [],
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Northwest of Rito Village, on a small plateau above the road leading to the Flight Range.",
+    "items": ["Purple Rupee", "Knight’s Bow"],
     "shrineQuests": []
   },
   "shae-loya": {
@@ -496,26 +496,27 @@
     "region": "Ridgeland",
     "type": "puzzle",
     "location": "Southeast of Ridgeland Tower and west of Hyrule Castle.",
-    "items": ["Knight's Bow"],
+    "items": ["Knight’s Bow"],
     "shrineQuests": []
   },
   "akh-vaquot": {
     "id": "akh-vaquot",
-    "name": "Akh Va'quot",
+    "name": "Akh Va’quot",
     "region": "Tabantha",
-    "type": "",
+    "type": "puzzle",
     "location": "Rito Village, north of Tabantha Tower.",
-    "items": [],
+    "items": ["Ancient Core"],
     "shrineQuests": []
   },
   "tena-kosah": {
     "id": "tena-kosah",
-    "name": "Tena Ko'sah",
+    "name": "Tena Ko’sah",
     "region": "Tabantha",
-    "type": "",
+    "type": "major-test-of-strength",
     "location": "Head west across the Tabantha Great Bridge, then look in the mountains to the south.",
     "items": [],
-    "shrineQuests": []
+    "shrineQuests": [],
+    "__flag": "items"
   },
   "dako-tah": {
     "id": "dako-tah",
@@ -644,7 +645,7 @@
   },
   "tu-kaloh": {
     "id": "tu-kaloh",
-    "name": "Tu Ka'loh",
+    "name": "Tu Ka’loh",
     "region": "Akkala",
     "type": "blessing",
     "location": "Far northeast corner of the Akkala Tower Region on an isolated island.",
@@ -688,7 +689,7 @@
   },
   "kao-magakh": {
     "id": "kao-magakh",
-    "name": "Ka'o Magakh",
+    "name": "Ka’o Magakh",
     "region": "Lake Hylia",
     "type": "",
     "location": "South of the Highland stable after a short climb.",
@@ -759,7 +760,7 @@
   },
   "korsh-ohu": {
     "id": "korsh-ohu",
-    "name": "Korsh O'hu",
+    "name": "Korsh O’hu",
     "region": "Wasteland",
     "type": "blessing",
     "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
@@ -844,6 +845,19 @@
       "a-fragmented-monument"
     ]
   },
+  "kah-okeo": {
+    "id": "kah-okeo",
+    "name": "Kah Okeo",
+    "region": "Tabantha",
+    "type": "puzzle",
+    "location": "Southwest corner of the Tabantha Region.",
+    "items": [
+      "Korok Leaf",
+      "Gold Rupee",
+      "Forest Dweller’s Sword"
+    ],
+    "shrineQuests": []
+  },
   "lakna-rokee": {
     "id": "lakna-rokee",
     "name": "Lakna Rokee",
@@ -894,7 +908,7 @@
     "region": "Tabantha",
     "type": "puzzle",
     "location": "West of Rito Village, across the gorge near Passer Hill.",
-    "items": [],
+    "items": ["Flameblade"],
     "shrineQuests": [
       "recital-at-warblers-nest"
     ]
@@ -923,7 +937,7 @@
   },
   "jitan-sami": {
     "id": "jitan-sami",
-    "name": "Jitan Sa'mi",
+    "name": "Jitan Sa’mi",
     "region": "Hateno",
     "type": "blessing",
     "location": "On the summit of Mount Lanayru",
@@ -981,7 +995,7 @@
     "name": "Mijah Rokee",
     "region": "Ridgeland",
     "type": "modest-test-of-strength",
-    "location": "Washa's Bluff.",
+    "location": "Washa’s Bluff.",
     "items": ["Frostblade"],
     "shrineQuests": [
       "under-a-red-moon"
