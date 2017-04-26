@@ -15,7 +15,8 @@
     "id": "zuna-kai",
     "name": "Zuna Kai",
     "region": "Akkala",
-    "location": "Northern Akkala, northwest portion of Deep Akkala at Skull Lake."
+    "location": "Northern Akkala, northwest portion of Deep Akkala at Skull Lake.",
+    "shrineQuests": ["the-skulls-eye"]
   },
   "bosh-kala": {
     "id": "bosh-kala",
@@ -87,7 +88,9 @@
     "id": "gorae-torr",
     "name": "Gorae Torr",
     "region": "Eldin",
-    "location": "Just north of Death Mountain and due west of Zuna Kai shrine."
+    "type": "blessing",
+    "location": "Just north of Death Mountain and due west of Zuna Kai shrine.",
+    "shrineQuests": ["the-gut-check-challenge"]
   },
   "moa-keet": {
     "id": "moa-keet",
@@ -123,7 +126,9 @@
     "id": "tah-muhl",
     "name": "Tah Muhl",
     "region": "Eldin",
-    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo'a Keet shrine."
+    "type": "puzzle",
+    "location": "Due north of Lanayru Tower and southwest of Foothill Stable and Mo'a Keet shrine.",
+    "shrineQuests": ["a-landscape-of-a-stable"]
   },
   "ze-kasho": {
     "id": "ze-kasho",
@@ -291,6 +296,7 @@
     "id": "joloo-nah",
     "name": "Joloo Nah",
     "region": "Wasteland (Gerudo)",
+    "type": "puzzle",
     "location": "Near Mount Nabooru",
     "shrineQuests": ["a-test-of-will"]
   },
@@ -341,5 +347,84 @@
     "name": "Monya Toma",
     "region": "Woodland",
     "location": "Southwest corner of the Woodland region, just south of the Serenne Stable."
+  },
+  "ritaag-zumo": {
+    "id": "ritaag-zumo",
+    "name": "Ritaag Zumo",
+    "region": "Akkala",
+    "location": "Center of the Rist Peninsula which is located east of the Akkala Highlands.",
+    "shrineQuests": ["into-the-vortex"]
+  },
+  "tu-kaloh": {
+    "id": "tu-kaloh",
+    "name": "Tu Ka'loh",
+    "region": "Akkala",
+    "type": "blessing",
+    "location": "Far northeast corner of the Akkala Tower Region on an isolated island.",
+    "shrineQuests": ["trial-of-the-labyrinth"]
+  },
+  "tutsuwa-nima": {
+    "id": "tutsuwa-nima",
+    "name": "Tutsuwa Nima",
+    "region": "Akkala",
+    "type": "major-test-of-strength",
+    "location": "Behind the Spring of Power, east of East Akkala Stable.",
+    "shrineQuests": ["the-spring-of-power"]
+  },
+  "kayra-mah": {
+    "id": "kayra-mah",
+    "name": "Kayra Mah",
+    "region": "Eldin",
+    "type": "puzzle",
+    "location": "Just southwest of the Gorko Lake within the Gorko Tunnel.",
+    "shrineQuests": ["a-brothers-roast"]
+  },
+  "shae-katha": {
+    "id": "shae-katha",
+    "name": "Shae Katha",
+    "region": "Necluda",
+    "type": "blessing",
+    "location": "East from Lake Tower along the road through Faron Forest.",
+    "shrineQuests": ["the-serpents-jaws"]
+  },
+  "misae-suma": {
+    "id": "misae-suma",
+    "name": "Misae Suma",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "Far southeast corner of the Gerudo Desert.",
+    "shrineQuests": ["the-perfect-drink"]
+  },
+  "sasa-kai": {
+    "id": "sasa-kai",
+    "name": "Sasa Kai",
+    "region": "Wasteland (Gerudo)",
+    "type": "modest-test-of-strength",
+    "location": "Southeast of the Gerudo Tower.",
+    "shrineQuests": ["sign-of-the-shadow"]
+  },
+  "kema-zoos": {
+    "id": "kema-zoos",
+    "name": "Kema Zoos",
+    "region": "Wasteland (Gerudo)",
+    "type": "puzzle",
+    "location": "Northwest of Gerudo Town in a sandstorm.",
+    "shrineQuests": ["the-silent-swordswomen"]
+  },
+  "dila-maag": {
+    "id": "dila-maag",
+    "name": "Dila Maag",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "East of Gerudo, west of Mount Granajh, inside the South Lomei Labyrinth.",
+    "shrineQuests": ["the-desert-labyrinth"]
+  },
+  "korsh-ohu": {
+    "id": "korsh-ohu",
+    "name": "Korsh O'hu",
+    "region": "Wasteland (Gerudo)",
+    "type": "blessing",
+    "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
+    "shrineQuests": ["the-seven-heroines"]
   }
 }
