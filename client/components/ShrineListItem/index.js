@@ -4,42 +4,40 @@ import { startCase } from 'lodash/fp'
 import ListItem from '../ListItem'
 import { ShrineQuestIcon } from '../icons/botw'
 
-const createTitleRenderer = ({ name, shrineQuests, id }) =>
-  () => (
-    <div>
-      {name || startCase(id)}
-      {shrineQuests.length
-        ? (
-          <span className="quests">{shrineQuests.join(', ')}</span>
-        )
-        : null
+const createTitleRenderer = ({ name, shrineQuests, id }) => () => (
+  <div>
+    {name || startCase(id)}
+    {shrineQuests.length
+      ? (
+        <span className="quests">{shrineQuests.join(', ')}</span>
+      )
+      : null
+    }
+    <style jsx>{`
+      .quests {
+        font-size: 0.8em;
+        margin-left: 0.8em;
+        opacity: 0.8;
       }
-      <style jsx>{`
-        .quests {
-          font-size: 0.8em;
-          margin-left: 0.8em;
-          opacity: 0.8;
-        }
-      `}</style>
-    </div>
-  )
+    `}</style>
+  </div>
+)
 
-const createDescriptionRenderer = ({ type, location }) =>
-  () => (
-    <div>
-      {type
-        ? <div className="type">{startCase(type)}</div>
-        : null
+const createDescriptionRenderer = ({ type, location }) => () => (
+  <div>
+    {type
+      ? <div className="type">{startCase(type)}</div>
+      : null
+    }
+    {location}
+    <style jsx>{`
+      .type {
+        display: block;
+        font-weight: 600;
       }
-      {location}
-      <style jsx>{`
-        .type {
-          display: block;
-          font-weight: 600;
-        }
-      `}</style>
-    </div>
-  )
+    `}</style>
+  </div>
+)
 
 export default function ShrineListItem({
   id,
