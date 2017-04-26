@@ -12,12 +12,6 @@ const questsPath = path.resolve(dataPath, 'shrineQuests')
 const shrineData = require(shrinesPath)
 const questData = require(questsPath)
 
-const questShrines = Object.values(questData)
-  .map(({ id, shrines }) => shrines.reduce((o, shrine) => ({
-    id: shrine,
-    shrineQuest: id,
-  }), {}))
-
 const newShrines = Object.values(shrineData)
   .map(shrine => {
     const hasAttr = has(has.placeholder, shrine)
@@ -28,6 +22,12 @@ const newShrines = Object.values(shrineData)
   })
   .reduce((shrines, shrine) =>
     Object.assign(shrines, { [shrine.id]: shrine }), {})
+
+const questShrines = Object.values(questData)
+  .map(({ id, shrines }) => shrines.reduce((o, shrine) => ({
+    id: shrine,
+    shrineQuest: id,
+  }), {}))
 
 questShrines.forEach(({ id, shrineQuest }) => {
   const shrine = newShrines[id]
@@ -41,14 +41,10 @@ questShrines.forEach(({ id, shrineQuest }) => {
       location: '',
       shrineQuests: [shrineQuest],
     }
-
-    return
-  }
-
-  if (!(shrine.shrineQuests || []).includes(shrineQuest)) {
+  } else if (!(shrine.shrineQuests || []).includes(shrineQuest)) {
     shrine.shrineQuests = [shrineQuest]
   }
 })
 
 fs.writeFileAsync(
-  `${shrinesPath}--updated.json`, JSON.stringify(shrineData, null, 2))
+  `${shrinesPath}--updated.json`, JSON.stringify(newShrines, null, 2))

@@ -578,5 +578,205 @@
     "shrineQuests": [
       "the-seven-heroines"
     ]
+  },
+  "suma-sahma": {
+    "id": "suma-sahma",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "secret-of-the-snowy-peaks"
+    ]
+  },
+  "raqa-zunzo": {
+    "id": "raqa-zunzo",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-undefeated-champ"
+    ]
+  },
+  "tawa-jinn": {
+    "id": "tawa-jinn",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-three-giant-brothers"
+    ]
+  },
+  "tahna-oah": {
+    "id": "tahna-oah",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "secret-of-the-cedars"
+    ]
+  },
+  "kam-urog": {
+    "id": "kam-urog",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-cursed-statue"
+    ]
+  },
+  "kah-yah": {
+    "id": "kah-yah",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "a-fragmented-monument"
+    ]
+  },
+  "lakna-rokee": {
+    "id": "lakna-rokee",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-stolen-heirloom"
+    ]
+  },
+  "shoqa-tatone": {
+    "id": "shoqa-tatone",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "guardian-slideshow"
+    ]
+  },
+  "qukah-nata": {
+    "id": "qukah-nata",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "a-song-of-storms"
+    ]
+  },
+  "mozo-shenno": {
+    "id": "mozo-shenno",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-bird-in-the-mountains"
+    ]
+  },
+  "voo-lota": {
+    "id": "voo-lota",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "recital-at-warblers-nest"
+    ]
+  },
+  "bareeda-naag": {
+    "id": "bareeda-naag",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-ancient-rito-song"
+    ]
+  },
+  "qaza-tokki": {
+    "id": "qaza-tokki",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "trial-on-the-cliff"
+    ]
+  },
+  "jitan-sami": {
+    "id": "jitan-sami",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-spring-of-wisdom"
+    ]
+  },
+  "mezza-lo": {
+    "id": "mezza-lo",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-crowned-beast"
+    ]
+  },
+  "shai-yota": {
+    "id": "shai-yota",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "master-of-the-wind"
+    ]
+  },
+  "sheem-dagoze": {
+    "id": "sheem-dagoze",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "the-two-rings"
+    ]
+  },
+  "ketoh-wawai": {
+    "id": "ketoh-wawai",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "shrouded-shrine"
+    ]
+  },
+  "mijah-rokee": {
+    "id": "mijah-rokee",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "under-a-red-moon"
+    ]
+  },
+  "keeha-yoog": {
+    "id": "keeha-yoog",
+    "name": "",
+    "region": "",
+    "type": "",
+    "location": "",
+    "shrineQuests": [
+      "cliffside-etchings"
+    ]
   }
 }
