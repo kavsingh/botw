@@ -513,10 +513,15 @@
   "dako-tah": {
     "id": "dako-tah",
     "name": "Dako Tah",
-    "region": "Wasteland (Gerudo)",
-    "type": "",
+    "region": "Wasteland",
+    "type": "puzzle",
     "location": "In the mountains just north of Kara Kara Bazaar.",
-    "items": [],
+    "items": [
+      "Radiant Shield",
+      "Ancient Core",
+      "Silver Rupee",
+      "Moonlight Scimitar"
+    ],
     "shrineQuests": [
       "the-eye-of-the-sandstorm"
     ]
@@ -535,28 +540,28 @@
   "daqo-chisay": {
     "id": "daqo-chisay",
     "name": "Daqo Chisay",
-    "region": "Wasteland (Gerudo)",
-    "type": "",
+    "region": "Wasteland",
+    "type": "puzzle",
     "location": "Right outside of Gerudo Town.",
-    "items": [],
+    "items": ["Thunderblade"],
     "shrineQuests": []
   },
   "jee-noh": {
     "id": "jee-noh",
     "name": "Jee Noh",
-    "region": "Wasteland (Gerudo)",
-    "type": "",
-    "location": "Southwest of Mount Hylia.",
-    "items": [],
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Directly East of the Wasteland Tower, southwest of Mount Hylia.",
+    "items": ["Opal"],
     "shrineQuests": []
   },
   "kay-noh": {
     "id": "kay-noh",
     "name": "Kay Noh",
-    "region": "Wasteland (Gerudo)",
-    "type": "",
+    "region": "Wasteland",
+    "type": "puzzle",
     "location": "East of Wasteland Tower and just south of Gerudo Canyon Stable.",
-    "items": [],
+    "items": ["Gerudo Scimitar"],
     "shrineQuests": []
   },
   "kuh-takkar": {
@@ -686,10 +691,10 @@
   "misae-suma": {
     "id": "misae-suma",
     "name": "Misae Suma",
-    "region": "Wasteland (Gerudo)",
+    "region": "Wasteland",
     "type": "blessing",
     "location": "Far southeast corner of the Gerudo Desert.",
-    "items": [],
+    "items": ["Diamond"],
     "shrineQuests": [
       "the-perfect-drink"
     ]
@@ -717,10 +722,10 @@
   "kema-zoos": {
     "id": "kema-zoos",
     "name": "Kema Zoos",
-    "region": "Wasteland (Gerudo)",
+    "region": "Wasteland",
     "type": "puzzle",
     "location": "Northwest of Gerudo Town in a sandstorm.",
-    "items": [],
+    "items": ["Moonlight Scimitar"],
     "shrineQuests": [
       "the-silent-swordswomen"
     ]
@@ -728,21 +733,30 @@
   "dila-maag": {
     "id": "dila-maag",
     "name": "Dila Maag",
-    "region": "Wasteland (Gerudo)",
+    "region": "Wasteland",
     "type": "blessing",
-    "location": "East of Gerudo, west of Mount Granajh, inside the South Lomei Labyrinth.",
-    "items": [],
+    "location": "Center of South Lomei Labyrinth, east of Gerudo, west of Mount Granajh.",
+    "items": ["Barbarian armor piece"],
     "shrineQuests": [
       "the-desert-labyrinth"
     ]
   },
+  "tho-kayu": {
+    "id": "tho-kayu",
+    "name": "Tho Kayu",
+    "region": "Wasteland",
+    "type": "blessing",
+    "location": "Buried in the Toruma Dunes, to the West of Gerudo Town. Once the Molduga has died you can unlock the shrine by lighting the four torches in the area.",
+    "items": ["Golden Bow"],
+    "shrineQuests": []
+  },
   "korsh-ohu": {
     "id": "korsh-ohu",
     "name": "Korsh O'hu",
-    "region": "Wasteland (Gerudo)",
+    "region": "Wasteland",
     "type": "blessing",
     "location": "In the middle of some ruins just southwest of the Wastleland Tower.",
-    "items": [],
+    "items": ["Flamespear"],
     "shrineQuests": [
       "the-seven-heroines"
     ]
@@ -752,8 +766,8 @@
     "name": "Suma Sahma",
     "region": "Wasteland",
     "type": "blessing",
-    "location": "Between Mount Granajh and Daval Peak.",
-    "items": [],
+    "location": "Between Mount Granajh and Daval Peak, southeast of the Wasteland Tower.",
+    "items": ["Moonlight Scimitar"],
     "shrineQuests": [
       "secret-of-the-snowy-peaks"
     ]
@@ -761,13 +775,25 @@
   "raqa-zunzo": {
     "id": "raqa-zunzo",
     "name": "Raqa Zunzo",
-    "region": "Wasteland (Gerudo)",
+    "region": "Wasteland",
     "type": "blessing",
     "location": "Immediately south of Gerudo Town.",
-    "items": [],
+    "items": ["Radiant Shield"],
     "shrineQuests": [
       "the-undefeated-champ"
     ]
+  },
+  "hawa-koth": {
+    "id": "hawa-koth",
+    "name": "Hawa Koth",
+    "region": "Wasteland",
+    "type": "puzzle",
+    "location": "Very far southwest corner of the map, under the Leviathan skeleton with a Great Fairy fountain.",
+    "items": [
+      "Ancient Core",
+      "Gold Rupee"
+    ],
+    "shrineQuests": []
   },
   "sho-dantu": {
     "id": "sho-dantu",
