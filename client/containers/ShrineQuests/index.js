@@ -6,6 +6,7 @@ import { selectors } from '../../state/shrineQuest'
 import { actions as statsActions } from '../../state/stats'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineQuestList from '../../components/ShrineQuestList'
+import Anim from '../../layouts/Anim'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
 
@@ -29,20 +30,22 @@ export class ShrineQuests extends PureComponent {
       : shrineQuests
 
     return (
-      <Panels orientation="portrait">
-        <Panel type="fit">
-          <CompletionStats
-            totalCount={shrineQuests.length}
-            completedCount={completeQuests.length}
-          />
-        </Panel>
-        <Panel type="stretch">
-          <ShrineQuestList
-            shrineQuests={quests}
-            onItemClick={this.handleShrineQuestClick}
-          />
-        </Panel>
-      </Panels>
+      <Anim>
+        <Panels orientation="portrait">
+          <Panel type="fit">
+            <CompletionStats
+              totalCount={shrineQuests.length}
+              completedCount={completeQuests.length}
+            />
+          </Panel>
+          <Panel type="stretch">
+            <ShrineQuestList
+              shrineQuests={quests}
+              onItemClick={this.handleShrineQuestClick}
+            />
+          </Panel>
+        </Panels>
+      </Anim>
     )
   }
 }

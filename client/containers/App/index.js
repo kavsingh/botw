@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { initFetch } from '../../state/actions'
@@ -39,9 +39,22 @@ export class App extends PureComponent {
               />
             </Panel>
             <Panel type="stretch">
-              <Route exact path="/" component={ConnectedShrineQuests} />
-              <Route path="/shrines" component={ConnectedShrines} />
-              <Route path="/shrinequests" component={ConnectedShrineQuests} />
+              <Route
+                location={location}
+                path="/"
+                component={ConnectedShrineQuests}
+                exact
+              />
+              <Route
+                location={location}
+                path="/shrines"
+                component={ConnectedShrines}
+              />
+              <Route
+                location={location}
+                path="/shrinequests"
+                component={ConnectedShrineQuests}
+              />
             </Panel>
           </Panels>
         </ContentPage>

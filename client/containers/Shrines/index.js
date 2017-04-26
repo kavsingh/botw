@@ -6,6 +6,7 @@ import { selectors } from '../../state/shrine'
 import { actions as statsActions } from '../../state/stats'
 import CompletionStats from '../../components/CompletionStats'
 import ShrineList from '../../components/ShrineList'
+import Anim from '../../layouts/Anim'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
 
@@ -29,20 +30,22 @@ export class Shrines extends PureComponent {
       : shrines
 
     return (
-      <Panels orientation="portrait">
-        <Panel type="fit">
-          <CompletionStats
-            totalCount={shrines.length}
-            completedCount={completeShrines.length}
-          />
-        </Panel>
-        <Panel type="stretch">
-          <ShrineList
-            shrines={listShrines}
-            onItemClick={this.handleShrineClick}
-          />
-        </Panel>
-      </Panels>
+      <Anim>
+        <Panels orientation="portrait">
+          <Panel type="fit">
+            <CompletionStats
+              totalCount={shrines.length}
+              completedCount={completeShrines.length}
+            />
+          </Panel>
+          <Panel type="stretch">
+            <ShrineList
+              shrines={listShrines}
+              onItemClick={this.handleShrineClick}
+            />
+          </Panel>
+        </Panels>
+      </Anim>
     )
   }
 }
