@@ -262,9 +262,10 @@
   "ya-naga": {
     "id": "ya-naga",
     "name": "Ya Naga",
-    "region": "Lake Tower",
-    "location": "Center of Lake Hylia to the far south  of Central Hyrule on the map.",
-    "type": "",
+    "region": "Lake Hylia",
+    "location": "Hylia Island, center of Lake Hylia to the far south of Central Hyrule.",
+    "type": "puzzle",
+    "items": ["Eightfold Blade"],
     "shrineQuests": []
   },
   "dagah-keek": {
@@ -453,6 +454,24 @@
     "items": [],
     "shrineQuests": []
   },
+  "pumaag-nitae": {
+    "id": "pumaag-nitae",
+    "name": "Pumaag Nitae",
+    "region": "Lake Hylia",
+    "type": "minor-test-of-strength",
+    "location": "Between Pagos Woods and Finra Woods.",
+    "items": ["Boomerang"],
+    "shrineQuests": []
+  },
+  "ishto-soh": {
+    "id": "ishto-soh",
+    "name": "Ishto Soh",
+    "region": "Lake Hylia",
+    "type": "puzzle",
+    "location": "East of Daval Peak and atop a small plateau, near a plume of smoke from a campfire neaby.",
+    "items": ["Topaz", "Ancient Core"],
+    "shrineQuests": []
+  },
   "toh-yahsa": {
     "id": "toh-yahsa",
     "name": "Toh Yahsa",
@@ -505,9 +524,9 @@
   "joloo-nah": {
     "id": "joloo-nah",
     "name": "Joloo Nah",
-    "region": "Wasteland (Gerudo)",
+    "region": "Gerudo Desert",
     "type": "puzzle",
-    "location": "Near Mount Nabooru",
+    "location": "North of the Wasteland Tower, on the East side of the Koukot Plateau, near Mount Nabooru",
     "items": [],
     "shrineQuests": [
       "a-test-of-will"
@@ -647,13 +666,22 @@
   "shae-katha": {
     "id": "shae-katha",
     "name": "Shae Katha",
-    "region": "Necluda",
+    "region": "Lake Hylia",
     "type": "blessing",
     "location": "East from Lake Tower along the road through Faron Forest.",
     "items": [],
     "shrineQuests": [
       "the-serpents-jaws"
     ]
+  },
+  "kao-magakh": {
+    "id": "kao-magakh",
+    "name": "Ka'o Magakh",
+    "region": "Lake Hylia",
+    "type": "",
+    "location": "South of the Highland stable after a short climb.",
+    "items": [],
+    "shrineQuests": []
   },
   "misae-suma": {
     "id": "misae-suma",
@@ -669,7 +697,7 @@
   "sasa-kai": {
     "id": "sasa-kai",
     "name": "Sasa Kai",
-    "region": "Wasteland (Gerudo)",
+    "region": "Gerudo Desert",
     "type": "modest-test-of-strength",
     "location": "Southeast of the Gerudo Tower.",
     "items": [],
@@ -797,9 +825,9 @@
   "shoqa-tatone": {
     "id": "shoqa-tatone",
     "name": "Shoqa Tatone",
-    "region": "Lakes",
+    "region": "Lake Hylia",
     "type": "modest-test-of-strength",
-    "location": "On the western end of Puffer Beach in the Lake Tower region.",
+    "location": "On the western end of Puffer Beach, to the south of Lake Tower.",
     "items": [],
     "shrineQuests": [
       "guardian-slideshow"
@@ -919,7 +947,7 @@
     "id": "mijah-rokee",
     "name": "Mijah Rokee",
     "region": "Ridgeland",
-    "type": "a-modest-test-of-strength",
+    "type": "modest-test-of-strength",
     "location": "Washa's Bluff.",
     "items": ["Frostblade"],
     "shrineQuests": [
@@ -929,7 +957,7 @@
   "keeha-yoog": {
     "id": "keeha-yoog",
     "name": "Keeha Yoog",
-    "region": "Gerudo",
+    "region": "Gerudo Desert",
     "type": "blessing",
     "location": "Gerudo Highlands to the East of Gerudo Summit.",
     "items": ["Diamond"],
