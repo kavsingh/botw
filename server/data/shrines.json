@@ -422,19 +422,20 @@
     "id": "maag-norah",
     "name": "Maag No'rah",
     "region": "Ridgeland",
-    "type": "",
-    "location": "Hidden in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine.",
-    "items": [],
+    "type": "blessing",
+    "location": "Hidden behind rocks in the mountains on the north side of the Ridgeland region, west of the Monya Toma shrine.",
+    "items": ["Silver Rupee"],
     "shrineQuests": []
   },
   "mogg-latan": {
     "id": "mogg-latan",
     "name": "Mogg Latan",
     "region": "Ridgeland",
-    "type": "",
+    "type": "puzzle",
     "location": "In the Satori Mountains, south of Hyrule Ridge and the Ridgeland Tower.",
-    "items": [],
-    "shrineQuests": []
+    "items": ["Korok weapon"],
+    "shrineQuests": [],
+    "__flag": "items"
   },
   "sha-warvo": {
     "id": "sha-warvo",
@@ -449,9 +450,12 @@
     "id": "shae-loya",
     "name": "Shae Loya",
     "region": "Ridgeland",
-    "type": "",
+    "type": "puzzle",
     "location": "Southwest of Ridgeland Tower, due south from Tabantha Bridge Stable.",
-    "items": [],
+    "items": [
+      "Topaz",
+      "Falcon Bow"
+    ],
     "shrineQuests": []
   },
   "pumaag-nitae": {
@@ -478,7 +482,10 @@
     "region": "Ridgeland",
     "type": "",
     "location": "Hidden in the Thundra Plateau just west of Ridgeland Tower and Hyrule Castle.",
-    "items": [],
+    "items": [
+      "Opal",
+      "Rubber armor"
+    ],
     "shrineQuests": [
       "trial-of-thunder"
     ]
@@ -487,9 +494,9 @@
     "id": "zalta-wa",
     "name": "Zalta Wa",
     "region": "Ridgeland",
-    "type": "",
+    "type": "puzzle",
     "location": "Southeast of Ridgeland Tower and west of Hyrule Castle.",
-    "items": [],
+    "items": ["Knight's Bow"],
     "shrineQuests": []
   },
   "akh-vaquot": {
@@ -746,7 +753,7 @@
     "name": "Tho Kayu",
     "region": "Wasteland",
     "type": "blessing",
-    "location": "Buried in the Toruma Dunes, to the West of Gerudo Town. Once the Molduga has died you can unlock the shrine by lighting the four torches in the area.",
+    "location": "Buried in the Toruma Dunes, to the West of Gerudo Town. Defeat the Molduga and light the four torches in the area.",
     "items": ["Golden Bow"],
     "shrineQuests": []
   },
