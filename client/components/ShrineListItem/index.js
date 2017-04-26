@@ -1,7 +1,45 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { startCase } from 'lodash/fp'
 import ListItem from '../ListItem'
 import { ShrineQuestIcon } from '../icons/botw'
+
+const createTitleRenderer = ({ name, shrineQuests, id }) =>
+  () => (
+    <div>
+      {name || startCase(id)}
+      {shrineQuests.length
+        ? (
+          <span className="quests">{shrineQuests.join(', ')}</span>
+        )
+        : null
+      }
+      <style jsx>{`
+        .quests {
+          font-size: 0.8em;
+          margin-left: 0.8em;
+          opacity: 0.8;
+        }
+      `}</style>
+    </div>
+  )
+
+const createDescriptionRenderer = ({ type, location }) =>
+  () => (
+    <div>
+      {type
+        ? <div className="type">{startCase(type)}</div>
+        : null
+      }
+      {location}
+      <style jsx>{`
+        .type {
+          display: block;
+          font-weight: 600;
+        }
+      `}</style>
+    </div>
+  )
 
 export default function ShrineListItem({
   id,
@@ -10,13 +48,17 @@ export default function ShrineListItem({
   type,
   complete,
   onClick,
+  shrineQuests,
   style,
 }) {
+  const titleRenderer = createTitleRenderer({ name, shrineQuests, id })
+  const descriptionRenderer = createDescriptionRenderer({ type, location })
+
   return (
     <ListItem
       icon={ShrineQuestIcon}
-      title={name || id}
-      description={`${type} - ${location}`}
+      title={titleRenderer}
+      description={descriptionRenderer}
       active={!complete}
       onClick={onClick}
       style={style}
@@ -31,6 +73,7 @@ ShrineListItem.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
   location: PropTypes.string,
+  shrineQuests: PropTypes.arrayOf(PropTypes.string),
   complete: PropTypes.bool,
   onClick: PropTypes.func,
   style: PropTypes.shape({ margin: PropTypes.string }),
@@ -41,6 +84,7 @@ ShrineListItem.defaultProps = {
   name: '',
   type: '',
   location: '',
+  shrineQuests: [],
   complete: false,
   onClick: () => {},
   style: {},

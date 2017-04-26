@@ -14,7 +14,7 @@ import background from './oman-au.jpg'
 export class ShrineQuests extends PureComponent {
   constructor(...args) {
     super(...args)
-    this.state = { groupBy: null }
+    this.state = { groupBy: 'complete' }
     this.handleShrineQuestClick = this.handleShrineQuestClick.bind(this)
   }
 
@@ -26,7 +26,7 @@ export class ShrineQuests extends PureComponent {
     const { shrineQuests } = this.props
     const { groupBy } = this.state
     const completeQuests = getComplete(shrineQuests)
-    const quests = groupBy === 'completed'
+    const quests = groupBy === 'complete'
       ? getIncomplete(shrineQuests).concat(completeQuests)
       : shrineQuests
 

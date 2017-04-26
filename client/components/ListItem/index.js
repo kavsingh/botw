@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const applyText = (prop, applyArgs) =>
+  (typeof prop === 'function' ? prop(...applyArgs) : prop)
+
 export default function ListItem({
   title,
   description,
@@ -27,11 +30,18 @@ export default function ListItem({
           : ''
         }
         <div className="mainContent">
-          <div className="title">{title}</div>
-          <div className="description">{description}</div>
+          <div className="title">
+            {applyText(title, [{ active }])}
+          </div>
+          <div className="description">
+            {applyText(description, [{ active }])}
+          </div>
         </div>
         <div className="hoverMessage">
-          {active ? activeHoverMessage : inactiveHoverMessage}
+          {active
+            ? applyText(activeHoverMessage, [{ active }])
+            : applyText(inactiveHoverMessage, [{ active }])
+          }
         </div>
       </div>
       <style jsx>{`
@@ -119,12 +129,17 @@ export default function ListItem({
   )
 }
 
+const textProp = PropTypes.oneOfType([
+  PropTypes.string,
+  PropTypes.func,
+])
+
 ListItem.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
+  title: textProp,
+  description: textProp,
+  activeHoverMessage: textProp,
+  inactiveHoverMessage: textProp,
   active: PropTypes.bool,
-  activeHoverMessage: PropTypes.string,
-  inactiveHoverMessage: PropTypes.string,
   icon: PropTypes.func,
   onClick: PropTypes.func,
   style: PropTypes.shape({ margin: PropTypes.string }),

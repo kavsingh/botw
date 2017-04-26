@@ -4,7 +4,8 @@ import { getCompletedShrineQuestIds } from '../stats/selectors'
 const rootSelect = get('shrineQuest')
 
 const getShrineQuestIds = pipe(rootSelect, get('ids'))
-const getShrineQuestsById = pipe(rootSelect, get('byId'))
+
+export const getShrineQuestsById = pipe(rootSelect, get('byId'))
 
 export const getShrineQuests = state => {
   const ids = getShrineQuestIds(state)

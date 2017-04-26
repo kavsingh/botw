@@ -14,7 +14,7 @@ import background from './oman-au.jpg'
 export class Shrines extends PureComponent {
   constructor(...args) {
     super(...args)
-    this.state = { groupBy: null }
+    this.state = { groupBy: 'complete' }
     this.handleShrineClick = this.handleShrineClick.bind(this)
   }
 
