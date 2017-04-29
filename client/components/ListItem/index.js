@@ -149,11 +149,9 @@ export default function ListItem({
           position: absolute;
           width: 0;
           height: 0;
-          border-style: solid;
-          border-width: 1em 1em 0 0;
-          border-color: ${primaryText()} transparent transparent transparent;
           opacity: 0;
           z-index: 2;
+          border-style: solid;
           will-change: transform, opacity;
         }
 
@@ -163,79 +161,71 @@ export default function ListItem({
         }
 
         @keyframes tlPulse {
-          from {
-            transform: rotate(360deg);
-          }
           to {
-            transform: rotate(360deg) translate(-50%, -50%);
+            transform: translate(-40%, -40%);
           }
         }
 
         .cornerPiece.tl {
           top: 0;
           left: 0;
-          transform: rotate(360deg);
+          border-width: 1em 1em 0 0;
+          border-color: ${primaryText()} transparent transparent transparent;
         }
 
         .root:hover .cornerPiece.tl {
-          animation: tlPulse 0.3s infinite alternate ease-in-out;
+          animation: tlPulse 0.264s infinite alternate ease-in-out;
         }
 
         @keyframes trPulse {
-          from {
-            transform: rotate(90deg);
-          }
           to {
-            transform: rotate(90deg) translate(-50%, -50%);
+            transform: translate(40%, -40%);
           }
         }
 
         .cornerPiece.tr {
           top: 0;
           right: 0;
-          transform: rotate(90deg);
+          border-width: 1em 0 0 1em;
+          border-color: ${primaryText()} transparent transparent transparent;
         }
 
         .root:hover .cornerPiece.tr {
-          animation: trPulse 0.3s infinite alternate ease-in-out;
+          animation: trPulse 0.264s infinite alternate ease-in-out;
         }
 
         @keyframes blPulse {
-          from {
-            transform: rotate(-90deg);
-          }
           to {
-            transform: rotate(-90deg) translate(-50%, -50%);
+            transform: translate(-40%, 40%);
           }
         }
 
         .cornerPiece.bl {
           bottom: 0;
           left: 0;
-          transform: rotate(-90deg);
+          border-width: 0 1em 1em 0;
+          border-color: transparent transparent ${primaryText()} transparent;
         }
 
         .root:hover .cornerPiece.bl {
-          animation: blPulse 0.3s infinite alternate ease-in-out;
+          animation: blPulse 0.264s infinite alternate ease-in-out;
         }
 
         @keyframes brPulse {
-          from {
-            transform: rotate(180deg);
-          }
           to {
-            transform: rotate(180deg) translate(-50%, -50%);
+            transform: translate(40%, 40%);
           }
         }
 
         .cornerPiece.br {
           bottom: 0;
           right: 0;
-          transform: rotate(180deg);
+          border-width: 0 0 1em 1em;
+          border-color: transparent transparent ${primaryText()} transparent;
         }
 
         .root:hover .cornerPiece.br {
-          animation: brPulse 0.3s infinite alternate ease-in-out;
+          animation: brPulse 0.264s infinite alternate ease-in-out;
         }
       `}</style>
     </button>
