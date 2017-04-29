@@ -56,8 +56,8 @@
     "order": 7
   },
   "a-test-of-will": {
-    "id": "a-test-of-will",
-    "name": "A Test Of Will",
+    "id": "test-of-will",
+    "name": "Test Of Will",
     "location": "Mount Nabooru",
     "shrines": ["joloo-nah"],
     "order": 8
