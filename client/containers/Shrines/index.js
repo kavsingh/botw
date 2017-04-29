@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { pipe } from 'lodash/fp'
 import { getComplete, getIncomplete } from '../../util/stats'
 import { selectors } from '../../state/shrine'
 import { actions as statsActions } from '../../state/stats'
@@ -13,19 +12,13 @@ import Panel from '../../layouts/Panel'
 
 const sort = fn => arr => arr.sort(fn)
 
-const sortHasShrineQuest = ({ shrineQuests: a }, { shrineQuests: b }) => {
-  if (a.length < b.length) return 1
-  if (a.length > b.length) return -1
-  return 0
-}
-
-const sortType = ({ type: a }, { type: b }) => {
+const sortRegion = ({ region: a }, { region: b }) => {
   if (a < b) return 1
   if (a > b) return -1
   return 0
 }
 
-const innerSort = pipe(sort(sortHasShrineQuest), sort(sortType))
+const innerSort = sort(sortRegion)
 
 export class Shrines extends PureComponent {
   constructor(...args) {

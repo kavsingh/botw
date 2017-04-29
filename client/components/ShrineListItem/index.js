@@ -23,14 +23,19 @@ const createTitleRenderer = ({ name, shrineQuests, id }) => () => (
   </div>
 )
 
-const createDescriptionRenderer = ({ type, location }) => () => (
+const createDescriptionRenderer = ({ type, region, location }) => () => (
   <div>
+    {region
+      ? <div className="region">{region}</div>
+      : null
+    }
     {type
       ? <div className="type">{startCase(type)}</div>
       : null
     }
     {location}
     <style jsx>{`
+      .region,
       .type {
         display: block;
         font-weight: 600;
@@ -44,13 +49,15 @@ export default function ShrineListItem({
   name,
   location,
   type,
+  region,
   complete,
   onClick,
   shrineQuests,
   style,
 }) {
   const titleRenderer = createTitleRenderer({ name, shrineQuests, id })
-  const descriptionRenderer = createDescriptionRenderer({ type, location })
+  const descriptionRenderer =
+    createDescriptionRenderer({ type, region, location })
 
   return (
     <ListItem
@@ -71,6 +78,7 @@ ShrineListItem.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
   location: PropTypes.string,
+  region: PropTypes.string,
   shrineQuests: PropTypes.arrayOf(PropTypes.string),
   complete: PropTypes.bool,
   onClick: PropTypes.func,
@@ -82,6 +90,7 @@ ShrineListItem.defaultProps = {
   name: '',
   type: '',
   location: '',
+  region: '',
   shrineQuests: [],
   complete: false,
   onClick: () => {},
