@@ -1,5 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { highlightText } from '../../style/color'
+
+const highlight = highlightText(1)
 
 export default function CompletionStats({ totalCount, completedCount }) {
   return (
@@ -23,14 +26,14 @@ export default function CompletionStats({ totalCount, completedCount }) {
         }
 
         .remaining {
-          color: white;
+          color: ${highlight};
           font-weight: 600;
           font-size: 1.2em;
           margin-right: 0.8em;
         }
 
         .counts .completed {
-          color: white;
+          color: ${highlight};
         }
       `}</style>
     </div>

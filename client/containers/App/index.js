@@ -4,13 +4,16 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { initFetch } from '../../state/actions'
 import { calamity, calamityBold } from '../../fonts'
+import { primaryText } from '../../style/color'
 import ContentPage from '../../layouts/ContentPage'
-import Nav from '../../components/Nav'
 import Panels from '../../layouts/Panels'
 import Panel from '../../layouts/Panel'
+import Nav from '../../components/Nav'
 import ConnectedShrines from '../Shrines'
 import ConnectedShrineQuests from '../ShrineQuests'
 import background from './oman-au.jpg'
+
+const bodyText = primaryText(1)
 
 export class App extends PureComponent {
   componentDidMount() {
@@ -100,7 +103,7 @@ export class App extends PureComponent {
             font-family: 'Calamity', sans-serif;
             font-size: 14px;
             line-height: 1.3;
-            color: rgb(209, 212, 192);
+            color: ${bodyText};
             background-color: black;
             position: relative;
           }
