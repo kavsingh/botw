@@ -1,11 +1,11 @@
 {
   "completedShrineQuests": [
+    "the-skulls-eye",
     "the-silent-swordswomen",
     "the-spring-of-power",
     "test-of-will",
     "the-eye-of-the-sandstorm",
     "trial-of-the-labyrinth",
-    "the-skulls-eye",
     "a-landscape-of-a-stable",
     "the-two-rings",
     "watch-out-for-the-flowers",
@@ -37,6 +37,7 @@
     "trial-of-thunder"
   ],
   "completedShrines": [
+    "zuna-kai",
     "shee-venath",
     "dow-naeh",
     "taloh-naeg",
@@ -100,7 +101,6 @@
     "tutsuwa-nima",
     "joloo-nah",
     "dako-tah",
-    "zuna-kai",
     "ritaag-zumo",
     "tu-kaloh",
     "gorae-torr",

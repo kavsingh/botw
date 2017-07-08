@@ -8,12 +8,22 @@
     "url": "git@github.com:kavsingh/basics-react-express.git",
     "type": "git"
   },
-  "main": "server/index.js",
+  "build": {
+    "appId": "com.kav.botw",
+    "files": [
+      "distclient/**/*",
+      "server/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "publish": null
+  },
+  "main": "index.js",
   "private": true,
   "scripts": {
     "start": "NODE_ENV=production node server/index.js",
     "dev": "NODE_ENV=development nodemon server/index.js",
-    "build": "rimraf dist && NODE_ENV=production webpack --colors --progress",
+    "build": "rimraf clientbundle && NODE_ENV=production webpack --colors --progress",
     "lint:js": "eslint .",
     "lint:css": "stylelint .",
     "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test jest --config jest.config.json",
@@ -21,7 +31,10 @@
     "test:watch": "npm t -- --watch",
     "test:viewreport": "open coverage/lcov-report/index.html",
     "test:full": "npm run test:coverage -- --verbose && npm run test:viewreport",
-    "prod": "npm run build && npm run start"
+    "prod": "npm run build && npm run start",
+    "dist": "ELECTRON=true electron-builder",
+    "edev": "ELECTRON=true electron .",
+    "postinstall": "electron-builder install-app-deps"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -39,6 +52,8 @@
     "body-parser": "^1.17.2",
     "common-tags": "^1.4.0",
     "css-loader": "^0.28.4",
+    "electron": "^1.6.11",
+    "electron-builder": "^19.13.0",
     "enzyme": "^2.9.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",

@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     filename: isProduction ? '[name].[chunkhash].js' : '[name].js',
-    path: fromRoot('dist'),
+    path: fromRoot('clientbundle'),
     publicPath,
   },
   // devtool: isProduction ? 'sourcemap' : 'cheap-module-eval-sourcemap',

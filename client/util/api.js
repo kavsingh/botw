@@ -1,3 +1,12 @@
+import { isFunction, get, placeholder as _ } from 'lodash/fp'
+
+const botwNamespace = get('botw', window || {}) || {}
+const getBotw = get(_, botwNamespace)
+const getItems = get('items')
+
+const ifApiFn = (fnName, [valid, invalid]) =>
+  (isFunction(getBotw(fnName)) ? valid(botwNamespace) : invalid())
+
 const apiFetch = async (url, params = {}) => {
   try {
     const response = await fetch(`api/${url}`, {
@@ -20,27 +29,36 @@ const apiFetch = async (url, params = {}) => {
   }
 }
 
-export const apiPost = (url, body = {}) =>
+const apiPost = (url, body = {}) =>
   apiFetch(url, {
     body: JSON.stringify(body),
     method: 'post',
     headers: { 'content-type': 'application/json' },
   })
 
-export const fetchStats = () => apiFetch('stats')
+export const fetchStats = () =>
+  ifApiFn('getStats', [b => b.getStats(), () => apiFetch('stats')])
 
-export const fetchShrineQuests = async () => {
-  const { items } = await apiFetch('shrine-quests')
-  return items
-}
+export const fetchShrineQuests = () =>
+  ifApiFn('getShrineQuests', [
+    api => getItems(api.getShrineQuests()),
+    () => apiFetch('shrine-quests').then(getItems),
+  ])
 
-export const fetchShrines = async () => {
-  const { items } = await apiFetch('shrines')
-  return items
-}
+export const fetchShrines = () =>
+  ifApiFn('getShrines', [
+    api => getItems(api.getShrines()),
+    () => apiFetch('shrines').then(getItems),
+  ])
 
 export const saveShrineCompletion = (id, complete) =>
-  apiPost('stats/shrines/complete', { id, complete })
+  ifApiFn('completeShrine', [
+    api => api.completeShrine(id, complete),
+    () => apiPost('stats/shrines/complete', { id, complete }),
+  ])
 
 export const saveShrineQuestCompletion = (id, complete) =>
-  apiPost('stats/shrine-quests/complete', { id, complete })
+  ifApiFn('completeShrineQuest', [
+    api => api.completeShrineQuest(id, complete),
+    () => apiPost('stats/shrine-quests/complete', { id, complete }),
+  ])
