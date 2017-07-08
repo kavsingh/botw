@@ -103,7 +103,7 @@ module.exports = {
       alwaysWriteToDisk: true,
     }),
     new HtmlHarddiskPlugin(),
-    isProduction && new webpack.optimize.OccurrenceOrderPlugin(true),
+    // isProduction && new webpack.optimize.ModuleConcatenationPlugin(),
     isProduction && new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
     !isProduction && new webpack.HotModuleReplacementPlugin(),
   ]),

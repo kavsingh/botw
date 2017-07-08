@@ -1,4 +1,4 @@
-/* eslint-disable import/no-dynamic-require */
+/* eslint-disable import/no-dynamic-require, no-console */
 
 const path = require('path')
 const { groupBy } = require('lodash/fp')

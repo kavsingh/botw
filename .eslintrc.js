@@ -1,5 +1,5 @@
 module.exports = {
+  env: { node: true, browser: false },
   parser: 'babel-eslint',
-  env: { browser: true },
   extends: ['mongrel-react'],
 }

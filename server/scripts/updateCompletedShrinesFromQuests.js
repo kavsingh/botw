@@ -16,7 +16,7 @@ const { completedShrines, completedShrineQuests } = statsData
 
 const completedFromQuests = pipe(
   filter(({ id }) => completedShrineQuests.includes(id)),
-  flatMap(get('shrines'))
+  flatMap(get('shrines')),
 )(Object.values(questData))
 
 const newStats = Object.assign(statsData, {
