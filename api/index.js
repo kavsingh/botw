@@ -1,23 +1,144 @@
-const shrines = require('./data/shrines.json')
-const shrineQuests = require('./data/shrineQuests.json')
+const Promise = require('bluebird')
 const {
-  setShrineCompletion,
-  setShrineQuestCompletion,
-  readStats,
-} = require('./stats')
+  assign,
+  without,
+  union,
+  sortBy,
+  find,
+  get,
+  eq,
+  pipe,
+} = require('lodash/fp')
+const fetch = require('node-fetch')
 
-const getShrines = () => ({
-  items: Object.values(shrines).sort(({ id }) => id),
-})
+const cache = {
+  shrineQuests: null,
+  shrines: null,
+  stats: null,
+}
 
-const getShrineQuests = () => ({
-  items: Object.values(shrineQuests).sort((a, b) => a.order - b.order),
-})
+const jsonFetch = async (url, params = {}) => {
+  try {
+    const response = await fetch(
+      url,
+      assign({ headers: { accept: 'application/json' } }, params),
+    )
+    const json = await response.json()
+
+    return json
+  } catch (error) {
+    throw error
+  }
+}
+
+const jsonUpdate = async (url, data) =>
+  jsonFetch(url, {
+    body: JSON.stringify(data),
+    method: 'put',
+    headers: { 'content-type': 'application/json' },
+  })
+
+const getStats = async () => {
+  if (!cache.stats) {
+    cache.stats = await jsonFetch('https://api.myjson.com/bins/ynlun')
+  }
+
+  return cache.stats
+}
+
+const getShrines = async () => {
+  if (cache.shrines) return cache.shrines
+
+  const json = await jsonFetch('https://api.myjson.com/bins/1em0v3')
+  cache.shrines = sortBy(({ id }) => id, Object.values(json))
+
+  return cache.shrines
+}
+
+const getShrineQuests = async () => {
+  if (cache.shrineQuests) return cache.shrineQuests
+
+  const json = await jsonFetch('https://api.myjson.com/bins/1caflr')
+  cache.shrineQuests = Object.values(json).sort((a, b) => a.order - b.order)
+
+  return cache.shrineQuests
+}
+
+const setShrineQuestCompletion = async (id, complete) => {
+  const [stats, shrineQuests] = await Promise.all([
+    getStats(),
+    getShrineQuests(),
+  ])
+  const idx = stats.completedShrineQuests.indexOf(id)
+
+  if ((complete && idx !== -1) || (!complete && idx === -1)) return stats
+
+  const relatedShrines =
+    get('shrines', find(pipe(get('id'), eq(id)), shrineQuests)) || []
+
+  let newQuests
+  let newShrines
+
+  if (complete) {
+    newQuests = union(stats.completedShrineQuests, [id])
+    newShrines = union(stats.completedShrines, relatedShrines)
+  } else {
+    newQuests = without([id], stats.completedShrineQuests)
+    newShrines = without(relatedShrines, stats.completedShrines)
+  }
+
+  try {
+    const response = await jsonUpdate('https://api.myjson.com/bins/ynlun', {
+      completedShrines: newShrines,
+      completedShrineQuests: newQuests,
+    })
+
+    cache.stats = assign(cache.stats, response)
+
+    return cache.stats
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+const setShrineCompletion = async (id, complete) => {
+  const [stats, shrines] = await Promise.all([getStats(), getShrines()])
+  const idx = stats.completedShrines.indexOf(id)
+
+  if ((complete && idx !== -1) || (!complete && idx === -1)) return stats
+
+  const relatedQuests =
+    get('shrineQuests', find(pipe(get('id'), eq(id)), shrines)) || []
+
+  let newShrines
+  let newQuests
+
+  if (complete) {
+    newShrines = union(stats.completedShrines, [id])
+    newQuests = union(stats.completedShrineQuests, relatedQuests)
+  } else {
+    newShrines = without([id], stats.completedShrines)
+    newQuests = without(relatedQuests, stats.completedShrineQuests)
+  }
+
+  try {
+    const response = await jsonUpdate('https://api.myjson.com/bins/ynlun', {
+      completedShrines: newShrines,
+      completedShrineQuests: newQuests,
+    })
+
+    cache.stats = assign(cache.stats, response)
+
+    return cache.stats
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 module.exports = {
+  getStats,
   getShrines,
   getShrineQuests,
-  getStats: readStats,
-  completeShrine: setShrineCompletion,
-  completeShrineQuest: setShrineQuestCompletion,
+  setShrineCompletion,
+  setShrineQuestCompletion,
 }
