@@ -1,2 +1,3 @@
-# Basics React Flavour
-Ultra basic react boilerplate to get kicking on toy projects.
+Read `.apiconfig.js`
+rename `.apiconfig.sample.js` to `.apiconfig.js`
+`npm install` or `yarn install`, then `npm run dev` or `yarn dev`
