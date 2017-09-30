@@ -7,3 +7,4 @@ npm-debug.log
 .nvmrc
 coverage
 .vscode
+.apiconfig.js

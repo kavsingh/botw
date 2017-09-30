@@ -10,6 +10,7 @@ const {
   pipe,
 } = require('lodash/fp')
 const fetch = require('node-fetch')
+const apiConfig = require('../.apiconfig.js')
 
 const cache = {
   shrineQuests: null,
@@ -40,7 +41,7 @@ const jsonUpdate = async (url, data) =>
 
 const getStats = async () => {
   if (!cache.stats) {
-    cache.stats = await jsonFetch('https://api.myjson.com/bins/ynlun')
+    cache.stats = await jsonFetch(apiConfig.statsUrl)
   }
 
   return cache.stats
@@ -49,7 +50,7 @@ const getStats = async () => {
 const getShrines = async () => {
   if (cache.shrines) return cache.shrines
 
-  const json = await jsonFetch('https://api.myjson.com/bins/1em0v3')
+  const json = await jsonFetch(apiConfig.shrinesUrl)
   cache.shrines = sortBy(({ id }) => id, Object.values(json))
 
   return cache.shrines
@@ -58,7 +59,7 @@ const getShrines = async () => {
 const getShrineQuests = async () => {
   if (cache.shrineQuests) return cache.shrineQuests
 
-  const json = await jsonFetch('https://api.myjson.com/bins/1caflr')
+  const json = await jsonFetch(apiConfig.shrineQuestsUrl)
   cache.shrineQuests = Object.values(json).sort((a, b) => a.order - b.order)
 
   return cache.shrineQuests
@@ -88,7 +89,7 @@ const setShrineQuestCompletion = async (id, complete) => {
   }
 
   try {
-    const response = await jsonUpdate('https://api.myjson.com/bins/ynlun', {
+    const response = await jsonUpdate(apiConfig.statsUrl, {
       completedShrines: newShrines,
       completedShrineQuests: newQuests,
     })
@@ -98,6 +99,7 @@ const setShrineQuestCompletion = async (id, complete) => {
     return cache.stats
   } catch (error) {
     console.log(error)
+    return []
   }
 }
 
@@ -122,7 +124,7 @@ const setShrineCompletion = async (id, complete) => {
   }
 
   try {
-    const response = await jsonUpdate('https://api.myjson.com/bins/ynlun', {
+    const response = await jsonUpdate(apiConfig.statsUrl, {
       completedShrines: newShrines,
       completedShrineQuests: newQuests,
     })
@@ -132,6 +134,7 @@ const setShrineCompletion = async (id, complete) => {
     return cache.stats
   } catch (error) {
     console.log(error)
+    return []
   }
 }
 
