@@ -1,13 +1,10 @@
 import { merge, union } from 'lodash/fp'
 import { RECEIVE_SHRINE_QUESTS } from './actionTypes'
 
-const receiveQuests = (state, { shrineQuests = [] } = {}) => ({
+const receiveQuests = (state, { shrineQuests = {} } = {}) => ({
   ...state,
-  ids: union(state.quests, shrineQuests.map(({ id }) => id)),
-  byId: merge(state.byId, shrineQuests.reduce((byId, quest) => {
-    Object.assign(byId, { [quest.id]: quest })
-    return byId
-  }, {})),
+  ids: union(state.ids, Object.keys(shrineQuests)),
+  byId: merge(state.byId, shrineQuests),
 })
 
 export const shrineQuest = (
